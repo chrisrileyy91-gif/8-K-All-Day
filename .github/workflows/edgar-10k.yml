@@ -1,0 +1,26 @@
+name: 10-K RSS ➝ Discord
+
+on:
+  schedule:
+    - cron: "*/15 * * * *"   # every 15 minutes
+  workflow_dispatch:         # lets you run it manually
+
+jobs:
+  post-10k-to-discord:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+
+      - name: Install dependencies
+        run: pip install feedparser requests
+
+      - name: Run 10-K script
+        env:
+          DISCORD_WEBHOOK: ${{ secrets.DISCORD_WEBHOOK_10K }}   # <-- your 10-K channel secret
+        run: python .github/scripts/edgar10k_to_discord.py
