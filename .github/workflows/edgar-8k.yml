@@ -17,10 +17,19 @@ jobs:
         with:
           python-version: "3.11"
 
-      - name: Install dependencies
-        run: pip install feedparser requests
+         - name: Test webhook ping
+        env:
+          DISCORD_WEBHOOK: ${{ secrets.EDGAR_THE_8 }}
+        run: |
+          python - <<'PY'
+          import os, requests
+          r = requests.post(os.environ["DISCORD_WEBHOOK"], json={"content":"✅ GitHub Actions → Discord works!"})
+          r.raise_for_status()
+          print("Ping OK:", r.status_code)
+          PY
 
       - name: Run script
         env:
           DISCORD_WEBHOOK: ${{ secrets.EDGAR_THE_8 }}
         run: python .github/scripts/edgar_to_discord.py
+
