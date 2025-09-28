@@ -1,9 +1,9 @@
-name: 8-K RSS ➜ Discord
+name: 8-K RSS ➝ Discord
 
 on:
   schedule:
     - cron: "*/10 * * * *"   # runs every 10 minutes
-  workflow_dispatch:          # lets you run it manually
+  workflow_dispatch:         # lets you run it manually
 
 jobs:
   post-8k-to-discord:
@@ -13,23 +13,12 @@ jobs:
         uses: actions/checkout@v4
 
       - name: Set up Python
-        uses: actions/setup-python@v4
+        uses: actions/setup-python@v5
         with:
-          python-version: "3.x"
+          python-version: "3.11"
 
       - name: Install dependencies
         run: pip install feedparser requests
-
-      - name: Test webhook ping
-        env:
-          DISCORD_WEBHOOK: ${{ secrets.EDGAR_THE_8 }}
-        run: |
-          python - <<'PY'
-          import os, requests
-          r = requests.post(os.environ["DISCORD_WEBHOOK"], json={"content":"✅ GitHub Actions ping successful!"})
-          r.raise_for_status()
-          print("Ping OK:", r.status_code)
-          PY
 
       - name: Run script
         env:
