@@ -20,7 +20,18 @@ jobs:
       - name: Install dependencies
         run: pip install feedparser requests
 
+      - name: Test webhook ping (10-K)
+        env:
+          DISCORD_WEBHOOK: ${{ secrets.DISCORD_WEBHOOK_10K }}
+        run: |
+          python - <<'PY'
+          import os, requests
+          r = requests.post(os.environ["DISCORD_WEBHOOK"],
+                            json={"content":"✅ 10-K webhook ping from GitHub Actions"})
+          r.raise_for_status()
+          print("Ping OK:", r.status_code)
+          PY
+
       - name: Run 10-K script
         env:
-          DISCORD_WEBHOOK: ${{ secrets.DISCORD_WEBHOOK_10K }}   # <-- your 10-K channel secret
-        run: python .github/scripts/edgar10k_to_discord.py
+          DISCORD_WEBHOOK: ${{ secrets.DISCORD_WEB
