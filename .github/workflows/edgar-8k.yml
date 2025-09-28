@@ -1,0 +1,26 @@
+name: 8-K RSS → Discord
+
+on:
+  schedule:
+    - cron: "*/10 * * * *"   # runs every 10 minutes
+  workflow_dispatch:          # lets you run it manually
+
+jobs:
+  post-8k-to-discord:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+
+      - name: Install dependencies
+        run: pip install feedparser requests
+
+      - name: Run script
+        env:
+          DISCORD_WEBHOOK: ${{ secrets.EDGAR_THE_8 }}
+        run: python .github/scripts/edgar_to_discord.py
