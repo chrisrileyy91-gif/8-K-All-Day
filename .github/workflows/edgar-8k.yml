@@ -1,12 +1,12 @@
-name: 8-K RSS ➝ Discord
+name: 8-K RSS to Discord
 
 on:
   schedule:
-    - cron: "*/10 * * * *"   # runs every 10 minutes
-  workflow_dispatch:         # lets you run it manually
+    - cron: "*/10 * * * *"   # every 10 minutes
+  workflow_dispatch:
 
 jobs:
-  post-8k-to-discord:
+  post_8k_to_discord:
     runs-on: ubuntu-latest
     steps:
       - name: Checkout
@@ -20,7 +20,15 @@ jobs:
       - name: Install dependencies
         run: pip install feedparser requests
 
-      - name: Run script
+      - name: Cache cursor (8-K)
+        uses: actions/cache@v4
+        with:
+          path: .cursor
+          key: edgar-8k-cursor-${{ github.run_id }}
+          restore-keys: |
+            edgar-8k-cursor-
+
+      - name: Run 8-K script
         env:
           DISCORD_WEBHOOK: ${{ secrets.EDGAR_THE_8 }}
         run: python .github/scripts/edgar_to_discord.py
