@@ -1,34 +1,33 @@
-name: 10-K RSS to Discord
+name: SEC Crypto & Ethereum Scanner
 
 on:
   schedule:
-    - cron: "*/15 * * * *"   # every 15 minutes
+    - cron: "*/15 * * * *"
   workflow_dispatch:
 
 jobs:
-  post_10k_to_discord:
+  run-script:
     runs-on: ubuntu-latest
     steps:
-      - name: Checkout
+      - name: Checkout repo
         uses: actions/checkout@v4
 
       - name: Set up Python
         uses: actions/setup-python@v5
         with:
-          python-version: "3.11"
+          python-version: '3.x'
 
       - name: Install dependencies
-        run: pip install feedparser requests
+        run: |
+          pip install requests feedparser
 
-      - name: Cache cursor (10-K)
-        uses: actions/cache@v4
-        with:
-          path: .cursor_10k
-          key: edgar-10k-cursor-${{ github.run_id }}
-          restore-keys: |
-            edgar-10k-cursor-
+      - name: Sanity check workspace (debug)
+        run: |
+          echo "Repo contents:"
+          ls -R
 
-      - name: Run 10-K script
+      - name: Run SEC Crypto Script
         env:
-          DISCORD_WEBHOOK: ${{ secrets.DISCORD_WEBHOOK_10K }}
-        run: python .github/scripts/edgar10k_to_discord.py
+          DISCORD_WEBHOOK: ${{ secrets.DISCORD_WEBHOOK_CRYPTO }}
+        run: |
+          python .github/scripts/edgar_crypto_to_discord.py
