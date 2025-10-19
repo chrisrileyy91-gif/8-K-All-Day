@@ -1,8 +1,6 @@
-name: SEC Crypto & Ethereum Scanner
+name: SEC Crypto & Ethereum Scanner (Debug)
 
 on:
-  schedule:
-    - cron: "*/15 * * * *"
   workflow_dispatch:
 
 jobs:
@@ -11,6 +9,12 @@ jobs:
     steps:
       - name: Checkout repo
         uses: actions/checkout@v4
+
+      - name: Debug: list repo files
+        run: |
+          echo "=== REPO STRUCTURE ==="
+          pwd
+          ls -R
 
       - name: Set up Python
         uses: actions/setup-python@v5
@@ -26,4 +30,3 @@ jobs:
           DISCORD_WEBHOOK: ${{ secrets.DISCORD_WEBHOOK_10K }}
         run: |
           python scripts/edgar10k_to_discord.py
-      
