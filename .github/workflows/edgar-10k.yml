@@ -2,7 +2,7 @@ name: SEC Crypto & Ethereum Scanner
 
 on:
   schedule:
-    - cron: "*/15 * * * *"  # runs every 15 minutes
+    - cron: "*/15 * * * *"
   workflow_dispatch:
 
 jobs:
@@ -25,4 +25,5 @@ jobs:
         env:
           DISCORD_WEBHOOK: ${{ secrets.DISCORD_WEBHOOK_10K }}
         run: |
-          python ./scripts/edgar10k_to_discord.py
+          python scripts/edgar10k_to_discord.py
+      
