@@ -2,7 +2,7 @@ name: SEC Filings Scanner
 
 on:
   schedule:
-    - cron: "*/15 * * * *"  # runs every 15 minutes
+    - cron: "*/15 * * * *"
   workflow_dispatch:
 
 jobs:
@@ -21,8 +21,15 @@ jobs:
         run: |
           pip install requests feedparser
 
+      - name: Sanity check workspace (debug)
+        run: |
+          pwd
+          ls -la
+          echo "---- scripts ----"
+          ls -la scripts || true
+
       - name: Run SEC Filings Script
         env:
           DISCORD_WEBHOOK: ${{ secrets.DISCORD_WEBHOOK }}
         run: |
-          python sec_filings.py
+          python scripts/edgar_to_discord.py
