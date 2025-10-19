@@ -28,6 +28,6 @@ jobs:
 
       - name: Run SEC Crypto Script
         env:
-          DISCORD_WEBHOOK: ${{ secrets.DISCORD_WEBHOOK_CRYPTO }}
+          DISCORD_WEBHOOK: ${{ secrets.DISCORD_WEBHOOK_10K }}
         run: |
           python .github/scripts/edgar_crypto_to_discord.py
