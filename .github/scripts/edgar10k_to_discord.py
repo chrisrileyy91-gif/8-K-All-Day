@@ -10,7 +10,7 @@ KEYWORDS = [
     "Stablecoin", "Web3", "Ledger", "Smart Contract"
 ]
 
-WEBHOOK_URL = os.getenv("DISCORD_WEBHOOK_CRYPTO")
+WEBHOOK_URL = os.getenv("DISCORD_WEBHOOK")
 
 def matches_sector(text):
     """Check if filing text matches any of the crypto-related keywords."""
