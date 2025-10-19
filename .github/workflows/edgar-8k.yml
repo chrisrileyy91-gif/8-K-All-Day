@@ -21,15 +21,28 @@ jobs:
         run: |
           pip install requests feedparser
 
-      - name: Sanity check workspace (debug)
+      # 🔎 Print what the runner actually has and locate a script under scripts/*.py
+      - name: Locate script (debug)
+        id: locate
         run: |
-          pwd
+          set -e
+          echo "Branch: $(git rev-parse --abbrev-ref HEAD)"
+          echo "Repo root contents:"
           ls -la
           echo "---- scripts ----"
           ls -la scripts || true
+          echo "---- find python scripts ----"
+          FILE="$(git ls-files 'scripts/*.py' | head -n1 || true)"
+          echo "Found script: $FILE"
+          if [ -z "$FILE" ]; then
+            echo "No Python script found under scripts/; did you commit it to this branch?" >&2
+            echo "Tip: create scripts/edgar_to_discord.py and commit." >&2
+            exit 1
+          fi
+          echo "file=$FILE" >> $GITHUB_OUTPUT
 
       - name: Run SEC Filings Script
         env:
           DISCORD_WEBHOOK: ${{ secrets.DISCORD_WEBHOOK }}
         run: |
-          python scripts/edgar_to_discord.py
+          python "${{ steps.locate.outputs.file }}"
