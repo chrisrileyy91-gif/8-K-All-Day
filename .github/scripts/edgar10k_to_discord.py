@@ -1,57 +1,46 @@
-import os, pathlib, time
-import feedparser, requests
+import feedparser, requests, os, re
 
-# SEC 10-K feed (latest)
-FEED = "https://www.sec.gov/cgi-bin/browse-edgar?action=getcurrent&type=10-K&count=100&output=atom"
+# RSS feed for recent SEC filings
+FEED_URL = "https://www.sec.gov/cgi-bin/browse-edgar?action=getcurrent&count=100&output=atom"
 
-WEBHOOK = os.environ["DISCORD_WEBHOOK"]
-CURSOR_FILE = ".cursor_10k"
-last = pathlib.Path(CURSOR_FILE).read_text().strip() if pathlib.Path(CURSOR_FILE).exists() else ""
+# Keywords for filtering (Crypto / Blockchain / Ethereum)
+KEYWORDS = [
+    "Crypto", "Cryptocurrency", "Blockchain", "Bitcoin", "Ethereum",
+    "DeFi", "Mining", "Token", "Exchange", "Digital Asset",
+    "Stablecoin", "Web3", "Ledger", "Smart Contract"
+]
 
-fp = feedparser.parse(
-    FEED,
-    request_headers={"User-Agent": "EDGAR-Bot (youremail@example.com)"}
-)
-entries = list(reversed(fp.entries))  # oldest -> newest
+WEBHOOK_URL = os.getenv("DISCORD_WEBHOOK_CRYPTO")
 
-if not entries:
-    raise SystemExit(0)
+def matches_sector(text):
+    """Check if filing text matches any of the crypto-related keywords."""
+    return any(re.search(rf"\b{kw}\b", text, re.IGNORECASE) for kw in KEYWORDS)
 
-def item_id(e):
-    return str(getattr(e, "id", getattr(e, "link", "")))
+def send_discord_message(entry):
+    """Send a single SEC filing as a Discord embed."""
+    title = entry.get("title", "Untitled Filing")
+    link = entry.get("link", "")
+    company = entry.get("summary", "Unknown").split(" - ")[0]
+    filing_type = title.split(" - ")[-1] if " - " in title else title
 
-def item_title(e):
-    return getattr(e, "title", "New 10-K Filing")
+    message = {
+        "embeds": [{
+            "title": f"🚨 New SEC Filing: {filing_type}",
+            "description": f"**{company}** just filed a **{filing_type}** related to crypto or blockchain.\n\n[View Filing on SEC.gov]({link})",
+            "color": 16753920,
+            "footer": {"text": "Edgar’s Edge | Crypto • Blockchain • Ethereum"}
+        }]
+    }
 
-def item_link(e):
-    if getattr(e, "link", None):
-        return e.link
-    try:
-        return e.links[0]["href"]
-    except Exception:
-        return ""
+    requests.post(WEBHOOK_URL, json=message)
 
-# First run: only the newest to avoid flooding
-if not last:
-    newest = entries[-1]
-    msg = f"**New 10-K Filing**\n- {item_title(newest)}\n<{item_link(newest)}>"
-    r = requests.post(WEBHOOK, json={"content": msg})
-    r.raise_for_status()
-    pathlib.Path(CURSOR_FILE).write_text(item_id(newest))
-    raise SystemExit(0)
+def main():
+    """Fetch and filter SEC filings, then send matches to Discord."""
+    feed = feedparser.parse(FEED_URL)
+    for entry in feed.entries:
+        text = f"{entry.title} {entry.summary}"
+        if matches_sector(text):
+            send_discord_message(entry)
 
-new_last = last
-posted = 0
-for e in entries:
-    eid = item_id(e)
-    if eid == last:
-        continue
-    msg = f"**New 10-K Filing**\n- {item_title(e)}\n<{item_link(e)}>"
-    r = requests.post(WEBHOOK, json={"content": msg})
-    r.raise_for_status()
-    posted += 1
-    new_last = eid
-    time.sleep(1)
-
-if posted:
-    pathlib.Path(CURSOR_FILE).write_text(new_last)
+if __name__ == "__main__":
+    main()
