@@ -1,34 +1,28 @@
-name: 8-K RSS to Discord
+name: SEC Filings Scanner
 
 on:
   schedule:
-    - cron: "*/10 * * * *"   # every 10 minutes
+    - cron: "*/15 * * * *"  # runs every 15 minutes
   workflow_dispatch:
 
 jobs:
-  post_8k_to_discord:
+  run-script:
     runs-on: ubuntu-latest
     steps:
-      - name: Checkout
+      - name: Checkout repo
         uses: actions/checkout@v4
 
       - name: Set up Python
         uses: actions/setup-python@v5
         with:
-          python-version: "3.11"
+          python-version: '3.x'
 
       - name: Install dependencies
-        run: pip install feedparser requests
+        run: |
+          pip install requests feedparser
 
-      - name: Cache cursor (8-K)
-        uses: actions/cache@v4
-        with:
-          path: .cursor
-          key: edgar-8k-cursor-${{ github.run_id }}
-          restore-keys: |
-            edgar-8k-cursor-
-
-      - name: Run 8-K script
+      - name: Run SEC Filings Script
         env:
-          DISCORD_WEBHOOK: ${{ secrets.EDGAR_THE_8 }}
-        run: python .github/scripts/edgar_to_discord.py
+          DISCORD_WEBHOOK: ${{ secrets.DISCORD_WEBHOOK }}
+        run: |
+          python scripts/sec_filings.py
