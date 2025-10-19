@@ -1,0 +1,24 @@
+name: Crypto News → Discord
+
+on:
+  schedule:
+    - cron: "0 */6 * * *"  # every 6 hours
+  workflow_dispatch:
+
+jobs:
+  news:
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 18
+
+      - name: Install dependencies
+        run: npm install rss-parser node-fetch
+
+      - name: Run Crypto RSS Script
+        run: node .github/scripts/crypto_rss_to_discord.js
+        env:
+          CRYPTO_NEWS_WEBHOOK: ${{ secrets.CRYPTO_NEWS_WEBHOOK }}
