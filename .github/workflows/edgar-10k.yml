@@ -2,7 +2,7 @@ name: SEC Crypto & Ethereum Scanner
 
 on:
   schedule:
-    - cron: "*/15 * * * *"
+    - cron: "*/15 * * * *"  # runs every 15 minutes
   workflow_dispatch:
 
 jobs:
@@ -21,13 +21,8 @@ jobs:
         run: |
           pip install requests feedparser
 
-      - name: Sanity check workspace (debug)
-        run: |
-          echo "Repo contents:"
-          ls -R
-
       - name: Run SEC Crypto Script
         env:
           DISCORD_WEBHOOK: ${{ secrets.DISCORD_WEBHOOK_10K }}
         run: |
-             python scripts/edgar10k_to_discord.py
+          python scripts/edgar10k_to_discord.py
