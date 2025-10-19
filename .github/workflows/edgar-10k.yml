@@ -1,4 +1,4 @@
-name: SEC Crypto & Ethereum Scanner (Final Fix)
+name: SEC Crypto & Ethereum Scanner (Auto-Locate)
 
 on:
   workflow_dispatch:
@@ -6,19 +6,23 @@ on:
 jobs:
   run-script:
     runs-on: ubuntu-latest
-    defaults:
-      run:
-        working-directory: ${{ github.workspace }}
-
     steps:
       - name: Checkout repo
         uses: actions/checkout@v4
 
-      - name: Debug - list all files
+      # 🔎 Show exactly what the runner sees (including hidden dirs)
+      - name: Debug - list repo files
         run: |
-          echo "=== FULL FILE TREE ==="
+          echo "=== PWD ==="
           pwd
-          ls -R .
+          echo "=== ls -la (root) ==="
+          ls -la .
+          echo "=== ls -la .github ==="
+          ls -la .github || true
+          echo "=== ls -la scripts ==="
+          ls -la scripts || true
+          echo "=== find (3 levels) ==="
+          find . -maxdepth 3 -type f -print
 
       - name: Set up Python
         uses: actions/setup-python@v5
@@ -29,8 +33,22 @@ jobs:
         run: |
           pip install requests feedparser
 
+      # ✅ Auto-locate the 10K script no matter where it lives
+      - name: Locate script path
+        id: locate
+        shell: bash
+        run: |
+          set -e
+          FILE="$(git ls-files 'scripts/edgar10k_to_discord.py' '.github/scripts/edgar10k_to_discord.py' '**/edgar10k_to_discord.py' | head -n1 || true)"
+          echo "Found script: $FILE"
+          if [ -z "$FILE" ]; then
+            echo "Could not find edgar10k_to_discord.py in repo." >&2
+            exit 1
+          fi
+          echo "file=$FILE" >> "$GITHUB_OUTPUT"
+
       - name: Run SEC Crypto Script
         env:
           DISCORD_WEBHOOK: ${{ secrets.DISCORD_WEBHOOK_10K }}
         run: |
-          python ./scripts/edgar10k_to_discord.py
+          python "${{ steps.locate.outputs.file }}"
