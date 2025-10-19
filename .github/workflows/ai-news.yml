@@ -1,0 +1,21 @@
+name: AI Infrastructure News → Discord
+
+on:
+  schedule:
+    - cron: "0 */8 * * *"  # every 8 hours (~3 drops/day)
+  workflow_dispatch:
+
+jobs:
+  ai-news:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 18
+      - name: Install dependencies
+        run: npm install rss-parser node-fetch
+      - name: Run AI Infra RSS Script
+        run: node .github/scripts/ai_infra_news_to_discord.mjs
+        env:
+          AI_INFRA_NEWS_WEBHOOK: ${{ secrets.AI_INFRA_NEWS_WEBHOOK }}
