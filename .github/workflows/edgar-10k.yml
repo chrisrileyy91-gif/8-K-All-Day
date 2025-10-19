@@ -1,4 +1,4 @@
-name: SEC Crypto & Ethereum Scanner (Debug)
+name: SEC Crypto & Ethereum Scanner (Final Fix)
 
 on:
   workflow_dispatch:
@@ -6,15 +6,19 @@ on:
 jobs:
   run-script:
     runs-on: ubuntu-latest
+    defaults:
+      run:
+        working-directory: ${{ github.workspace }}
+
     steps:
       - name: Checkout repo
         uses: actions/checkout@v4
 
-      - name: Debug - list repo files
+      - name: Debug - list all files
         run: |
-          echo "=== REPO STRUCTURE ==="
+          echo "=== FULL FILE TREE ==="
           pwd
-          ls -R
+          ls -R .
 
       - name: Set up Python
         uses: actions/setup-python@v5
@@ -29,4 +33,4 @@ jobs:
         env:
           DISCORD_WEBHOOK: ${{ secrets.DISCORD_WEBHOOK_10K }}
         run: |
-          python scripts/edgar10k_to_discord.py
+          python ./scripts/edgar10k_to_discord.py
