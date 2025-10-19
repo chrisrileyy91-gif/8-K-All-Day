@@ -13,13 +13,34 @@ KEYWORDS = [
 WEBHOOK_URL = os.getenv("DISCORD_WEBHOOK")
 
 def matches_sector(text):
+    """Check if filing text matches any of the relevant sector keywords."""
     return any(re.search(rf"\b{kw}\b", text, re.IGNORECASE) for kw in KEYWORDS)
 
 def send_discord_message(entry):
+    """Send a single SEC filing as a Discord embed."""
     title = entry.get("title", "Untitled Filing")
     link = entry.get("link", "")
     company = entry.get("summary", "Unknown").split(" - ")[0]
     filing_type = title.split(" - ")[-1] if " - " in title else title
+
     message = {
         "embeds": [{
-            "title": f"🚨 New SEC Fi
+            "title": f"🚨 New SEC Filing: {filing_type}",
+            "description": f"**{company}** just filed a **{filing_type}**.\n\n[View Filing on SEC.gov]({link})",
+            "color": 5814783,
+            "footer": {"text": "Edgar’s Edge | AI • Tech • Robotics"}
+        }]
+    }
+
+    requests.post(WEBHOOK_URL, json=message)
+
+def main():
+    """Fetch and filter SEC filings, then send matches to Discord."""
+    feed = feedparser.parse(FEED_URL)
+    for entry in feed.entries:
+        text = f"{entry.title} {entry.summary}"
+        if matches_sector(text):
+            send_discord_message(entry)
+
+if __name__ == "__main__":
+    main()
