@@ -19,6 +19,6 @@ jobs:
         run: npm install rss-parser node-fetch
 
       - name: Run Crypto RSS Script
-        run: node .github/scripts/crypto_rss_to_discord.js
+        run: node .github/scripts/crypto_rss_to_discord.mjs   # <-- update to .mjs
         env:
           CRYPTO_NEWS_WEBHOOK: ${{ secrets.CRYPTO_NEWS_WEBHOOK }}
