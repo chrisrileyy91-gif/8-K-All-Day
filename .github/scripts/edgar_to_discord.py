@@ -1,35 +1,25 @@
-name: SEC Filings Scanner
+import feedparser, requests, os, re
 
-on:
-  schedule:
-    - cron: "*/15 * * * *"  # runs every 15 minutes
-  workflow_dispatch:
+# RSS feed for recent SEC filings
+FEED_URL = "https://www.sec.gov/cgi-bin/browse-edgar?action=getcurrent&count=100&output=atom"
 
-jobs:
-  run-script:
-    runs-on: ubuntu-latest
-    steps:
-      - name: Checkout repo
-        uses: actions/checkout@v4
+# Keywords for filtering (AI, Tech, Robotics)
+KEYWORDS = [
+    "AI", "Artificial Intelligence", "Robotics", "Automation",
+    "Semiconductor", "Chip", "Technology", "Software", "Hardware",
+    "Data Center", "Machine Learning", "Neural Network"
+]
 
-      - name: Set up Python
-        uses: actions/setup-python@v5
-        with:
-          python-version: '3.x'
+WEBHOOK_URL = os.getenv("DISCORD_WEBHOOK")
 
-      - name: Install dependencies
-        run: |
-          pip install requests feedparser
+def matches_sector(text):
+    return any(re.search(rf"\b{kw}\b", text, re.IGNORECASE) for kw in KEYWORDS)
 
-      - name: Sanity check workspace (debug)
-        run: |
-          pwd
-          ls -la
-          echo "---- scripts ----"
-          ls -la scripts || true
-
-      - name: Run SEC Filings Script
-        env:
-          DISCORD_WEBHOOK: ${{ secrets.DISCORD_WEBHOOK }}
-        run: |
-          python scripts/edgar_to_discord.py
+def send_discord_message(entry):
+    title = entry.get("title", "Untitled Filing")
+    link = entry.get("link", "")
+    company = entry.get("summary", "Unknown").split(" - ")[0]
+    filing_type = title.split(" - ")[-1] if " - " in title else title
+    message = {
+        "embeds": [{
+            "title": f"🚨 New SEC Fi
