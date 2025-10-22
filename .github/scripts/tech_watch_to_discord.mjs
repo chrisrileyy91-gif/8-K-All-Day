@@ -9,11 +9,13 @@ const CACHE_FILE = "./scripts/.tech_watch_cache.json";
 // --- Feeds ---
 const FEEDS = [
   "https://techcrunch.com/feed/",
-  "https://www.nasdaq.com/feed/rssoutbound?category=Technology",
+  "https://venturebeat.com/category/ai/feed/",
   "https://venturebeat.com/category/startups/feed/",
   "https://www.datacenterdynamics.com/en/rss/",
-  "https://www.prnewswire.com/rss/technology-latest-news.rss"
+  "https://www.prnewswire.com/rss/technology-latest-news.rss",
+  "https://www.eetimes.com/feed/" // solid hardware + chip coverage
 ];
+
 
 // --- Keywords ---
 const KEYWORDS = [
@@ -62,11 +64,15 @@ async function run() {
 
   try {
     let allArticles = [];
-    for (const feedUrl of FEEDS) {
-      console.log(`🔍 Fetching feed: ${feedUrl}`);
-      const feed = await parser.parseURL(feedUrl);
-      allArticles.push(...feed.items.slice(0, 8));
-    }
+    console.log("⚙️ Fetching feeds in parallel...");
+const feeds = await Promise.allSettled(FEEDS.map(url => parser.parseURL(url)));
+for (const result of feeds) {
+  if (result.status === "fulfilled") {
+    const feed = result.value;
+    allArticles.push(...feed.items.slice(0, 8));
+  } else {
+    console.warn("⚠️ Feed failed:", result.reason?.message);
+  }
 
     let newPosts = 0;
     for (const item of allArticles) {
