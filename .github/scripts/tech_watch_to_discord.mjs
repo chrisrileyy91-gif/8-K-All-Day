@@ -2,19 +2,21 @@ import fetch from "node-fetch";
 import Parser from "rss-parser";
 import fs from "fs";
 
-const parser = new Parser();
+const parser = new Parser({
+  timeout: 15000 // ⏱️ 15s timeout per feed — keeps runs snappy
+});
+
 const WEBHOOK_URL = process.env.TECH_WATCH_WEBHOOK;
 const CACHE_FILE = "./.tech_watch_cache.json";
 const MAX_POSTS_PER_RUN = parseInt(process.env.MAX_POSTS_PER_RUN || "3", 10);
 
 // --- Feeds ---
 const FEEDS = [
+  "https://www.reutersagency.com/feed/?best-topics=technology",
+  "https://feeds.arstechnica.com/arstechnica/technology-lab",
   "https://techcrunch.com/feed/",
-  "https://venturebeat.com/category/ai/feed/",
-  "https://venturebeat.com/category/startups/feed/",
   "https://www.datacenterdynamics.com/en/rss/",
-  "https://www.prnewswire.com/rss/technology-latest-news.rss",
-  "https://www.eetimes.com/feed/" // solid hardware + chip coverage
+  "https://www.prnewswire.com/rss/technology-latest-news.rss"
 ];
 
 // --- Keywords ---
@@ -70,14 +72,22 @@ async function run() {
     let allArticles = [];
 
     console.log("⚙️ Fetching feeds in parallel...");
-    const feeds = await Promise.allSettled(FEEDS.map(url => parser.parseURL(url)));
+    const feeds = await Promise.allSettled(
+      FEEDS.map(async (url) => {
+        try {
+          const feed = await parser.parseURL(url);
+          return feed;
+        } catch (err) {
+          console.warn(`⚠️ Feed failed (${url}):`, err.message);
+          return null;
+        }
+      })
+    );
 
     for (const result of feeds) {
-      if (result.status === "fulfilled") {
+      if (result.status === "fulfilled" && result.value) {
         const feed = result.value;
         allArticles.push(...feed.items.slice(0, 8));
-      } else {
-        console.warn("⚠️ Feed failed:", result.reason?.message);
       }
     }
 
