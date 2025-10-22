@@ -34,4 +34,4 @@ jobs:
         env:
           TECH_WATCH_WEBHOOK: ${{ secrets.TECH_WATCH_WEBHOOK }}
           MAX_POSTS_PER_RUN: "3"   # tweak to 2 or 3 as you prefer
-        run: node ./scripts/tech_watch_to_discord.mjs
+        run: node ./.github/scripts/tech_watch_to_discord.mjs
