@@ -4,7 +4,7 @@ import fs from "fs";
 
 const parser = new Parser();
 const WEBHOOK_URL = process.env.TECH_WATCH_WEBHOOK;
-const CACHE_FILE = "./scripts/.tech_watch_cache.json";
+const CACHE_FILE = "./.tech_watch_cache.json";
 const MAX_POSTS_PER_RUN = parseInt(process.env.MAX_POSTS_PER_RUN || "3", 10);
 
 // --- Feeds ---
