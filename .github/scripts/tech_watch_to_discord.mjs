@@ -5,6 +5,7 @@ import fs from "fs";
 const parser = new Parser();
 const WEBHOOK_URL = process.env.TECH_WATCH_WEBHOOK;
 const CACHE_FILE = "./scripts/.tech_watch_cache.json";
+const MAX_POSTS_PER_RUN = parseInt(process.env.MAX_POSTS_PER_RUN || "3", 10);
 
 // --- Feeds ---
 const FEEDS = [
@@ -15,7 +16,6 @@ const FEEDS = [
   "https://www.prnewswire.com/rss/technology-latest-news.rss",
   "https://www.eetimes.com/feed/" // solid hardware + chip coverage
 ];
-
 
 // --- Keywords ---
 const KEYWORDS = [
@@ -41,7 +41,10 @@ const CAPTIONS = [
   "🚀 **Emerging tech momentum detected.**",
   "📡 **Future systems pinged on the radar.**",
   "🧠 **The Stack picked up fresh innovation flow.**",
-  "🔍 **The next wave of tech just surfaced.**"
+  "🔍 **The next wave of tech just surfaced.**",
+  "💡 **Innovation alert—The Stack caught this first.**",
+  "🔥 **Tech pulse rising—keep your eyes on this.**",
+  "🧩 **Movement spotted across next-gen platforms.**"
 ];
 
 async function run() {
@@ -52,6 +55,7 @@ async function run() {
     return;
   }
 
+  // --- Load cache ---
   let postedLinks = new Set();
   if (fs.existsSync(CACHE_FILE)) {
     try {
@@ -64,17 +68,21 @@ async function run() {
 
   try {
     let allArticles = [];
+
     console.log("⚙️ Fetching feeds in parallel...");
-const feeds = await Promise.allSettled(FEEDS.map(url => parser.parseURL(url)));
-for (const result of feeds) {
-  if (result.status === "fulfilled") {
-    const feed = result.value;
-    allArticles.push(...feed.items.slice(0, 8));
-  } else {
-    console.warn("⚠️ Feed failed:", result.reason?.message);
-  }
+    const feeds = await Promise.allSettled(FEEDS.map(url => parser.parseURL(url)));
+
+    for (const result of feeds) {
+      if (result.status === "fulfilled") {
+        const feed = result.value;
+        allArticles.push(...feed.items.slice(0, 8));
+      } else {
+        console.warn("⚠️ Feed failed:", result.reason?.message);
+      }
+    }
 
     let newPosts = 0;
+
     for (const item of allArticles) {
       const title = item.title || "";
       const link = item.link || "";
@@ -101,14 +109,15 @@ for (const result of feeds) {
         postedLinks.add(link);
         newPosts++;
         console.log(`✅ Sent: ${title}`);
+        if (newPosts >= MAX_POSTS_PER_RUN) break;
       } else {
         console.error(`⚠️ Failed to post ${title}: ${res.statusText}`);
       }
     }
 
+    // --- Save cache ---
     fs.writeFileSync(CACHE_FILE, JSON.stringify([...postedLinks], null, 2));
     console.log(`🎯 Done! ${newPosts} new Tech Watch updates sent to Discord.`);
-
   } catch (err) {
     console.error("❌ Error fetching or sending tech news:", err);
   }
