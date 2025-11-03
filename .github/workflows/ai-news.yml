@@ -20,8 +20,3 @@ jobs:
 
       - name: Install dependencies
         run: |
-          pip install feedparser requests
-
-      - name: Run AI Infra RSS Script
-        env:
-          DISCORD_WEBHOOK_AI: ${{ secrets.DISCORD_WEBHOOK_AI }}
