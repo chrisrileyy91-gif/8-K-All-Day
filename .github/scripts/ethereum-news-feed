@@ -1,0 +1,62 @@
+import os
+import random
+import feedparser
+import requests
+
+# Discord webhook
+WEBHOOK_URL = os.getenv("DISCORD_WEBHOOK_ETH")
+
+# Ethereum RSS feeds
+FEEDS = [
+    "https://www.coindesk.com/arc/outboundfeeds/rss/?outputType=xml&tag=ethereum",
+    "https://cointelegraph.com/rss/tag/ethereum",
+    "https://decrypt.co/feed/category/ethereum"
+]
+
+# Stack-style random openers
+OPENERS = [
+    "🛰️ Stack satellites just picked up this Ethereum ping —",
+    "👾 The Stack intercepted a new Ethereum broadcast —",
+    "🚀 Signal received from the Ethereum relay — check it out:",
+    "🪐 The Stack’s orbital sensors flagged this one from deep ETH space —",
+    "🧠 Stack AI just decoded an Ethereum development transmission —"
+]
+
+def get_latest_entry():
+    """Fetch the latest valid Ethereum article from all feeds."""
+    entries = []
+    for url in FEEDS:
+        feed = feedparser.parse(url)
+        if feed.entries:
+            entries.extend(feed.entries)
+
+    # Sort by published date (newest first)
+    entries.sort(key=lambda e: e.get("published_parsed", None), reverse=True)
+    return entries[:1]  # Just 1 article per run
+
+def post_to_discord(title, link):
+    """Post message to Discord channel."""
+    opener = random.choice(OPENERS)
+    message = f"{opener}\n**{title}**\n{link}"
+
+    data = {"content": message}
+    response = requests.post(WEBHOOK_URL, json=data)
+
+    if response.status_code != 204:
+        print(f"Failed to post: {response.status_code}, {response.text}")
+    else:
+        print("✅ Ethereum news sent successfully.")
+
+def main():
+    latest_entries = get_latest_entry()
+    if not latest_entries:
+        print("No new entries found.")
+        return
+
+    for entry in latest_entries:
+        title = entry.get("title", "Untitled")
+        link = entry.get("link", "")
+        post_to_discord(title, link)
+
+if __name__ == "__main__":
+    main()
