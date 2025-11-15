@@ -22,3 +22,8 @@ jobs:
 
       - name: Install dependencies
         run: |
+          pip install feedparser requests
+
+      - name: Run AI news script
+        run: |
+          python scripts/ai_infra_news_to_discord.py
