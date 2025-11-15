@@ -15,16 +15,15 @@ jobs:
       - name: Checkout repo
         uses: actions/checkout@v4
 
-      - name: Set up Node
-        uses: actions/setup-node@v4
+      - name: Set up Python
+        uses: actions/setup-python@v4
         with:
-          node-version: '20'
+          python-version: '3.11'
 
       - name: Install dependencies
         run: |
-          npm init -y
-          npm install feedparser requests node-fetch@3
+          pip install feedparser requests
 
       - name: Run AI news script
         run: |
-          node scripts/ai_infra_news_to_discord.mjs
+          python .github/scripts/ai_infra_news_to_discord.py
