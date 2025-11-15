@@ -1,0 +1,29 @@
+name: Ethereum News → Discord
+
+on:
+  schedule:
+    - cron: "0 */3 * * *"   # Every 3 hours
+  workflow_dispatch:
+
+jobs:
+  fetch-and-post:
+    runs-on: ubuntu-latest
+    env:
+      DISCORD_WEBHOOK_ETH: ${{ secrets.DISCORD_WEBHOOK_ETH }}
+
+    steps:
+      - name: Checkout repo
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v4
+        with:
+          python-version: "3.11"
+
+      - name: Install dependencies
+        run: |
+          pip install feedparser requests
+
+      - name: Run Ethereum ecosystem script
+        run: |
+          python .github/scripts/ethereum_news_to_discord.py
