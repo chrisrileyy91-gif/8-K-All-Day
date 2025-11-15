@@ -8,6 +8,8 @@ on:
 jobs:
   fetch-and-post:
     runs-on: ubuntu-latest
+    env:
+      DISCORD_WEBHOOK_AI: ${{ secrets.DISCORD_WEBHOOK_AI }}
 
     steps:
       - name: Checkout repo
