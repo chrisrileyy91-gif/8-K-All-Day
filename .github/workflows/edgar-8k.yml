@@ -29,5 +29,6 @@ jobs:
       - name: Run SEC Filings Script
         env:
           DISCORD_WEBHOOK: ${{ secrets.DISCORD_WEBHOOK }}
+          FORCE_TEST: 1
         run: |
           python .github/scripts/edgar_to_discord.py
