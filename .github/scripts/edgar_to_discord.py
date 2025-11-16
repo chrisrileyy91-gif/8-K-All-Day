@@ -1,77 +1,85 @@
 import os
 import requests
 import feedparser
-from datetime import datetime, timedelta
 
-# -------- Discord Webhook (existing secret) --------
-WEBHOOK_URL = os.getenv("EDGAR_THE_8")
+# === CONFIG ===
 
-# -------- AI Tickers (always allowed) --------
-AI_TICKERS = {
-    "NVDA","MSFT","GOOGL","META","AMZN","TSLA","SMCI","PLTR","IBM",
-    "AMD","AVGO","TSM","AI","AIP","AIQ","AIPO","RGTI","IONQ","QUBT","SNOW"
-}
+WEBHOOK_URL = os.getenv("DISCORD_WEBHOOK")
 
-# -------- AI Keyword Detector (Hybrid Mode) --------
-AI_KEYWORDS = [
-    "artificial intelligence", " ai ", " ai.", "machine learning", "neural",
-    "deep learning", "inference", "transformer", "llm", "large language model",
-    "automation", "gpu", "cuda", "robotics", "vision model", "generative",
-    "quantum", "data center", "accelerator"
+AI_TICKERS = [
+    "NVDA", "AMD", "AVGO", "SMCI", "TSLA", "GOOGL", "MSFT", "META",
+    "AMZN", "AAPL", "IBM", "QCOM", "DELL", "MU", "PLTR", "ADBE",
+    "ORCL", "SNOW", "CRWD", "NET", "DDOG", "ZS", "PATH", "AI",
+    "UPST", "SOFI", "RBLX", "DOCN", "IONQ", "AEHR", "UI", "CLSK"
 ]
 
-# -------- SEC Atom Feed --------
-FEED_URL = (
-    "https://www.sec.gov/cgi-bin/browse-edgar?action=getcurrent&"
-    "owner=include&output=atom"
-)
+POSTED_LOG = ".github/data/posted_filings.txt"
 
-# -------- Utility Logic --------
-def ticker_matches(ticker):
-    if not ticker:
-        return False
-    return ticker.upper() in AI_TICKERS
+RSS_URL = "https://www.sec.gov/cgi-bin/browse-edgar?action=getcurrent&CIK=&type=&company=&owner=exclude&count=100&output=atom"
 
-def contains_ai_keywords(text):
-    if not text:
-        return False
-    t = text.lower()
-    return any(k in t for k in AI_KEYWORDS)
 
-# -------- Send to Discord --------
-def send_to_discord(title, link, company, ticker):
-    embed = {
-        "title": f"New AI-Related Filing — {title}",
-        "description": f"**{company}** ({ticker})\n\n{link}",
-        "color": 0x00FFB3
+# === LOAD ALREADY POSTED FILINGS ===
+def load_posted():
+    if not os.path.exists(POSTED_LOG):
+        return set()
+
+    with open(POSTED_LOG, "r") as f:
+        return set(line.strip() for line in f.readlines())
+
+
+def save_posted(posted_set):
+    with open(POSTED_LOG, "w") as f:
+        for url in posted_set:
+            f.write(url + "\n")
+
+
+# === DISCORD POST ===
+def send_discord_message(title, link, company):
+    data = {
+        "content": f"📄 **New SEC Filing (AI Sector)**\n**{company}** — {title}\n{link}"
     }
-    try:
-        requests.post(WEBHOOK_URL, json={"embeds": [embed]})
-    except Exception as e:
-        print(f"Discord error: {e}")
+    requests.post(WEBHOOK_URL, json=data)
 
-# -------- Main Scanner --------
+
+# === MAIN ===
 def run():
-    feed = feedparser.parse(FEED_URL)
+    print("Fetching SEC feed…")
+    feed = feedparser.parse(RSS_URL)
+
+    posted_before = load_posted()
+    posted_now = set(posted_before)
 
     for entry in feed.entries:
-        title = entry.get("title", "")
-        link = entry.get("link", "")
-        summary = entry.get("summary", "")
-        company = entry.get("company", "Unknown Company")
-        ticker = entry.get("xbrl_ticker", "")
+        title = entry.title
+        link = entry.link
 
-        # --- RULE 1: ALWAYS allow known AI companies ---
-        if ticker_matches(ticker):
-            send_to_discord(title, link, company, ticker.upper())
+        # Skip if already posted
+        if link in posted_before:
             continue
 
-        # --- RULE 2: If filing mentions AI keywords ---
-        if contains_ai_keywords(summary):
-            send_to_discord(title, link, company, ticker.upper())
+        # Extract ticker if present (SEC Atom format often puts it in title)
+        ticker = None
+        words = title.replace(",", "").split()
+        for w in words:
+            if w.upper() in AI_TICKERS:
+                ticker = w.upper()
+                break
+
+        # If no AI ticker → skip
+        if ticker is None:
             continue
 
-    print("AI-filtered SEC scan complete.")
+        # Post to Discord
+        company_name = entry.get("company", "Unknown Company")
+        send_discord_message(title, link, ticker)
+
+        # Add to log
+        posted_now.add(link)
+
+    # Save updated log
+    save_posted(posted_now)
+    print("Done.")
+
 
 if __name__ == "__main__":
     run()
