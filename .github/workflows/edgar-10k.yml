@@ -1,54 +1,36 @@
-name: SEC Crypto & Ethereum Scanner (Auto-Locate)
+name: Crypto Filings Scanner
 
 on:
+  schedule:
+    # 7:00 AM EST (12:00 UTC)
+    - cron: "0 12 * * 1-5"
+    # 11:30 AM EST (16:30 UTC)
+    - cron: "30 16 * * 1-5"
+    # 3:45 PM EST (20:45 UTC)
+    - cron: "45 20 * * 1-5"
+    # 8:00 PM EST (01:00 UTC next day)
+    - cron: "0 1 * * 2-6"
+
   workflow_dispatch:
 
 jobs:
-  run-script:
+  run-crypto:
     runs-on: ubuntu-latest
-    steps:
-      - name: Checkout repo
-        uses: actions/checkout@v4
 
-      # 🔎 Show exactly what the runner sees (including hidden dirs)
-      - name: Debug - list repo files
-        run: |
-          echo "=== PWD ==="
-          pwd
-          echo "=== ls -la (root) ==="
-          ls -la .
-          echo "=== ls -la .github ==="
-          ls -la .github || true
-          echo "=== ls -la scripts ==="
-          ls -la scripts || true
-          echo "=== find (3 levels) ==="
-          find . -maxdepth 3 -type f -print
+    steps:
+      - uses: actions/checkout@v4
 
       - name: Set up Python
         uses: actions/setup-python@v5
         with:
-          python-version: '3.x'
+          python-version: "3.x"
 
       - name: Install dependencies
         run: |
           pip install requests feedparser
 
-      # ✅ Auto-locate the 10K script no matter where it lives
-      - name: Locate script path
-        id: locate
-        shell: bash
-        run: |
-          set -e
-          FILE="$(git ls-files 'scripts/edgar10k_to_discord.py' '.github/scripts/edgar10k_to_discord.py' '**/edgar10k_to_discord.py' | head -n1 || true)"
-          echo "Found script: $FILE"
-          if [ -z "$FILE" ]; then
-            echo "Could not find edgar10k_to_discord.py in repo." >&2
-            exit 1
-          fi
-          echo "file=$FILE" >> "$GITHUB_OUTPUT"
-
-      - name: Run SEC Crypto Script
+      - name: Run Crypto Filings Script
         env:
-          DISCORD_WEBHOOK: ${{ secrets.DISCORD_WEBHOOK_10K }}
+          DISCORD_WEBHOOK: ${{ secrets.DISCORD_WEBHOOK_CRYPTO }}
         run: |
-          python "${{ steps.locate.outputs.file }}"
+          python .github/scripts/crypto_filings_to_discord.py
