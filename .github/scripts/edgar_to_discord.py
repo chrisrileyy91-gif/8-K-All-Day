@@ -15,12 +15,18 @@ AI_TICKERS = [
 
 POSTED_LOG = ".github/data/posted_filings.txt"
 
-RSS_URL = "https://www.sec.gov/cgi-bin/browse-edgar?action=getcurrent&CIK=&type=&company=&owner=exclude&count=100&output=atom"
+RSS_URL = (
+    "https://www.sec.gov/cgi-bin/browse-edgar?action=getcurrent"
+    "&CIK=&type=&company=&owner=exclude&count=100&output=atom"
+)
 
 
 # === LOAD ALREADY POSTED FILINGS ===
 def load_posted():
     if not os.path.exists(POSTED_LOG):
+        print("DEBUG: posted_filings.txt not found — creating a new one.")
+        os.makedirs(".github/data", exist_ok=True)
+        open(POSTED_LOG, "w").close()
         return set()
 
     with open(POSTED_LOG, "r") as f:
@@ -36,9 +42,13 @@ def save_posted(posted_set):
 # === DISCORD POST ===
 def send_discord_message(title, link, company):
     data = {
-        "content": f"📄 **New SEC Filing (AI Sector)**\n**{company}** — {title}\n{link}"
+        "content": (
+            "📄 **New SEC Filing (AI Sector)**\n"
+            f"**{company}** — {title}\n{link}"
+        )
     }
-    requests.post(WEBHOOK_URL, json=data)
+    r = requests.post(WEBHOOK_URL, json=data)
+    print("DEBUG: Discord POST status:", r.status_code)
 
 
 # === MAIN ===
@@ -49,36 +59,68 @@ def run():
     posted_before = load_posted()
     posted_now = set(posted_before)
 
+    print("DEBUG: Loaded posted filings:", len(posted_before))
+
+    ai_hits = 0
+
     for entry in feed.entries:
         title = entry.title
         link = entry.link
 
-        # Skip if already posted
+        print("\n------------------------------")
+        print("DEBUG: Checking filing:", title)
+        print("DEBUG: Link:", link)
+
+        # SKIP if already posted
         if link in posted_before:
+            print("DEBUG: Already posted — skipping")
             continue
 
-        # Extract ticker if present (SEC Atom format often puts it in title)
+        # Extract ticker from title text
         ticker = None
-        words = title.replace(",", "").split()
-        for w in words:
-            if w.upper() in AI_TICKERS:
-                ticker = w.upper()
+        words = title.replace(",", "").replace("(", "").replace(")", "").split()
+        upper_words = [w.upper() for w in words]
+
+        for w in upper_words:
+            if w in AI_TICKERS:
+                ticker = w
                 break
 
-        # If no AI ticker → skip
+        print("DEBUG: Detected ticker:", ticker)
+
+        # Skip if not AI-related
         if ticker is None:
+            print("DEBUG: Not AI — skipping")
             continue
 
-        # Post to Discord
-        company_name = entry.get("company", "Unknown Company")
-        send_discord_message(title, link, ticker)
+        ai_hits += 1
 
-        # Add to log
+        # SEC Atom sometimes includes company name under entry.summary
+        company_name = entry.get("company", None)
+        if not company_name:
+            # Try to extract from summary if formatted like "Company Name (CIK)"
+            summary = entry.get("summary", "")
+            if "(" in summary:
+                company_name = summary.split("(")[0].strip()
+            else:
+                company_name = "Unknown Company"
+
+        print("DEBUG: Posting to Discord:", company_name)
+
+        # Send message
+        send_discord_message(title, link, company_name)
+
+        # Store in posted log
         posted_now.add(link)
 
-    # Save updated log
+    # Save posted log
     save_posted(posted_now)
-    print("Done.")
+
+    print("\n==============================")
+    print("DEBUG: Script finished.")
+    print("DEBUG: New AI filings posted:", ai_hits)
+    print("DEBUG: Total stored filings:", len(posted_now))
+    print("==============================\n")
 
 
 if __name__ == "__main__":
