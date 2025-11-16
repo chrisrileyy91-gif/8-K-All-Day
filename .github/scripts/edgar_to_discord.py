@@ -1,46 +1,77 @@
-import feedparser, requests, os, re
+import os
+import requests
+import feedparser
+from datetime import datetime, timedelta
 
-# RSS feed for recent SEC filings
-FEED_URL = "https://www.sec.gov/cgi-bin/browse-edgar?action=getcurrent&count=100&output=atom"
+# -------- Discord Webhook (existing secret) --------
+WEBHOOK_URL = os.getenv("EDGAR_THE_8")
 
-# Keywords for filtering (AI, Tech, Robotics)
-KEYWORDS = [
-    "AI", "Artificial Intelligence", "Robotics", "Automation",
-    "Semiconductor", "Chip", "Technology", "Software", "Hardware",
-    "Data Center", "Machine Learning", "Neural Network"
+# -------- AI Tickers (always allowed) --------
+AI_TICKERS = {
+    "NVDA","MSFT","GOOGL","META","AMZN","TSLA","SMCI","PLTR","IBM",
+    "AMD","AVGO","TSM","AI","AIP","AIQ","AIPO","RGTI","IONQ","QUBT","SNOW"
+}
+
+# -------- AI Keyword Detector (Hybrid Mode) --------
+AI_KEYWORDS = [
+    "artificial intelligence", " ai ", " ai.", "machine learning", "neural",
+    "deep learning", "inference", "transformer", "llm", "large language model",
+    "automation", "gpu", "cuda", "robotics", "vision model", "generative",
+    "quantum", "data center", "accelerator"
 ]
 
-WEBHOOK_URL = os.getenv("DISCORD_WEBHOOK")
+# -------- SEC Atom Feed --------
+FEED_URL = (
+    "https://www.sec.gov/cgi-bin/browse-edgar?action=getcurrent&"
+    "owner=include&output=atom"
+)
 
-def matches_sector(text):
-    """Check if filing text matches any of the relevant sector keywords."""
-    return any(re.search(rf"\b{kw}\b", text, re.IGNORECASE) for kw in KEYWORDS)
+# -------- Utility Logic --------
+def ticker_matches(ticker):
+    if not ticker:
+        return False
+    return ticker.upper() in AI_TICKERS
 
-def send_discord_message(entry):
-    """Send a single SEC filing as a Discord embed."""
-    title = entry.get("title", "Untitled Filing")
-    link = entry.get("link", "")
-    company = entry.get("summary", "Unknown").split(" - ")[0]
-    filing_type = title.split(" - ")[-1] if " - " in title else title
+def contains_ai_keywords(text):
+    if not text:
+        return False
+    t = text.lower()
+    return any(k in t for k in AI_KEYWORDS)
 
-    message = {
-        "embeds": [{
-            "title": f"🚨 New SEC Filing: {filing_type}",
-            "description": f"**{company}** just filed a **{filing_type}**.\n\n[View Filing on SEC.gov]({link})",
-            "color": 5814783,
-            "footer": {"text": "Edgar’s Edge | AI • Tech • Robotics"}
-        }]
+# -------- Send to Discord --------
+def send_to_discord(title, link, company, ticker):
+    embed = {
+        "title": f"New AI-Related Filing — {title}",
+        "description": f"**{company}** ({ticker})\n\n{link}",
+        "color": 0x00FFB3
     }
+    try:
+        requests.post(WEBHOOK_URL, json={"embeds": [embed]})
+    except Exception as e:
+        print(f"Discord error: {e}")
 
-    requests.post(WEBHOOK_URL, json=message)
-
-def main():
-    """Fetch and filter SEC filings, then send matches to Discord."""
+# -------- Main Scanner --------
+def run():
     feed = feedparser.parse(FEED_URL)
+
     for entry in feed.entries:
-        text = f"{entry.title} {entry.summary}"
-        if matches_sector(text):
-            send_discord_message(entry)
+        title = entry.get("title", "")
+        link = entry.get("link", "")
+        summary = entry.get("summary", "")
+        company = entry.get("company", "Unknown Company")
+        ticker = entry.get("xbrl_ticker", "")
+
+        # --- RULE 1: ALWAYS allow known AI companies ---
+        if ticker_matches(ticker):
+            send_to_discord(title, link, company, ticker.upper())
+            continue
+
+        # --- RULE 2: If filing mentions AI keywords ---
+        if contains_ai_keywords(summary):
+            send_to_discord(title, link, company, ticker.upper())
+            continue
+
+    print("AI-filtered SEC scan complete.")
 
 if __name__ == "__main__":
-    main()
+    run()
