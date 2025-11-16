@@ -29,6 +29,5 @@ jobs:
       - name: Run SEC Filings Script
         env:
           DISCORD_WEBHOOK: ${{ secrets.EDGAR_THE_8 }}   # <-- YOUR REAL SECRET
-          FORCE_TEST: 1                                  # <-- ENABLE TEST MODE
         run: |
           python .github/scripts/edgar_to_discord.py
