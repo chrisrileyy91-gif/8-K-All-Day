@@ -5,6 +5,7 @@ import feedparser
 # === CONFIG ===
 
 WEBHOOK_URL = os.getenv("DISCORD_WEBHOOK")
+FORCE_TEST = os.getenv("FORCE_TEST", "0") == "1"  # <--- TEST MODE SWITCH
 
 AI_TICKERS = [
     "NVDA", "AMD", "AVGO", "SMCI", "TSLA", "GOOGL", "MSFT", "META",
@@ -21,10 +22,10 @@ RSS_URL = (
 )
 
 
-# === LOAD ALREADY POSTED FILINGS ===
+# === LOAD / SAVE ===
 def load_posted():
     if not os.path.exists(POSTED_LOG):
-        print("DEBUG: posted_filings.txt not found — creating a new one.")
+        print("DEBUG: posted_filings.txt not found — creating it.")
         os.makedirs(".github/data", exist_ok=True)
         open(POSTED_LOG, "w").close()
         return set()
@@ -39,20 +40,40 @@ def save_posted(posted_set):
             f.write(url + "\n")
 
 
-# === DISCORD POST ===
+# === DISCORD POSTER ===
 def send_discord_message(title, link, company):
-    data = {
+    msg = {
         "content": (
-            "📄 **New SEC Filing (AI Sector)**\n"
+            f"📄 **New SEC Filing (AI Sector)**\n"
             f"**{company}** — {title}\n{link}"
         )
     }
-    r = requests.post(WEBHOOK_URL, json=data)
-    print("DEBUG: Discord POST status:", r.status_code)
+    r = requests.post(WEBHOOK_URL, json=msg)
+    print("DEBUG: Discord POST status", r.status_code)
+    return r.status_code
+
+
+# === TEST MODE ===
+def run_test_post():
+    print("\n⚠️ TEST MODE ENABLED — Sending a fake AI SEC filing…")
+
+    fake_title = "8-K — NVIDIA Corporation (NVDA) — Test Filing"
+    fake_link = "https://www.sec.gov/fake_test_filing_nvda"
+    fake_company = "NVIDIA Corporation"
+
+    send_discord_message(fake_title, fake_link, fake_company)
+
+    print("⚠️ Test post sent successfully (not logged, no duplicates).")
+    print("⚠️ Exiting test mode.\n")
 
 
 # === MAIN ===
 def run():
+    # Test mode override
+    if FORCE_TEST:
+        run_test_post()
+        return
+
     print("Fetching SEC feed…")
     feed = feedparser.parse(RSS_URL)
 
@@ -68,52 +89,50 @@ def run():
         link = entry.link
 
         print("\n------------------------------")
-        print("DEBUG: Checking filing:", title)
+        print("DEBUG: Checking:", title)
         print("DEBUG: Link:", link)
 
-        # SKIP if already posted
+        # Skip duplicates
         if link in posted_before:
             print("DEBUG: Already posted — skipping")
             continue
 
-        # Extract ticker from title text
+        # Extract ticker
         ticker = None
-        words = title.replace(",", "").replace("(", "").replace(")", "").split()
-        upper_words = [w.upper() for w in words]
-
-        for w in upper_words:
-            if w in AI_TICKERS:
-                ticker = w
+        cleaned = (
+            title.replace(",", "")
+                 .replace("(", "")
+                 .replace(")", "")
+        )
+        for word in cleaned.split():
+            if word.upper() in AI_TICKERS:
+                ticker = word.upper()
                 break
 
-        print("DEBUG: Detected ticker:", ticker)
+        print("DEBUG: Extracted ticker:", ticker)
 
-        # Skip if not AI-related
         if ticker is None:
             print("DEBUG: Not AI — skipping")
             continue
 
         ai_hits += 1
 
-        # SEC Atom sometimes includes company name under entry.summary
+        # Extract company name
         company_name = entry.get("company", None)
         if not company_name:
-            # Try to extract from summary if formatted like "Company Name (CIK)"
             summary = entry.get("summary", "")
             if "(" in summary:
                 company_name = summary.split("(")[0].strip()
             else:
                 company_name = "Unknown Company"
 
-        print("DEBUG: Posting to Discord:", company_name)
+        print("DEBUG: Posting:", company_name)
 
-        # Send message
         send_discord_message(title, link, company_name)
 
-        # Store in posted log
+        # Log as posted
         posted_now.add(link)
 
-    # Save posted log
     save_posted(posted_now)
 
     print("\n==============================")
