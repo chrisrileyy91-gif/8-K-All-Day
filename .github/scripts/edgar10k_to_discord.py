@@ -1,46 +1,92 @@
-import feedparser, requests, os, re
+import os
+import re
+import requests
+import feedparser
 
-# RSS feed for recent SEC filings
-FEED_URL = "https://www.sec.gov/cgi-bin/browse-edgar?action=getcurrent&count=100&output=atom"
-
-# Keywords for filtering (Crypto / Blockchain / Ethereum)
-KEYWORDS = [
-    "Crypto", "Cryptocurrency", "Blockchain", "Bitcoin", "Ethereum",
-    "DeFi", "Mining", "Token", "Exchange", "Digital Asset",
-    "Stablecoin", "Web3", "Ledger", "Smart Contract"
-]
+# === CONFIG ===
 
 WEBHOOK_URL = os.getenv("DISCORD_WEBHOOK")
+POSTED_LOG = ".github/data/posted_crypto_filings.txt"
 
-def matches_sector(text):
-    """Check if filing text matches any of the crypto-related keywords."""
-    return any(re.search(rf"\b{kw}\b", text, re.IGNORECASE) for kw in KEYWORDS)
+CRYPTO_KEYWORDS = [
+    "crypto", "cryptocurrency", "digital asset", "bitcoin", "ethereum",
+    "blockchain", "token", "web3", "smart contract", "mining",
+    "stablecoin", "ledger", "exchange", "defi"
+]
 
-def send_discord_message(entry):
-    """Send a single SEC filing as a Discord embed."""
-    title = entry.get("title", "Untitled Filing")
-    link = entry.get("link", "")
-    company = entry.get("summary", "Unknown").split(" - ")[0]
-    filing_type = title.split(" - ")[-1] if " - " in title else title
+RSS_URL = (
+    "https://www.sec.gov/cgi-bin/browse-edgar"
+    "?action=getcurrent&CIK=&type=&owner=exclude&count=200&output=atom"
+)
 
-    message = {
+
+# === POSTED LOG HANDLING ===
+def load_posted():
+    if not os.path.exists(POSTED_LOG):
+        return set()
+    with open(POSTED_LOG, "r") as f:
+        return set(line.strip() for line in f.readlines())
+
+
+def save_posted(posted_set):
+    with open(POSTED_LOG, "w") as f:
+        for link in posted_set:
+            f.write(link + "\n")
+
+
+# === UTILS ===
+def matches_crypto(text: str) -> bool:
+    return any(re.search(rf"\b{kw}\b", text, re.IGNORECASE) for kw in CRYPTO_KEYWORDS)
+
+
+def send_discord_message(entry, match_keyword):
+    title = entry.title
+    link = entry.link
+    summary = entry.get("summary", "")
+    company = summary.split(" - ")[0] if " - " in summary else summary[:200]
+
+    embed = {
         "embeds": [{
-            "title": f"🚨 New SEC Filing: {filing_type}",
-            "description": f"**{company}** just filed a **{filing_type}** related to crypto or blockchain.\n\n[View Filing on SEC.gov]({link})",
-            "color": 16753920,
-            "footer": {"text": "Edgar’s Edge | Crypto • Blockchain • Ethereum"}
+            "title": f"🛰️ New SEC Filing (Crypto • {match_keyword})",
+            "description": f"**{company}**\n\n{title}\n\n[🔗 View Filing]({link})",
+            "color": 0x7289DA,
+            "footer": {"text": "Crypto + Ethereum Filings Feed • Powered by The Stack"}
         }]
     }
 
-    requests.post(WEBHOOK_URL, json=message)
+    requests.post(WEBHOOK_URL, json=embed)
 
-def main():
-    """Fetch and filter SEC filings, then send matches to Discord."""
-    feed = feedparser.parse(FEED_URL)
+
+# === MAIN ===
+def run():
+    feed = feedparser.parse(RSS_URL)
+    posted_before = load_posted()
+    posted_now = set(posted_before)
+
     for entry in feed.entries:
-        text = f"{entry.title} {entry.summary}"
-        if matches_sector(text):
-            send_discord_message(entry)
+        link = entry.link
+        text = f"{entry.title} {entry.get('summary', '')}"
+
+        # Skip duplicates
+        if link in posted_before:
+            continue
+
+        # Check for crypto signals
+        matched = None
+        for kw in CRYPTO_KEYWORDS:
+            if re.search(rf"\b{kw}\b", text, re.IGNORECASE):
+                matched = kw
+                break
+
+        if not matched:
+            continue
+
+        # Post to Discord
+        send_discord_message(entry, matched)
+        posted_now.add(link)
+
+    save_posted(posted_now)
+
 
 if __name__ == "__main__":
-    main()
+    run()
