@@ -2,7 +2,7 @@ name: SEC Filings Scanner
 
 on:
   schedule:
-    - cron: "*/15 * * * *"  # runs every 15 minutes
+    - cron: "*/15 * * * *"   # every 15 minutes
   workflow_dispatch:
 
 jobs:
@@ -28,7 +28,7 @@ jobs:
 
       - name: Run SEC Filings Script
         env:
-          DISCORD_WEBHOOK: ${{ secrets.DISCORD_WEBHOOK }}
-          FORCE_TEST: 1
+          DISCORD_WEBHOOK: ${{ secrets.EDGAR_THE_8 }}   # <-- YOUR REAL SECRET
+          FORCE_TEST: 1                                  # <-- ENABLE TEST MODE
         run: |
           python .github/scripts/edgar_to_discord.py
