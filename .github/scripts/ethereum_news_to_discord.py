@@ -10,15 +10,41 @@ WEBHOOK_URL = os.getenv("DISCORD_WEBHOOK_ETH")
 # File to track last posted Ethereum link
 LAST_POSTED_FILE = "last_eth_posted.txt"
 
-# Ethereum-only RSS feeds
+# 🚀 Fully Upgraded Ethereum Ecosystem RSS Sources
 FEEDS = [
+    # --- Core Ethereum Foundation & R&D ---
     "https://blog.ethereum.org/en/feed.xml",
+    "https://ethereum.org/en/atom.xml",
+    "https://ethereum-magicians.org/latest.rss",
+    "https://www.ethereumcatherders.com/blog-feed.xml",
+    "https://docs.ethhub.io/rss/",
+
+    # --- Layer-2 Networks (Rollups & Scaling) ---
+    "https://arbitrum.foundation/feed",
+    "https://optimism.mirror.xyz/feed",
+    "https://base.mirror.xyz/feed",
+    "https://blog.matter-labs.io/feed",       # zkSync
+    "https://community.starknet.io/latest.rss",
+    "https://scroll.mirror.xyz/feed",
+
+    # --- Staking / Validator Ecosystem ---
     "https://lido.fi/feed/",
+    "https://medium.com/feed/rocket-pool",
+    "https://blog.eigenlayer.xyz/feed",
+
+    # --- Smart Contract / Security / Dev Tools ---
+    "https://blog.chain.link/feed/",
+    "https://etherscan.io/feeds/blog",
+    "https://hardhat.org/feed.xml",
+    "https://blog.openzeppelin.com/feed",
+
+    # --- Ethereum News / High-Signal Feeds ---
+    "https://thedefiant.io/feed",
     "https://bankless.ghost.io/rss/",
-    "https://www.coinbureau.com/ethereum/feed/",
     "https://decrypt.co/feed/ethereum",
     "https://cointelegraph.com/tags/ethereum/feed",
-    "https://thedefiant.io/feed"
+    "https://www.coindesk.com/tag/ethereum/feed/",
+    "https://www.coinbureau.com/ethereum/feed/",
 ]
 
 # Allowed Ethereum keywords
