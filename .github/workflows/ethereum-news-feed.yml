@@ -27,3 +27,13 @@ jobs:
       - name: Run Ethereum ecosystem script
         run: |
           python .github/scripts/ethereum_news_to_discord.py
+
+      - name: Commit last posted ETH link
+        run: |
+          if [ -f .github/scripts/last_eth_posted.txt ]; then
+            git config --local user.name "github-actions"
+            git config --local user.email "github-actions@github.com"
+            git add .github/scripts/last_eth_posted.txt
+            git commit -m "Update last ETH posted link" || echo "No changes to commit"
+            git push
+          fi
