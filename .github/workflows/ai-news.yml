@@ -28,7 +28,7 @@ jobs:
 
       - name: Run AI news script
         run: |
-          python scripts/ai_infra_news_to_discord.py
+          python ./scripts/ai_infra_news_to_discord.py
 
       - name: Commit last posted AI link
         run: |
