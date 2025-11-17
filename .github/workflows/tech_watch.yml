@@ -3,8 +3,7 @@ name: Tech Watch → Discord
 on:
   workflow_dispatch: {}
   schedule:
-    # GitHub uses UTC. These run at 09:00, 13:00, 18:00 ET (approx),
-    # adjust as you like. During DST changes, consider nudging times.
+    # GitHub uses UTC. These run at 09:00, 13:00, 18:00 ET (approx).
     - cron: "0 13 * * *"   # 09:00 ET
     - cron: "0 17 * * *"   # 13:00 ET
     - cron: "0 22 * * *"   # 18:00 ET
@@ -16,6 +15,7 @@ concurrency:
 jobs:
   run-tech-watch:
     runs-on: ubuntu-latest
+
     steps:
       - name: Checkout repo
         uses: actions/checkout@v4
@@ -33,5 +33,5 @@ jobs:
       - name: Run Tech Watch
         env:
           TECH_WATCH_WEBHOOK: ${{ secrets.TECH_WATCH_WEBHOOK }}
-          MAX_POSTS_PER_RUN: "3"   # tweak to 2 or 3 as you prefer
-        run: node ./.github/scripts/tech_watch_to_discord.mjs
+          MAX_POSTS_PER_RUN: "3"
+        run: node ./scripts/tech_watch_to_discord.mjs
