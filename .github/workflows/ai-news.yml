@@ -28,14 +28,14 @@ jobs:
 
       - name: Run AI news script
         run: |
-          python .github/scripts/ai_infra_news_to_discord.py
+          python scripts/ai_infra_news_to_discord.py
 
       - name: Commit last posted AI link
         run: |
-          if [ -f .github/scripts/last_ai_posted.txt ]; then
+          if [ -f scripts/last_ai_posted.txt ]; then
             git config --local user.name "github-actions"
             git config --local user.email "github-actions@github.com"
-            git add .github/scripts/last_ai_posted.txt
+            git add scripts/last_ai_posted.txt
             git commit -m "Update last AI posted link" || echo "No changes to commit"
             git push
           fi
