@@ -8,37 +8,57 @@ const WEBHOOK_URL = process.env.CRYPTO_NEWS_WEBHOOK;
 const FEED_URL = "https://www.coindesk.com/arc/outboundfeeds/rss/?outputType=xml";
 const KEYWORDS = ["ethereum", "defi", "layer 2", "bitcoin", "web3", "crypto regulation"];
 
-async function run() {
-  try {
-    console.log("🔍 Fetching latest crypto news...");
+// Hard cutoff: do not post after 7:00 PM Eastern
+const TZ = "America/New_York";
+const CUTOFF_HOUR = 19; // 7 PM
 
-    const feed = await parser.parseURL(FEED_URL);
-    const articles = feed.items.slice(0, 5); // limit to 5 posts max
+function isAfterCutoffET(date = new Date()) {
+  const parts = new Intl.DateTimeFormat("en-US", {
+    timeZone: TZ,
+    hour: "2-digit",
+    minute: "2-digit",
+    hour12: false,
+  }).formatToParts(date);
 
-    for (const item of articles) {
-      const title = item.title || "";
-      const link = item.link || "";
+  const hour = Number(parts.find(p => p.type === "hour")?.value ?? "0");
+  return hour >= CUTOFF_HOUR;
+}
 
-      const match = KEYWORDS.some(k => title.toLowerCase().includes(k));
-      if (!match) continue;
+async function postToDiscord(content) {
+  if (!WEBHOOK_URL) {
+    console.error("❌ Missing CRYPTO_NEWS_WEBHOOK environment variable.");
+    return;
+  }
 
-      const message = {
-        content: `💠 **The Stack caught something moving!**\n📰 **${title}**\n${link}`
-      };
+  const resp = await fetch(WEBHOOK_URL, {
+    method: "POST",
+    headers: { "Content-Type": "application/json" },
+    body: JSON.stringify({ content }),
+  });
 
-      await fetch(WEBHOOK_URL, {
-        method: "POST",
-        headers: { "Content-Type": "application/json" },
-        body: JSON.stringify(message)
-      });
-
-      console.log(`✅ Sent: ${title}`);
-    }
-
-    console.log("🎯 Crypto Digest successfully sent to Discord.");
-  } catch (error) {
-    console.error("❌ Error fetching or sending crypto news:", error);
+  if (resp.status >= 300) {
+    const text = await resp.text().catch(() => "");
+    throw new Error(`Discord webhook failed: ${resp.status} ${text}`);
   }
 }
 
-run();
+async function run() {
+  try {
+    // Quiet hours guardrail (covers workflow mistakes + manual dispatch)
+    if (isAfterCutoffET()) {
+      console.log("ℹ️ Quiet hours: skipping crypto post (after 7:00 PM ET).");
+      return;
+    }
+
+    console.log("🔍 Fetching latest crypto news...");
+
+    const feed = await parser.parseURL(FEED_URL);
+    const articles = (feed.items || []).slice(0, 5); // keep your 5-item cap
+
+    const matched = [];
+    for (const item of articles) {
+      const title = item.title || "";
+      const link = item.link || "";
+      const lower = title.toLowerCase();
+
+      const match = KE
