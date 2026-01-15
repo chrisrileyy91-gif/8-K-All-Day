@@ -2,7 +2,10 @@ name: Crypto News → Discord
 
 on:
   schedule:
-    - cron: "0 */6 * * *"  # every 6 hours
+    # These UTC times stay BEFORE 7:00 PM Eastern year-round (DST-safe).
+    - cron: "0 13 * * *"  # ~8am ET (winter) / ~9am ET (summer)
+    - cron: "0 17 * * *"  # ~12pm ET (winter) / ~1pm ET (summer)
+    - cron: "0 21 * * *"  # ~4pm ET (winter) / ~5pm ET (summer)
   workflow_dispatch:
 
 jobs:
