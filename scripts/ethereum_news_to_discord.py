@@ -1,159 +1,228 @@
 import os
-import random
+import time
 import feedparser
 import requests
 from datetime import datetime, timedelta
+from typing import List, Optional, Set, Tuple
 
-# Discord webhook
+# Reuse existing webhook env var (you chose to keep DISCORD_WEBHOOK_ETH)
 WEBHOOK_URL = os.getenv("DISCORD_WEBHOOK_ETH")
 
-# File to track last posted Ethereum link
-LAST_POSTED_FILE = "last_eth_posted.txt"
+# Rolling cache (tracked + committed by workflow)
+CACHE_FILE = os.path.join("scripts", "last_quantum_posted.txt")
 
-# 🚀 Fully Upgraded Ethereum Ecosystem RSS Sources
-FEEDS = [
-    # --- Core Ethereum Foundation & R&D ---
-    "https://blog.ethereum.org/en/feed.xml",
-    "https://ethereum.org/en/atom.xml",
-    "https://ethereum-magicians.org/latest.rss",
-    "https://www.ethereumcatherders.com/blog-feed.xml",
-    "https://docs.ethhub.io/rss/",
-
-    # --- Layer-2 Networks (Rollups & Scaling) ---
-    "https://arbitrum.foundation/feed",
-    "https://optimism.mirror.xyz/feed",
-    "https://base.mirror.xyz/feed",
-    "https://blog.matter-labs.io/feed",       # zkSync
-    "https://community.starknet.io/latest.rss",
-    "https://scroll.mirror.xyz/feed",
-
-    # --- Staking / Validator Ecosystem ---
-    "https://lido.fi/feed/",
-    "https://medium.com/feed/rocket-pool",
-    "https://blog.eigenlayer.xyz/feed",
-
-    # --- Smart Contract / Security / Dev Tools ---
-    "https://blog.chain.link/feed/",
-    "https://etherscan.io/feeds/blog",
-    "https://hardhat.org/feed.xml",
-    "https://blog.openzeppelin.com/feed",
-
-    # --- Ethereum News / High-Signal Feeds ---
-    "https://thedefiant.io/feed",
-    "https://bankless.ghost.io/rss/",
-    "https://decrypt.co/feed/ethereum",
-    "https://cointelegraph.com/tags/ethereum/feed",
-    "https://www.coindesk.com/tag/ethereum/feed/",
-    "https://www.coinbureau.com/ethereum/feed/",
-]
-
-# Allowed Ethereum keywords
-ETH_KEYWORDS = [
-    "ethereum", "eth", "layer-2", "l2",
-    "arbitrum", "optimism", "base", "scroll",
-    "zksync", "starknet", "eip", "staking",
-]
-
-# Blocked words (hard filter)
-BLOCKED = [
-    "bitcoin", "btc", "solana", "xrp", "cardano",
-    "binance", "tether", "crime", "scandal", "controversy"
-]
-
-# Opening lines
-OPENERS = [
-    "🛰️ Layer-2 networks just pinged us —",
-    "⚡ Ethereum nodes relayed a fresh update —",
-    "🔗 The chain just finalized a new transmission —",
-    "🧠 ETH validators surfaced new activity —",
-    "🚀 Rollup ecosystems just delivered intel —",
-]
+# Post cap (parity with Tech-Watch / AI-Daily)
+MAX_POSTS_PER_RUN = int(os.getenv("MAX_POSTS_PER_RUN", "3"))
 
 # Prevent posting old news (>7 days)
 DAYS_LIMIT = 7
 
+# Operational knobs
+PER_FEED_ENTRY_LIMIT = 8
+DISCORD_TIMEOUT_SECS = 12
+CACHE_MAX_LINES = 400
+SLEEP_BETWEEN_POSTS_SECS = 1
 
-def read_last_posted():
-    """Reads the last posted Ethereum article link."""
-    if not os.path.exists(LAST_POSTED_FILE):
+# Quantum Computing RSS sources (mix of direct + keyword-filtered)
+FEEDS = [
+    # Research (quantum physics category)
+    "http://export.arxiv.org/rss/quant-ph",
+
+    # High-quality journals / publishers (subject feeds)
+    "https://www.nature.com/subjects/quantum-information.rss",
+    "https://www.nature.com/subjects/quantum-physics.rss",
+
+    # Lab / org blogs (often broader—filtered by keywords below)
+    "https://research.ibm.com/blog/rss.xml",
+    "https://www.microsoft.com/en-us/research/feed/",
+
+    # General tech outlets (filtered)
+    "https://feeds.arstechnica.com/arstechnica/index",
+    "https://www.wired.com/feed/rss",
+    "https://www.theverge.com/rss/index.xml",
+]
+
+# Allowed quantum keywords (must match at least one in title/summary)
+QC_KEYWORDS = [
+    "quantum computing",
+    "quantum computer",
+    "quantum processor",
+    "quantum chip",
+    "qpu",
+    "qubit",
+    "logical qubit",
+    "error correction",
+    "quantum error correction",
+    "surface code",
+    "fault-tolerant",
+    "fault tolerant",
+    "ion trap",
+    "trapped ion",
+    "neutral atom",
+    "superconducting qubit",
+    "photonic",
+    "quantum annealing",
+    "quantum networking",
+    "quantum network",
+    "quantum communication",
+    "quantum cryptography",
+    "post-quantum",
+    "post quantum",
+    "quantum advantage",
+    "quantum supremacy",
+]
+
+# Hard blocked words (exclude obvious off-topic or noisy themes)
+BLOCKED = [
+    "ethereum", "eth", "bitcoin", "btc", "solana", "xrp", "cardano",
+    "binance", "tether",
+    "scandal", "controversy", "crime",
+]
+
+
+def _utcnow() -> datetime:
+    return datetime.utcnow()
+
+
+def read_cache() -> Set[str]:
+    if not os.path.exists(CACHE_FILE):
+        return set()
+    seen: Set[str] = set()
+    with open(CACHE_FILE, "r", encoding="utf-8") as f:
+        for line in f:
+            url = line.strip()
+            if url:
+                seen.add(url)
+    return seen
+
+
+def write_cache_append(urls: List[str]) -> None:
+    """Append newly posted URLs and truncate cache to last CACHE_MAX_LINES."""
+    if not urls:
+        return
+
+    os.makedirs(os.path.dirname(CACHE_FILE), exist_ok=True)
+
+    with open(CACHE_FILE, "a", encoding="utf-8") as f:
+        for u in urls:
+            f.write(u.strip() + "\n")
+
+    try:
+        with open(CACHE_FILE, "r", encoding="utf-8") as f:
+            lines = [ln.strip() for ln in f if ln.strip()]
+        if len(lines) > CACHE_MAX_LINES:
+            lines = lines[-CACHE_MAX_LINES:]
+        with open(CACHE_FILE, "w", encoding="utf-8") as f:
+            f.write("\n".join(lines) + "\n")
+    except Exception:
+        # Do not break the run if truncation fails
+        pass
+
+
+def parse_entry_datetime(entry) -> Optional[datetime]:
+    dt_struct = getattr(entry, "published_parsed", None) or getattr(entry, "updated_parsed", None)
+    if not dt_struct:
         return None
-    with open(LAST_POSTED_FILE, "r") as f:
-        return f.read().strip()
+    try:
+        return datetime(*dt_struct[:6])
+    except Exception:
+        return None
 
 
-def write_last_posted(link):
-    """Saves the last posted Ethereum article link."""
-    with open(LAST_POSTED_FILE, "w") as f:
-        f.write(link)
-
-
-def is_ethereum_article(entry):
-    """Return True if article is Ethereum-related and not junk."""
-    title = entry.title.lower()
+def is_quantum_article(title: str, summary: str, feed_url: str) -> bool:
+    """Return True if article is quantum-computing-related and not junk."""
+    blob = f"{title}\n{summary}".lower().strip()
 
     # Hard block first
     for bad in BLOCKED:
-        if bad in title:
+        if bad in blob:
             return False
 
-    # Require at least one ETH keyword
-    for good in ETH_KEYWORDS:
-        if good in title:
-            return True
+    # arXiv quant-ph is inherently quantum, but can be broad.
+    # We still allow it without keyword gating to keep research flowing.
+    if "export.arxiv.org/rss/quant-ph" in feed_url:
+        return True
 
-    return False
+    # Require at least one quantum keyword for general feeds
+    return any(k in blob for k in QC_KEYWORDS)
 
 
-def get_latest_entries():
-    """Fetch Ethereum-focused articles."""
-    entries = []
-    cutoff = datetime.utcnow() - timedelta(days=DAYS_LIMIT)
+def get_candidates() -> List[Tuple[datetime, str, str]]:
+    """Fetch quantum-focused articles across feeds; return newest-first candidates."""
+    cutoff = _utcnow() - timedelta(days=DAYS_LIMIT)
+    candidates: List[Tuple[datetime, str, str]] = []
 
-    for url in FEEDS:
-        feed = feedparser.parse(url)
-        for entry in feed.entries[:5]:
-            if not hasattr(entry, "published_parsed"):
+    for feed_url in FEEDS:
+        feed = feedparser.parse(feed_url)
+
+        # Skip broken feeds quietly
+        if getattr(feed, "bozo", False):
+            continue
+
+        for entry in feed.entries[:PER_FEED_ENTRY_LIMIT]:
+            published = parse_entry_datetime(entry)
+            if not published or published < cutoff:
                 continue
 
-            published = datetime(*entry.published_parsed[:6])
-            if published < cutoff:
+            title = getattr(entry, "title", "").strip()
+            link = getattr(entry, "link", "").strip()
+            summary = (getattr(entry, "summary", "") or getattr(entry, "description", "") or "").strip()
+
+            if not title or not link:
                 continue
 
-            # Filter Ethereum content
-            if is_ethereum_article(entry):
-                entries.append(entry)
+            if not is_quantum_article(title, summary, feed_url):
+                continue
 
-    # Sort by newest first
-    entries.sort(key=lambda e: datetime(*e.published_parsed[:6]), reverse=True)
-    return entries
+            candidates.append((published, title, link))
 
-
-def send_to_discord(entry):
-    opener = random.choice(OPENERS)
-    title = entry.title
-    link = entry.link
-
-    content = f"{opener}\n📄 **{title}**\n🔗 {link}"
-    requests.post(WEBHOOK_URL, json={"content": content})
+    candidates.sort(key=lambda x: x[0], reverse=True)
+    return candidates
 
 
-def main():
-    last_posted = read_last_posted()
-    articles = get_latest_entries()
+def post_to_discord(title: str, link: str) -> bool:
+    """Neutral, non-branded post format."""
+    if not WEBHOOK_URL:
+        return False
 
-    if not articles:
+    content = f"**Quantum-Daily:** {title}\n{link}"
+    try:
+        resp = requests.post(
+            WEBHOOK_URL,
+            json={"content": content},
+            timeout=DISCORD_TIMEOUT_SECS,
+        )
+        return 200 <= resp.status_code < 300
+    except requests.RequestException:
+        return False
+
+
+def main() -> None:
+    if not WEBHOOK_URL:
         return
 
-    newest = articles[0]
-    newest_link = newest.link.strip()
+    seen = read_cache()
+    candidates = get_candidates()
+    if not candidates:
+        return
 
-    # 🚫 Prevent duplicate posting
-    if newest_link == last_posted:
-        return  # Skip this cycle — no new article
+    posted_urls: List[str] = []
+    posted_count = 0
 
-    # ✅ New article → post it
-    send_to_discord(newest)
-    write_last_posted(newest_link)
+    for _, title, link in candidates:
+        if posted_count >= MAX_POSTS_PER_RUN:
+            break
+        if link in seen:
+            continue
+
+        if post_to_discord(title, link):
+            posted_urls.append(link)
+            seen.add(link)
+            posted_count += 1
+            time.sleep(SLEEP_BETWEEN_POSTS_SECS)
+
+    if posted_urls:
+        write_cache_append(posted_urls)
 
 
 if __name__ == "__main__":
