@@ -2,14 +2,19 @@ name: AI Infrastructure News → Discord
 
 on:
   schedule:
-    - cron: "0 */3 * * *"  # Every 3 hours
+    - cron: "0 */3 * * *"  # Every 3 hours (UTC)
   workflow_dispatch:
+
+concurrency:
+  group: ai-infra-news
+  cancel-in-progress: true
 
 jobs:
   fetch-and-post:
     runs-on: ubuntu-latest
     env:
       DISCORD_WEBHOOK_AI: ${{ secrets.DISCORD_WEBHOOK_AI }}
+      MAX_POSTS_PER_RUN: "3"
 
     steps:
       - name: Checkout repo
@@ -17,13 +22,25 @@ jobs:
         with:
           token: ${{ secrets.GITHUB_TOKEN }}
 
+      - name: Time gate (skip at/after 7 PM ET)
+        shell: bash
+        run: |
+          export TZ="America/Detroit"
+          HOUR=$(date +%H)
+          echo "Local (ET) hour is: $HOUR"
+          if [ "$HOUR" -ge 19 ]; then
+            echo "After 7 PM ET. Skipping AI-Daily run."
+            exit 0
+          fi
+
       - name: Set up Python
         uses: actions/setup-python@v4
         with:
-          python-version: '3.11'
+          python-version: "3.11"
 
       - name: Install dependencies
         run: |
+          python -m pip install --upgrade pip
           pip install feedparser requests
 
       - name: Run AI news script
@@ -36,6 +53,4 @@ jobs:
             git config --local user.name "github-actions"
             git config --local user.email "github-actions@github.com"
             git add scripts/last_ai_posted.txt
-            git commit -m "Update last AI posted link" || echo "No changes to commit"
-            git push
-          fi
+            git commit -m "Update last AI posted link"
