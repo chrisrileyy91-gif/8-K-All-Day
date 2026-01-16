@@ -20,45 +20,5 @@ function isAfterCutoffET(date = new Date()) {
     hour12: false,
   }).formatToParts(date);
 
-  const hour = Number(parts.find(p => p.type === "hour")?.value ?? "0");
-  return hour >= CUTOFF_HOUR;
-}
-
-async function postToDiscord(content) {
-  if (!WEBHOOK_URL) {
-    console.error("❌ Missing CRYPTO_NEWS_WEBHOOK environment variable.");
-    return;
-  }
-
-  const resp = await fetch(WEBHOOK_URL, {
-    method: "POST",
-    headers: { "Content-Type": "application/json" },
-    body: JSON.stringify({ content }),
-  });
-
-  if (resp.status >= 300) {
-    const text = await resp.text().catch(() => "");
-    throw new Error(`Discord webhook failed: ${resp.status} ${text}`);
-  }
-}
-
-async function run() {
-  try {
-    // Quiet hours guardrail (covers workflow mistakes + manual dispatch)
-    if (isAfterCutoffET()) {
-      console.log("ℹ️ Quiet hours: skipping crypto post (after 7:00 PM ET).");
-      return;
-    }
-
-    console.log("🔍 Fetching latest crypto news...");
-
-    const feed = await parser.parseURL(FEED_URL);
-    const articles = (feed.items || []).slice(0, 5); // keep your 5-item cap
-
-    const matched = [];
-    for (const item of articles) {
-      const title = item.title || "";
-      const link = item.link || "";
-      const lower = title.toLowerCase();
-
-      const match = KE
+  const hourPart = parts.find((p) => p.type === "hour");
+  const hour = Numbe
