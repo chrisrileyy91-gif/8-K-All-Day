@@ -1,15 +1,20 @@
-name: Ethereum News → Discord
+name: Quantum Computing News → Discord
 
 on:
   schedule:
-    - cron: "0 */3 * * *"   # Every 3 hours
+    - cron: "0 */3 * * *"  # Every 3 hours (UTC)
   workflow_dispatch:
+
+concurrency:
+  group: quantum-news
+  cancel-in-progress: true
 
 jobs:
   fetch-and-post:
     runs-on: ubuntu-latest
     env:
-      DISCORD_WEBHOOK_ETH: ${{ secrets.DISCORD_WEBHOOK_ETH }}
+      DISCORD_WEBHOOK_QUANTUM: ${{ secrets.DISCORD_WEBHOOK_QUANTUM }}
+      MAX_POSTS_PER_RUN: "3"
 
     steps:
       - name: Checkout repo
@@ -17,25 +22,46 @@ jobs:
         with:
           token: ${{ secrets.GITHUB_TOKEN }}
 
+      - name: Time gate (skip at/after 7 PM ET)
+        shell: bash
+        run: |
+          export TZ="America/Detroit"
+          HOUR="$(date +%H)"
+          echo "Local (ET) hour is: ${HOUR}"
+          if [ "${HOUR}" -ge 19 ]; then
+            echo "After 7 PM ET. Skipping Quantum run."
+            exit 0
+          fi
+
       - name: Set up Python
         uses: actions/setup-python@v4
         with:
           python-version: "3.11"
 
       - name: Install dependencies
+        shell: bash
         run: |
+          set -e
+          python -m pip install --upgrade pip
           pip install feedparser requests
 
-      - name: Run Ethereum ecosystem script
+      - name: Run Quantum news script
+        shell: bash
         run: |
-          python ./scripts/ethereum_news_to_discord.py
+          set -e
+          python ./scripts/quantum_news_to_discord.py
 
-      - name: Commit last posted ETH link
+      - name: Commit last posted Quantum links
+        shell: bash
         run: |
-          if [ -f scripts/last_eth_posted.txt ]; then
+          set -e
+
+          if [ -f scripts/last_quantum_posted.txt ]; then
             git config --local user.name "github-actions"
             git config --local user.email "github-actions@github.com"
-            git add scripts/last_eth_posted.txt
-            git commit -m "Update last ETH posted link" || echo "No changes to commit"
+            git add scripts/last_quantum_posted.txt
+            git commit -m "Update last Quantum posted links" || echo "No changes to commit"
             git push
+          else
+            echo "No cache file to commit."
           fi
