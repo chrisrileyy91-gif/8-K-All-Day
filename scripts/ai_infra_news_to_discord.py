@@ -1,16 +1,23 @@
 import os
-import random
+import time
 import feedparser
 import requests
 from datetime import datetime, timedelta
+from typing import List, Optional, Set, Tuple
 
 # Discord webhook
 WEBHOOK_URL = os.getenv("DISCORD_WEBHOOK_AI")
 
-# File to track last posted AI link
-LAST_POSTED_FILE = "last_ai_posted.txt"
+# Rolling cache of posted URLs (tracked + committed by workflow)
+CACHE_FILE = os.path.join("scripts", "last_ai_posted.txt")
 
-# 🚀 MASSIVE AI NEWS RSS SUPERSET
+# Max posts per run (parity with Tech-Watch/Crypto News)
+MAX_POSTS_PER_RUN = int(os.getenv("MAX_POSTS_PER_RUN", "3"))
+
+# Prevent posting ancient articles (>7 days)
+DAYS_LIMIT = 7
+
+# RSS feeds
 FEEDS = [
     # Mainstream AI News
     "https://venturebeat.com/category/ai/feed/",
@@ -46,81 +53,154 @@ FEEDS = [
     "https://www.nature.com/subjects/artificial-intelligence.rss",
 ]
 
-# Stack-style openers (unchanged)
-OPENERS = [
-    "🛰️ Stack satellites just intercepted an AI broadcast —",
-    "🤖 The Stack’s sensors picked up new activity in AI systems —",
-    "📡 Transmission received from the neural frontier —",
-    "🧠 Stack AI just decoded a new artificial intelligence signal —",
-    "🚀 Stack satellites relayed this fresh AI intelligence —",
-]
-
-# Prevent posting ancient articles (>7 days)
-DAYS_LIMIT = 7
+# Operational knobs
+PER_FEED_ENTRY_LIMIT = 6          # how many entries to consider per feed
+CACHE_MAX_LINES = 300             # retain last N posted URLs
+REQUEST_TIMEOUT_SECS = 12         # Discord post timeout
 
 
-def read_last_posted():
-    """Reads last posted AI article URL."""
-    if not os.path.exists(LAST_POSTED_FILE):
+def _utcnow() -> datetime:
+    return datetime.utcnow()
+
+
+def read_cache() -> Set[str]:
+    """Read rolling cache of posted URLs (one per line)."""
+    if not os.path.exists(CACHE_FILE):
+        return set()
+
+    seen: Set[str] = set()
+    with open(CACHE_FILE, "r", encoding="utf-8") as f:
+        for line in f:
+            url = line.strip()
+            if url:
+                seen.add(url)
+    return seen
+
+
+def write_cache_append(posted_urls: List[str]) -> None:
+    """
+    Append newly posted URLs to cache file and truncate to last CACHE_MAX_LINES lines.
+    """
+    if not posted_urls:
+        return
+
+    os.makedirs(os.path.dirname(CACHE_FILE), exist_ok=True)
+
+    # Append
+    with open(CACHE_FILE, "a", encoding="utf-8") as f:
+        for url in posted_urls:
+            f.write(url.strip() + "\n")
+
+    # Truncate
+    try:
+        with open(CACHE_FILE, "r", encoding="utf-8") as f:
+            lines = [ln.strip() for ln in f if ln.strip()]
+        if len(lines) > CACHE_MAX_LINES:
+            lines = lines[-CACHE_MAX_LINES:]
+        with open(CACHE_FILE, "w", encoding="utf-8") as f:
+            f.write("\n".join(lines) + "\n")
+    except Exception:
+        # If truncation fails, do not break the run; worst case cache grows until next success.
+        pass
+
+
+def parse_entry_datetime(entry) -> Optional[datetime]:
+    """
+    Best-effort publish time extraction (UTC-naive).
+    feedparser usually provides published_parsed or updated_parsed.
+    """
+    dt_struct = getattr(entry, "published_parsed", None) or getattr(entry, "updated_parsed", None)
+    if not dt_struct:
         return None
-    with open(LAST_POSTED_FILE, "r") as f:
-        return f.read().strip()
+    try:
+        return datetime(*dt_struct[:6])
+    except Exception:
+        return None
 
 
-def write_last_posted(link):
-    """Saves last posted AI article URL."""
-    with open(LAST_POSTED_FILE, "w") as f:
-        f.write(link)
+def get_candidate_entries() -> List[Tuple[datetime, str, str]]:
+    """
+    Fetch recent entries across feeds, returning sorted candidates:
+    (published_datetime, title, link)
+    """
+    cutoff = _utcnow() - timedelta(days=DAYS_LIMIT)
+    candidates: List[Tuple[datetime, str, str]] = []
 
+    for feed_url in FEEDS:
+        feed = feedparser.parse(feed_url)
 
-def get_latest_entries():
-    """Fetch AI-focused articles."""
-    entries = []
-    cutoff = datetime.utcnow() - timedelta(days=DAYS_LIMIT)
+        # Skip completely broken feeds quietly
+        if getattr(feed, "bozo", False):
+            # bozo_exception exists but we keep runs quiet by design
+            continue
 
-    for url in FEEDS:
-        feed = feedparser.parse(url)
-        for entry in feed.entries[:5]:
-            if not hasattr(entry, "published_parsed"):
+        for entry in feed.entries[:PER_FEED_ENTRY_LIMIT]:
+            published = parse_entry_datetime(entry)
+            if not published or published < cutoff:
                 continue
 
-            published = datetime(*entry.published_parsed[:6])
-            if published < cutoff:
+            title = getattr(entry, "title", "").strip()
+            link = getattr(entry, "link", "").strip()
+
+            if not title or not link:
                 continue
 
-            entries.append((published, entry))
+            candidates.append((published, title, link))
 
-    entries.sort(key=lambda x: x[0], reverse=True)
-    return [e[1] for e in entries]
+    # newest first
+    candidates.sort(key=lambda x: x[0], reverse=True)
+    return candidates
 
 
-def send_to_discord(title, link):
-    """Send formatted AI news to Discord."""
-    opener = random.choice(OPENERS)
-    message = f"{opener}\n\n**{title}**\n{link}"
+def post_to_discord(title: str, link: str) -> bool:
+    """
+    Post a neutral, information-first message. Returns True on success.
+    """
+    if not WEBHOOK_URL:
+        return False
 
+    message = f"**AI-Daily:** {title}\n{link}"
     payload = {"content": message}
-    requests.post(WEBHOOK_URL, json=payload)
+
+    try:
+        resp = requests.post(WEBHOOK_URL, json=payload, timeout=REQUEST_TIMEOUT_SECS)
+        # Discord webhooks typically return 204 No Content on success
+        return 200 <= resp.status_code < 300
+    except requests.RequestException:
+        return False
 
 
-def main():
-    last_posted = read_last_posted()
-    entries = get_latest_entries()
-
-    if not entries:
+def main() -> None:
+    if not WEBHOOK_URL:
+        # Misconfigured environment; fail silently to avoid noisy posts/commits
         return
 
-    entry = entries[0]
-    title = entry.title
-    link = entry.link.strip()
-
-    # 🚫 Prevent duplicate posting
-    if last_posted == link:
+    seen = read_cache()
+    candidates = get_candidate_entries()
+    if not candidates:
         return
 
-    # ✅ Post new AI intelligence
-    send_to_discord(title, link)
-    write_last_posted(link)
+    posted: List[str] = []
+    posted_count = 0
+
+    for _, title, link in candidates:
+        if posted_count >= MAX_POSTS_PER_RUN:
+            break
+
+        if link in seen:
+            continue
+
+        ok = post_to_discord(title, link)
+        if ok:
+            posted.append(link)
+            seen.add(link)
+            posted_count += 1
+            # small spacing to reduce webhook burst risk
+            time.sleep(1)
+
+    # Update rolling cache only if we actually posted something
+    if posted:
+        write_cache_append(posted)
 
 
 if __name__ == "__main__":
