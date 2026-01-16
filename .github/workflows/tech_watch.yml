@@ -3,10 +3,10 @@ name: Tech Watch → Discord
 on:
   workflow_dispatch: {}
   schedule:
-    # GitHub uses UTC. These run at 09:00, 13:00, 18:00 ET (approx).
-    - cron: "0 13 * * *"   # 09:00 ET
-    - cron: "0 17 * * *"   # 13:00 ET
-    - cron: "0 22 * * *"   # 18:00 ET
+    # GitHub uses UTC. Keep daytime runs; script will enforce hard cutoff after 7PM ET.
+    - cron: "0 13 * * *"   # ~09:00 ET
+    - cron: "0 17 * * *"   # ~13:00 ET
+    - cron: "0 22 * * *"   # ~18:00 ET (can be ~19:00 ET during DST; script must block after 7PM)
 
 concurrency:
   group: tech-watch
@@ -29,6 +29,9 @@ jobs:
         run: |
           npm init -y >/dev/null 2>&1 || true
           npm i rss-parser node-fetch@3
+
+      - name: Syntax check Tech Watch script
+        run: node --check ./scripts/tech_watch_to_discord.mjs
 
       - name: Run Tech Watch
         env:
