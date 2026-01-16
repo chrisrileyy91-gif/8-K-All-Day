@@ -10,6 +10,22 @@ const WEBHOOK_URL = process.env.TECH_WATCH_WEBHOOK;
 const CACHE_FILE = "./.tech_watch_cache.json";
 const MAX_POSTS_PER_RUN = parseInt(process.env.MAX_POSTS_PER_RUN || "3", 10);
 
+// Hard cutoff: do not post after 7:00 PM Eastern
+const TZ = "America/New_York";
+const CUTOFF_HOUR_ET = 19; // 7 PM
+
+function isAfterCutoffET(date = new Date()) {
+  const parts = new Intl.DateTimeFormat("en-US", {
+    timeZone: TZ,
+    hour: "2-digit",
+    minute: "2-digit",
+    hour12: false
+  }).formatToParts(date);
+
+  const hour = Number(parts.find(p => p.type === "hour")?.value ?? "0");
+  return hour >= CUTOFF_HOUR_ET;
+}
+
 // --- Feeds ---
 const FEEDS = [
   "https://www.reutersagency.com/feed/?best-topics=technology",
@@ -37,19 +53,13 @@ const KEYWORDS = [
   "quantum"
 ];
 
-// --- Rotating captions ---
-const CAPTIONS = [
-  "⚙️ **New signal from The Stack's Tech Watch.**",
-  "🚀 **Emerging tech momentum detected.**",
-  "📡 **Future systems pinged on the radar.**",
-  "🧠 **The Stack picked up fresh innovation flow.**",
-  "🔍 **The next wave of tech just surfaced.**",
-  "💡 **Innovation alert—The Stack caught this first.**",
-  "🔥 **Tech pulse rising—keep your eyes on this.**",
-  "🧩 **Movement spotted across next-gen platforms.**"
-];
-
 async function run() {
+  // Quiet hours guardrail (covers workflow mistakes + manual dispatch)
+  if (isAfterCutoffET()) {
+    console.log("ℹ️ Quiet hours: skipping Tech Watch post (after 7:00 PM ET).");
+    return;
+  }
+
   console.log("🧩 Fetching latest Tech & NASDAQ innovation news...");
 
   if (!WEBHOOK_URL) {
@@ -104,9 +114,9 @@ async function run() {
       );
       if (!match) continue;
 
-      const caption = CAPTIONS[Math.floor(Math.random() * CAPTIONS.length)];
+      // Headline-only output: no caption, no preamble
       const payload = {
-        content: `${caption}\n📰 **${title}**\n${link}`
+        content: `**${title}**\n${link}`
       };
 
       const res = await fetch(WEBHOOK_URL, {
@@ -121,7 +131,7 @@ async function run() {
         console.log(`✅ Sent: ${title}`);
         if (newPosts >= MAX_POSTS_PER_RUN) break;
       } else {
-        console.error(`⚠️ Failed to post ${title}: ${res.statusText}`);
+        console.error(`⚠️ Failed to post ${title}: ${res.status} ${res.statusText}`);
       }
     }
 
