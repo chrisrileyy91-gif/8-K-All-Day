@@ -26,9 +26,9 @@ jobs:
         shell: bash
         run: |
           export TZ="America/Detroit"
-          HOUR=$(date +%H)
-          echo "Local (ET) hour is: $HOUR"
-          if [ "$HOUR" -ge 19 ]; then
+          HOUR="$(date +%H)"
+          echo "Local (ET) hour is: ${HOUR}"
+          if [ "${HOUR}" -ge 19 ]; then
             echo "After 7 PM ET. Skipping AI-Daily run."
             exit 0
           fi
@@ -39,18 +39,29 @@ jobs:
           python-version: "3.11"
 
       - name: Install dependencies
+        shell: bash
         run: |
+          set -e
           python -m pip install --upgrade pip
           pip install feedparser requests
 
       - name: Run AI news script
+        shell: bash
         run: |
+          set -e
           python ./scripts/ai_infra_news_to_discord.py
 
       - name: Commit last posted AI link
+        shell: bash
         run: |
+          set -e
+
           if [ -f scripts/last_ai_posted.txt ]; then
             git config --local user.name "github-actions"
             git config --local user.email "github-actions@github.com"
             git add scripts/last_ai_posted.txt
-            git commit -m "Update last AI posted link"
+            git commit -m "Update last AI posted link" || echo "No changes to commit"
+            git push
+          else
+            echo "No cache file to commit."
+          fi
