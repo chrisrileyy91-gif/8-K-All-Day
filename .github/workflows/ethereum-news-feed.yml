@@ -13,7 +13,7 @@ jobs:
   fetch-and-post:
     runs-on: ubuntu-latest
     env:
-      DISCORD_WEBHOOK_QUANTUM: ${{ secrets.DISCORD_WEBHOOK_QUANTUM }}
+      DISCORD_WEBHOOK_ETH: ${{ secrets.DISCORD_WEBHOOK_ETH }}
       MAX_POSTS_PER_RUN: "3"
 
     steps:
