@@ -4,3 +4,6 @@ https://www.cnbc.com/2026/01/16/open-ai-chatgpt-ads-us.html
 https://www.cnbc.com/2026/01/16/musks-xai-faces-tougher-road-expanding-memphis-area-after-epa-update.html
 https://www.marktechpost.com/2026/01/16/black-forest-labs-releases-flux-2-klein-compact-flow-models-for-interactive-visual-intelligence/
 https://thenextweb.com/news/bizzynow-opens-mamacrowd-equity-round
+https://www.cnbc.com/2026/01/16/openai-chip-deal-with-cerebras-adds-to-roster-of-nvidia-amd-broadcom.html
+https://www.cnbc.com/2026/01/16/asml-record-high-ai-boom-tech-stocks.html
+https://aws.amazon.com/blogs/machine-learning/advanced-fine-tuning-techniques-for-multi-agent-orchestration-patterns-from-amazon-at-scale/
