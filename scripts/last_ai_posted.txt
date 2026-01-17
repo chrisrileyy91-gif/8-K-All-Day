@@ -22,3 +22,6 @@ https://aws.amazon.com/blogs/machine-learning/how-the-amazon-amet-payments-team-
 https://www.cnbc.com/2026/01/17/texas-us-states-budgets-bitcoin-crypto-strategic-reserve.html
 https://aws.amazon.com/blogs/machine-learning/build-a-generative-ai-powered-business-reporting-solution-with-amazon-bedrock/
 https://thenextweb.com/news/what-ai-is-actually-doing-to-jobs-in-europe
+https://www.marktechpost.com/2026/01/14/deepseek-ai-researchers-introduce-engram-a-conditional-memory-axis-for-sparse-llms/
+https://openai.com/index/investing-in-merge-labs
+https://openai.com/index/strengthening-the-us-ai-supply-chain
