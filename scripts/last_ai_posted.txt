@@ -16,3 +16,6 @@ https://www.marktechpost.com/2026/01/15/google-ai-releases-translategemma-a-new-
 https://thenextweb.com/news/chatgpts-ads-era-is-here
 https://openai.com/index/introducing-chatgpt-go
 https://openai.com/index/our-approach-to-advertising-and-expanding-access
+https://www.marktechpost.com/2026/01/15/nvidia-ai-open-sourced-kvzap-a-sota-kv-cache-pruning-method-that-delivers-near-lossless-2x-4x-compression/
+https://huggingface.co/blog/microsoft/optimind
+https://aws.amazon.com/blogs/machine-learning/how-the-amazon-amet-payments-team-accelerates-test-case-generation-with-strands-agents/
