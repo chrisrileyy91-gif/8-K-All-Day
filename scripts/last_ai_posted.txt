@@ -37,3 +37,4 @@ https://www.marktechpost.com/2026/01/17/nvidia-releases-personaplex-7b-v1-a-real
 https://thenextweb.com/news/tnw-weekly-briefing
 https://www.marktechpost.com/2026/01/18/vercel-releases-agent-skills-a-package-manager-for-ai-coding-agents-with-10-years-of-react-and-next-js-optimisation-rules/
 https://openai.com/index/a-business-that-scales-with-the-value-of-intelligence
+https://openai.com/index/ai-for-human-agency
