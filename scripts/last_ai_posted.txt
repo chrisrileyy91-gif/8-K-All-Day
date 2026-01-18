@@ -25,3 +25,6 @@ https://thenextweb.com/news/what-ai-is-actually-doing-to-jobs-in-europe
 https://www.marktechpost.com/2026/01/14/deepseek-ai-researchers-introduce-engram-a-conditional-memory-axis-for-sparse-llms/
 https://openai.com/index/investing-in-merge-labs
 https://openai.com/index/strengthening-the-us-ai-supply-chain
+https://www.marktechpost.com/2026/01/17/how-to-build-a-self-evaluating-agentic-ai-system-with-llamaindex-and-openai-using-retrieval-tool-use-and-automated-quality-checks/
+https://huggingface.co/blog/open-responses
+https://thenextweb.com/news/aikido-security-becomes-unicorn
