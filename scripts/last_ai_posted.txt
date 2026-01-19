@@ -40,3 +40,5 @@ https://openai.com/index/a-business-that-scales-with-the-value-of-intelligence
 https://openai.com/index/ai-for-human-agency
 https://www.marktechpost.com/2026/01/18/a-coding-guide-to-understanding-how-retries-trigger-failure-cascades-in-rpc-and-event-driven-architectures/
 https://www.marktechpost.com/2026/01/18/nous-research-releases-nouscoder-14b-a-competitive-olympiad-programming-model-post-trained-on-qwen3-14b-via-reinforcement-learning/
+https://thenextweb.com/news/sequoia-joins-anthropics-25b-funding-round
+https://thenextweb.com/news/europes-e307-million-ai-funding-call
