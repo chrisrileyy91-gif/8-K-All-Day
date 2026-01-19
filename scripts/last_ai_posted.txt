@@ -38,3 +38,4 @@ https://thenextweb.com/news/tnw-weekly-briefing
 https://www.marktechpost.com/2026/01/18/vercel-releases-agent-skills-a-package-manager-for-ai-coding-agents-with-10-years-of-react-and-next-js-optimisation-rules/
 https://openai.com/index/a-business-that-scales-with-the-value-of-intelligence
 https://openai.com/index/ai-for-human-agency
+https://www.marktechpost.com/2026/01/18/a-coding-guide-to-understanding-how-retries-trigger-failure-cascades-in-rpc-and-event-driven-architectures/
