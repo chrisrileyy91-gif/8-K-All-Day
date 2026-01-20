@@ -58,3 +58,6 @@ https://thenextweb.com/news/odoo-tops-7-billion-valuation
 https://www.cnbc.com/2026/01/20/anthropic-mariano-florentino-cullar-independent-trust.html
 https://www.cnbc.com/2026/01/20/salesforce-benioff-ai-regulation-suicide-coaches.html
 https://www.cnbc.com/2026/01/20/how-my-coinbase-account-was-almost-stolen.html
+https://www.cnbc.com/2026/01/20/open-ai-age-prediction-chatgpt.html
+https://www.cnbc.com/2026/01/20/california-billionaire-tax-faces-uphill-battle-new-poll-finds.html
+https://www.marktechpost.com/2026/01/20/zhipu-ai-releases-glm-4-7-flash-a-30b-a3b-moe-model-for-efficient-local-coding-and-agents/
