@@ -45,3 +45,5 @@ https://thenextweb.com/news/europes-e307-million-ai-funding-call
 https://www.cnbc.com/2026/01/19/alibaba-backed-startup-moonshot-ai-alibabi-backed-startup-chinese-ai-ipo.html
 https://www.cnbc.com/2026/01/19/openai-to-focus-on-practical-adoption-in-2026-says-finance-chief-sarah-friar.html
 https://openai.com/index/ai-for-self-empowerment
+https://www.marktechpost.com/2026/01/19/microsoft-research-releases-optimind-a-20b-parameter-model-that-turns-natural-language-into-solver-ready-optimization-models/
+https://huggingface.co/blog/microsoft/diff-attn-v2
