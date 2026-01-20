@@ -48,3 +48,4 @@ https://openai.com/index/ai-for-self-empowerment
 https://www.marktechpost.com/2026/01/19/microsoft-research-releases-optimind-a-20b-parameter-model-that-turns-natural-language-into-solver-ready-optimization-models/
 https://huggingface.co/blog/microsoft/diff-attn-v2
 https://www.marktechpost.com/2026/01/19/how-to-design-a-fully-streaming-voice-agent-with-end-to-end-latency-budgets-incremental-asr-llm-streaming-and-real-time-tts/
+https://thenextweb.com/news/where-tech-leaders-now-choose-to-meet
