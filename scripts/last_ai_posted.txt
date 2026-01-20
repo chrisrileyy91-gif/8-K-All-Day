@@ -49,3 +49,6 @@ https://www.marktechpost.com/2026/01/19/microsoft-research-releases-optimind-a-2
 https://huggingface.co/blog/microsoft/diff-attn-v2
 https://www.marktechpost.com/2026/01/19/how-to-design-a-fully-streaming-voice-agent-with-end-to-end-latency-budgets-incremental-asr-llm-streaming-and-real-time-tts/
 https://thenextweb.com/news/where-tech-leaders-now-choose-to-meet
+https://www.cnbc.com/2026/01/20/tech-stocks-lead-wall-street-sell-off-as-tensions-over-greenland-escalate.html
+https://www.cnbc.com/2026/01/20/most-of-instagrams-ads-ran-on-reels-in-2025-data-shows.html
+https://www.cnbc.com/2026/01/20/microsoft-nadella-ai-race-energy-tokens.html
