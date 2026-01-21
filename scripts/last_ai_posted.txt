@@ -79,3 +79,6 @@ https://www.cnbc.com/2026/01/21/openai-anthropic-enterprise-davos.html
 https://aws.amazon.com/blogs/machine-learning/how-bunq-handles-97-of-support-with-amazon-bedrock/
 https://aws.amazon.com/blogs/machine-learning/using-strands-agents-to-create-a-multi-agent-solution-with-metas-llama-4-and-amazon-bedrock/
 https://www.cnbc.com/2026/01/21/trump-tech-stocks-jump-greenland-military.html
+https://www.cnbc.com/2026/01/21/intels-stock-jumps-10percent-to-highest-since-early-2022-ahead-of-earnings.html
+https://www.cnbc.com/2026/01/21/nvidia-ceo-jensen-huang-says-ai-wont-be-the-job-killer-everyone-fears-heres-why.html
+https://www.cnbc.com/2026/01/21/bezos-blue-origin-satellite-internet-spacex-amazon.html
