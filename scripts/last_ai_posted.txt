@@ -67,3 +67,6 @@ https://aws.amazon.com/blogs/machine-learning/introducing-multimodal-retrieval-f
 https://www.marktechpost.com/2026/01/20/what-are-context-graphs/
 https://www.marktechpost.com/2026/01/20/a-coding-guide-to-anemoi-style-semi-centralized-agentic-systems-using-peer-to-peer-critic-loops-in-langgraph/
 https://openai.com/index/stargate-community
+https://www.marktechpost.com/2026/01/20/liquid-ai-releases-lfm2-5-1-2b-thinking-a-1-2b-parameter-reasoning-model-that-fits-under-1-gb-on-device/
+https://openai.com/index/horizon-1000
+https://www.cnbc.com/2026/01/20/binance-us-crypto-exchange-return-ripple-ceo-davos.html
