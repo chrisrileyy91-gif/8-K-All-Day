@@ -76,3 +76,6 @@ https://www.marktechpost.com/2026/01/21/salesforce-ai-introduces-fofpred-a-langu
 https://arstechnica.com/features/2026/01/has-gemini-surpassed-chatgpt-we-put-the-ai-models-to-the-test/
 https://www.cnbc.com/2026/01/21/amazon-ai-health-care-one-medical-members.html
 https://www.cnbc.com/2026/01/21/openai-anthropic-enterprise-davos.html
+https://aws.amazon.com/blogs/machine-learning/how-bunq-handles-97-of-support-with-amazon-bedrock/
+https://aws.amazon.com/blogs/machine-learning/using-strands-agents-to-create-a-multi-agent-solution-with-metas-llama-4-and-amazon-bedrock/
+https://www.cnbc.com/2026/01/21/trump-tech-stocks-jump-greenland-military.html
