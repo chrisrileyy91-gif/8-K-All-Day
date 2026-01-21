@@ -64,3 +64,6 @@ https://www.marktechpost.com/2026/01/20/zhipu-ai-releases-glm-4-7-flash-a-30b-a3
 https://www.cnbc.com/2026/01/20/jim-cramer-warns-about-speculation-in-the-stock-market-urges-action.html
 https://thenextweb.com/news/europe-inc-is-not-law-yet-it-is-a-signal
 https://aws.amazon.com/blogs/machine-learning/introducing-multimodal-retrieval-for-amazon-bedrock-knowledge-bases/
+https://www.marktechpost.com/2026/01/20/what-are-context-graphs/
+https://www.marktechpost.com/2026/01/20/a-coding-guide-to-anemoi-style-semi-centralized-agentic-systems-using-peer-to-peer-critic-loops-in-langgraph/
+https://openai.com/index/stargate-community
