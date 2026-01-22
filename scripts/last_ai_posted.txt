@@ -82,3 +82,6 @@ https://www.cnbc.com/2026/01/21/trump-tech-stocks-jump-greenland-military.html
 https://www.cnbc.com/2026/01/21/intels-stock-jumps-10percent-to-highest-since-early-2022-ahead-of-earnings.html
 https://www.cnbc.com/2026/01/21/nvidia-ceo-jensen-huang-says-ai-wont-be-the-job-killer-everyone-fears-heres-why.html
 https://www.cnbc.com/2026/01/21/bezos-blue-origin-satellite-internet-spacex-amazon.html
+https://www.marktechpost.com/2026/01/21/inworld-ai-releases-tts-1-5-for-realtime-production-grade-voice-agents/
+https://www.cnbc.com/2026/01/21/meta-ads-global-threads.html
+https://aws.amazon.com/blogs/machine-learning/how-thomson-reuters-built-an-agentic-platform-engineering-hub-with-amazon-bedrock-agentcore/
