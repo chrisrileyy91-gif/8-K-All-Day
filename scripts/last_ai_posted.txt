@@ -91,3 +91,6 @@ https://openai.com/index/higgsfield
 https://www.cnbc.com/2026/01/21/openai-seek-investments-from-middle-east-for-multibillion-dollar-round.html
 https://thenextweb.com/news/when-corporate-knowledge-becomes-invaluable
 https://www.marktechpost.com/2026/01/21/how-autogluon-enables-modern-automl-pipelines-for-production-grade-tabular-models-with-ensembling-and-distillation/
+https://www.cnbc.com/2026/01/22/trump-nvidia-ai-chip-exports-china-congress-bill.html
+https://www.cnbc.com/2026/01/22/ubisoft-shares-plummet-after-assassins-creed-maker-cancels-six-games.html
+https://thenextweb.com/news/can-europes-digital-networks-act-deliver-for-ai-and-startups
