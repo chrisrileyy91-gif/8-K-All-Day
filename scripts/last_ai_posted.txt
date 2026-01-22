@@ -88,3 +88,6 @@ https://aws.amazon.com/blogs/machine-learning/how-thomson-reuters-built-an-agent
 https://www.marktechpost.com/2026/01/21/flashlabs-researchers-release-chroma-1-0-a-4b-real-time-speech-dialogue-model-with-personalized-voice-cloning/
 https://aws.amazon.com/blogs/machine-learning/build-agents-to-learn-from-experiences-using-amazon-bedrock-agentcore-episodic-memory/
 https://openai.com/index/higgsfield
+https://www.cnbc.com/2026/01/21/openai-seek-investments-from-middle-east-for-multibillion-dollar-round.html
+https://thenextweb.com/news/when-corporate-knowledge-becomes-invaluable
+https://www.marktechpost.com/2026/01/21/how-autogluon-enables-modern-automl-pipelines-for-production-grade-tabular-models-with-ensembling-and-distillation/
