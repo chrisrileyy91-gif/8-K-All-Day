@@ -97,3 +97,6 @@ https://thenextweb.com/news/can-europes-digital-networks-act-deliver-for-ai-and-
 https://huggingface.co/blog/ibm-research/assetopsbench-playground-on-hugging-face
 https://openai.com/index/how-countries-can-end-the-capability-overhang
 https://openai.com/index/edu-for-countries
+https://www.cnbc.com/2026/01/22/workday-ceo-ai-software-selloff.html
+https://www.cnbc.com/2026/01/22/waymo-launches-robotaxi-service-in-miami-extending-us-lead.html
+https://www.cnbc.com/2026/01/22/openai-chair-bret-taylor-ai-bubble-correction.html
