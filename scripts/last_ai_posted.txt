@@ -94,3 +94,6 @@ https://www.marktechpost.com/2026/01/21/how-autogluon-enables-modern-automl-pipe
 https://www.cnbc.com/2026/01/22/trump-nvidia-ai-chip-exports-china-congress-bill.html
 https://www.cnbc.com/2026/01/22/ubisoft-shares-plummet-after-assassins-creed-maker-cancels-six-games.html
 https://thenextweb.com/news/can-europes-digital-networks-act-deliver-for-ai-and-startups
+https://huggingface.co/blog/ibm-research/assetopsbench-playground-on-hugging-face
+https://openai.com/index/how-countries-can-end-the-capability-overhang
+https://openai.com/index/edu-for-countries
