@@ -85,3 +85,6 @@ https://www.cnbc.com/2026/01/21/bezos-blue-origin-satellite-internet-spacex-amaz
 https://www.marktechpost.com/2026/01/21/inworld-ai-releases-tts-1-5-for-realtime-production-grade-voice-agents/
 https://www.cnbc.com/2026/01/21/meta-ads-global-threads.html
 https://aws.amazon.com/blogs/machine-learning/how-thomson-reuters-built-an-agentic-platform-engineering-hub-with-amazon-bedrock-agentcore/
+https://www.marktechpost.com/2026/01/21/flashlabs-researchers-release-chroma-1-0-a-4b-real-time-speech-dialogue-model-with-personalized-voice-cloning/
+https://aws.amazon.com/blogs/machine-learning/build-agents-to-learn-from-experiences-using-amazon-bedrock-agentcore-episodic-memory/
+https://openai.com/index/higgsfield
