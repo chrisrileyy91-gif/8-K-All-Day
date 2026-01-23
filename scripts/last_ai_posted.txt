@@ -115,3 +115,6 @@ https://aws.amazon.com/blogs/machine-learning/how-clickforce-accelerates-data-dr
 https://www.cnbc.com/2026/01/23/xiaomi-321-million-shares-rise-stock-buyback-ev-chip-pressure.html
 https://www.marktechpost.com/2026/01/22/qwen-researchers-release-qwen3-tts-an-open-multilingual-tts-suite-with-real-time-latency-and-fine-grained-voice-control/
 https://arstechnica.com/google/2026/01/google-ai-mode-can-now-customize-responses-with-your-email-and-photos/
+https://thenextweb.com/news/can-ai-replace-the-humanity-of-classical-music
+https://openai.com/index/scaling-postgresql
+https://machinelearningmastery.com/the-2026-time-series-toolkit-5-foundation-models-for-autonomous-forecasting/
