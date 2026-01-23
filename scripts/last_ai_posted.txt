@@ -124,3 +124,6 @@ https://thenextweb.com/news/french-fintech-pennylane-raises-e175m
 https://www.cnbc.com/2026/01/23/the-future-of-shopping-has-arrived-and-google-wants-to-run-it.html
 https://aws.amazon.com/blogs/machine-learning/build-ai-agents-with-amazon-bedrock-agentcore-using-aws-cloudformation/
 https://aws.amazon.com/blogs/machine-learning/how-the-amazon-com-catalog-team-built-self-learning-generative-ai-at-scale-with-amazon-bedrock/
+https://www.cnbc.com/2026/01/23/databricks-obtains-1point8-billion-in-additional-debt-ahead-of-ipo.html
+https://www.cnbc.com/2026/01/23/pardon-binance-founder-cz-trump.html
+https://www.cnbc.com/2026/01/23/greenland-data-center-trump-greenmet.html
