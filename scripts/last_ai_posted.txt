@@ -121,3 +121,6 @@ https://machinelearningmastery.com/the-2026-time-series-toolkit-5-foundation-mod
 https://www.cnbc.com/2026/01/23/intel-stock-earnings-q4-2025-supply.html
 https://www.cnbc.com/2026/01/23/5-things-to-know-before-the-stock-market-opens.html
 https://thenextweb.com/news/french-fintech-pennylane-raises-e175m
+https://www.cnbc.com/2026/01/23/the-future-of-shopping-has-arrived-and-google-wants-to-run-it.html
+https://aws.amazon.com/blogs/machine-learning/build-ai-agents-with-amazon-bedrock-agentcore-using-aws-cloudformation/
+https://aws.amazon.com/blogs/machine-learning/how-the-amazon-com-catalog-team-built-self-learning-generative-ai-at-scale-with-amazon-bedrock/
