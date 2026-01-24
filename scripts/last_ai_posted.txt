@@ -143,3 +143,4 @@ https://www.cnbc.com/2026/01/24/musks-1-trillion-pay-package-renews-focus-on-ris
 https://machinelearningmastery.com/everything-you-need-to-know-about-how-python-manages-memory/
 https://machinelearningmastery.com/the-machine-learning-practitioners-guide-to-model-deployment-with-fastapi/
 https://machinelearningmastery.com/top-5-agentic-ai-website-builders-that-actually-ship/
+https://thenextweb.com/news/mews-raises-e255m-to-accelerate-ai-and-automation-in-hospitality
