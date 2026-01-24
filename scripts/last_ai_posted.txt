@@ -133,3 +133,6 @@ https://www.cnbc.com/2026/01/23/sen-gillibrand-optimistic-senate-agriculture-wil
 https://www.marktechpost.com/2026/01/23/github-releases-copilot-sdk-to-embed-its-agentic-runtime-in-any-app/
 https://www.marktechpost.com/2026/01/23/how-an-ai-agent-chooses-what-to-do-under-tokens-latency-and-tool-call-budget-constraints/
 https://thenextweb.com/news/how-flippa-is-removing-the-language-barrier-from-global-deal-making
+https://www.marktechpost.com/2026/01/23/how-machine-learning-and-semantic-embeddings-reorder-cve-vulnerabilities-beyond-raw-cvss-scores/
+https://openai.com/index/unrolling-the-codex-agent-loop
+https://openai.com/index/praktika
