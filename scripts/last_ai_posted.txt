@@ -141,3 +141,5 @@ https://huggingface.co/blog/waypoint-1
 https://www.cnbc.com/2026/01/24/metas-reality-labs-cuts-sparked-fears-of-a-vr-winter.html
 https://www.cnbc.com/2026/01/24/musks-1-trillion-pay-package-renews-focus-on-rising-ceo-compensation.html
 https://machinelearningmastery.com/everything-you-need-to-know-about-how-python-manages-memory/
+https://machinelearningmastery.com/the-machine-learning-practitioners-guide-to-model-deployment-with-fastapi/
+https://machinelearningmastery.com/top-5-agentic-ai-website-builders-that-actually-ship/
