@@ -138,3 +138,6 @@ https://openai.com/index/unrolling-the-codex-agent-loop
 https://openai.com/index/praktika
 https://openai.com/business/guides-and-resources/chatgpt-usage-and-adoption-patterns-at-work
 https://huggingface.co/blog/waypoint-1
+https://www.cnbc.com/2026/01/24/metas-reality-labs-cuts-sparked-fears-of-a-vr-winter.html
+https://www.cnbc.com/2026/01/24/musks-1-trillion-pay-package-renews-focus-on-rising-ceo-compensation.html
+https://machinelearningmastery.com/everything-you-need-to-know-about-how-python-manages-memory/
