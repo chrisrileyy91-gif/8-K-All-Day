@@ -136,3 +136,5 @@ https://thenextweb.com/news/how-flippa-is-removing-the-language-barrier-from-glo
 https://www.marktechpost.com/2026/01/23/how-machine-learning-and-semantic-embeddings-reorder-cve-vulnerabilities-beyond-raw-cvss-scores/
 https://openai.com/index/unrolling-the-codex-agent-loop
 https://openai.com/index/praktika
+https://openai.com/business/guides-and-resources/chatgpt-usage-and-adoption-patterns-at-work
+https://huggingface.co/blog/waypoint-1
