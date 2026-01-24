@@ -130,3 +130,6 @@ https://www.cnbc.com/2026/01/23/greenland-data-center-trump-greenmet.html
 https://www.cnbc.com/2026/01/23/nvidia-director-persis-drell-resigns-decade-on-board-26-million-stock.html
 https://www.cnbc.com/2026/01/23/cramers-week-ahead-big-tech-earnings-and-the-fed.html
 https://www.cnbc.com/2026/01/23/sen-gillibrand-optimistic-senate-agriculture-will-advance-crypto-bill.html
+https://www.marktechpost.com/2026/01/23/github-releases-copilot-sdk-to-embed-its-agentic-runtime-in-any-app/
+https://www.marktechpost.com/2026/01/23/how-an-ai-agent-chooses-what-to-do-under-tokens-latency-and-tool-call-budget-constraints/
+https://thenextweb.com/news/how-flippa-is-removing-the-language-barrier-from-global-deal-making
