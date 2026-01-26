@@ -146,3 +146,4 @@ https://machinelearningmastery.com/top-5-agentic-ai-website-builders-that-actual
 https://thenextweb.com/news/mews-raises-e255m-to-accelerate-ai-and-automation-in-hospitality
 https://www.marktechpost.com/2026/01/25/a-coding-implementation-to-automating-llm-quality-assurance-with-deepeval-custom-retrievers-and-llm-as-a-judge-metrics/
 https://thenextweb.com/news/tnw-weekly-briefing-2
+https://www.marktechpost.com/2026/01/25/stepfun-ai-introduce-step-deepresearch-a-cost-effective-deep-research-agent-model-built-around-atomic-capabilities/
