@@ -151,3 +151,6 @@ https://www.cnbc.com/2026/01/26/nvidia-alphabet-vc-arms-back-synthesia.html
 https://www.marktechpost.com/2026/01/25/what-is-clawdbot-how-a-local-first-agent-stack-turns-chats-into-real-automations/
 https://www.cnbc.com/2026/01/26/elon-musk-grok-eu-explicit-images-investigation.html
 https://www.cnbc.com/2026/01/26/nvidia-set-to-supplant-apple-as-tsmcs-largest-customer.html
+https://huggingface.co/blog/nvidia/earth-2-open-models
+https://www.cnbc.com/2026/01/26/3coreweave-nvidia-stock-ai-data-centers.html
+https://www.cnbc.com/2026/01/26/nvidia-ai-startup-investments-europe-chips-jensen-huang.html
