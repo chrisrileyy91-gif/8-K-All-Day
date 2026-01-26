@@ -147,3 +147,5 @@ https://thenextweb.com/news/mews-raises-e255m-to-accelerate-ai-and-automation-in
 https://www.marktechpost.com/2026/01/25/a-coding-implementation-to-automating-llm-quality-assurance-with-deepeval-custom-retrievers-and-llm-as-a-judge-metrics/
 https://thenextweb.com/news/tnw-weekly-briefing-2
 https://www.marktechpost.com/2026/01/25/stepfun-ai-introduce-step-deepresearch-a-cost-effective-deep-research-agent-model-built-around-atomic-capabilities/
+https://www.cnbc.com/2026/01/26/nvidia-alphabet-vc-arms-back-synthesia.html
+https://www.marktechpost.com/2026/01/25/what-is-clawdbot-how-a-local-first-agent-stack-turns-chats-into-real-automations/
