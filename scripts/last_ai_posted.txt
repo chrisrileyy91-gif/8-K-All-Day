@@ -181,3 +181,6 @@ https://www.cnbc.com/2026/01/27/anthropic-fundraising-microsoft-nvidia.html
 https://www.marktechpost.com/2026/01/27/moonshot-ai-releases-kimi-k2-5-an-open-source-visual-agentic-intelligence-model-with-native-swarm-execution/
 https://huggingface.co/blog/nvidia/nemotron-personas-singapore
 https://www.cnbc.com/2026/01/27/intel-says-it-will-match-governments-trump-accounts-contribution.html
+https://www.cnbc.com/2026/01/28/chinese-tech-companies-accelerate-ai-model-rollouts-us-rivals-deepseek-moonshot-kimi.html
+https://www.cnbc.com/2026/01/27/amazon-inadvertently-sends-email-to-employees-confirming-wednesday-layoffs.html
+https://huggingface.co/blog/nvidia/nemotron-personas-brazil
