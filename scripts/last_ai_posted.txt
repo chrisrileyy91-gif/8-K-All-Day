@@ -184,3 +184,6 @@ https://www.cnbc.com/2026/01/27/intel-says-it-will-match-governments-trump-accou
 https://www.cnbc.com/2026/01/28/chinese-tech-companies-accelerate-ai-model-rollouts-us-rivals-deepseek-moonshot-kimi.html
 https://www.cnbc.com/2026/01/27/amazon-inadvertently-sends-email-to-employees-confirming-wednesday-layoffs.html
 https://huggingface.co/blog/nvidia/nemotron-personas-brazil
+https://www.cnbc.com/2026/01/27/applovin-short-seller-capitalwatch-report.html
+https://www.marktechpost.com/2026/01/27/dsgym-offers-a-reusable-container-based-substrate-for-building-and-benchmarking-data-science-agents/
+https://www.marktechpost.com/2026/01/27/how-tree-kg-enables-hierarchical-knowledge-graphs-for-contextual-navigation-and-explainable-multi-hop-reasoning-beyond-traditional-rag/
