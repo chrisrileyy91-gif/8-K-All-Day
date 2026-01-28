@@ -178,3 +178,6 @@ https://www.cnbc.com/2026/01/27/tiktok-settlement-social-media-addiction-meta-yo
 https://www.cnbc.com/2026/01/27/amazons-grocery-boss-details-fresh-go-restructuring-read-the-memo.html
 https://www.cnbc.com/2026/01/27/redwire-stock-trump-golden-dome-defense.html
 https://www.cnbc.com/2026/01/27/anthropic-fundraising-microsoft-nvidia.html
+https://www.marktechpost.com/2026/01/27/moonshot-ai-releases-kimi-k2-5-an-open-source-visual-agentic-intelligence-model-with-native-swarm-execution/
+https://huggingface.co/blog/nvidia/nemotron-personas-singapore
+https://www.cnbc.com/2026/01/27/intel-says-it-will-match-governments-trump-accounts-contribution.html
