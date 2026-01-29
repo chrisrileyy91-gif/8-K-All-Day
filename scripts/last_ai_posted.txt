@@ -223,3 +223,6 @@ https://thenextweb.com/news/tnw-moves-its-flagship-conference-to-london
 https://www.cnbc.com/2026/01/29/senate-ag-committee-advances-crypto-bill-to-establish-cftc-regulatory-authority.html
 https://www.marktechpost.com/2026/01/29/beyond-the-chatbox-generative-ui-ag-ui-and-the-stack-behind-agent-driven-interfaces/
 https://www.cnbc.com/2026/01/29/meta-microsoft-stock-earnings-moves-tech.html
+https://www.cnbc.com/2026/01/29/york-space-stock-trading-trump-golden-dome.html
+https://arstechnica.com/google/2026/01/google-project-genie-lets-you-create-interactive-worlds-from-a-photo-or-prompt/
+https://www.cnbc.com/2026/01/29/how-ceos-bringing-ai-agents-to-work-are-preparing-customers-employees.html
