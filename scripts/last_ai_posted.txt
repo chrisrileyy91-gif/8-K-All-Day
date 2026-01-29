@@ -211,3 +211,6 @@ https://www.cnbc.com/2026/01/29/advantest-shares-jump-record-quarterly-sales-ai-
 https://www.cnbc.com/2026/01/29/sk-hynix-beats-samsung-2025-profit-ai-memory-hbm.html
 https://www.marktechpost.com/2026/01/28/how-to-design-self-reflective-dual-agent-governance-systems-with-constitutional-ai-for-secure-and-compliant-financial-operations/
 https://www.cnbc.com/2026/01/29/cnbc-daily-open-fed-expectedly-keeps-rates-steady-the-intrigue-was-elsewhere.html
+https://www.cnbc.com/2026/01/29/sap-earnings-q4-shares-cloud-contract-value.html
+https://www.cnbc.com/2026/01/29/toyota-hits-record-hybrids-sales-in-2025-as-the-auto-giant-adjusted-to-trumps-tariffs.html
+https://www.marktechpost.com/2026/01/28/google-deepmind-unveils-alphagenome-a-unified-sequence-to-function-model-using-hybrid-transformers-and-u-nets-to-decode-the-human-genome/
