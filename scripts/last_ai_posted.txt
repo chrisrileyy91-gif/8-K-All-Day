@@ -205,3 +205,6 @@ https://www.cnbc.com/2026/01/28/apples-cook-minneapolis-ice-trump.html
 https://www.cnbc.com/2026/01/29/samsung-record-q4-2025-profit-ai-hbm-ai-memory-chip-shortage.html
 https://www.cnbc.com/2026/01/28/tesla-ending-model-s-x-production.html
 https://www.cnbc.com/2026/01/28/ibm-earnings-q4-2025.html
+https://www.cnbc.com/2026/01/28/metas-zuckerberg-gets-green-light-from-wall-street-to-invest-in-ai.html
+https://www.marktechpost.com/2026/01/28/alibaba-introduces-qwen3-max-thinking-a-test-time-scaled-reasoning-model-with-native-tool-use-powering-agentic-workloads/
+https://www.cnbc.com/2026/01/29/advantest-shares-jump-record-quarterly-sales-ai-tester-demand-q3-2025-forecast-q4-chip-testing.html
