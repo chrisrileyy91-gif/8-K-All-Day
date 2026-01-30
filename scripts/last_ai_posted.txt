@@ -226,3 +226,6 @@ https://www.cnbc.com/2026/01/29/meta-microsoft-stock-earnings-moves-tech.html
 https://www.cnbc.com/2026/01/29/york-space-stock-trading-trump-golden-dome.html
 https://arstechnica.com/google/2026/01/google-project-genie-lets-you-create-interactive-worlds-from-a-photo-or-prompt/
 https://www.cnbc.com/2026/01/29/how-ceos-bringing-ai-agents-to-work-are-preparing-customers-employees.html
+https://www.cnbc.com/2026/01/29/apple-iphone-soc-memory-tsmc.html
+https://www.marktechpost.com/2026/01/29/ant-group-releases-lingbot-vla-a-vision-language-action-foundation-model-for-real-world-robot-manipulation/
+https://aws.amazon.com/blogs/machine-learning/scaling-content-review-operations-with-multi-agent-workflow/
