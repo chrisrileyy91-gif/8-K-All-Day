@@ -244,3 +244,6 @@ https://thenextweb.com/news/apple-buys-silent-speech-ai-startup-for-2b-because-t
 https://www.cnbc.com/2026/01/30/sandisk-stock-earnings-ai-memory-demand.html
 https://aws.amazon.com/blogs/machine-learning/simplify-modelops-with-amazon-sagemaker-ai-projects-using-amazon-s3-based-templates/
 https://aws.amazon.com/blogs/machine-learning/scale-ai-in-south-africa-using-amazon-bedrock-global-cross-region-inference-with-anthropic-claude-4-5-models/
+https://aws.amazon.com/blogs/machine-learning/evaluating-generative-ai-models-with-amazon-nova-llm-as-a-judge-on-amazon-sagemaker-ai/
+https://www.cnbc.com/2026/01/30/fireblocks-north-korea-hackers-crypto-job-scam.html
+https://www.cnbc.com/2026/01/30/popularity-of-broadcoms-custom-chips-is-testing-but-not-breaking-nvidias-dominance-.html
