@@ -238,3 +238,6 @@ https://www.cnbc.com/2026/01/29/microsoft-market-cap-earnings.html
 https://www.marktechpost.com/2026/01/30/microsoft-unveils-maia-200-an-fp4-and-fp8-optimized-ai-inference-accelerator-for-azure-datacenters/
 https://www.marktechpost.com/2026/01/30/deepseek-ai-releases-deepseek-ocr-2-with-causal-visual-flow-encoder-for-layout-aware-document-understanding/
 https://www.cnbc.com/2026/01/30/cnbc-daily-open-well-soon-find-out-who-the-new-fed-chair-is.html
+https://www.cnbc.com/2026/01/30/ai-industry-super-pac-raises-campaign-money.html
+https://www.cnbc.com/2026/01/30/microsoft-stock-price-market-ai-cloud-azure-earnings.html
+https://thenextweb.com/news/apple-buys-silent-speech-ai-startup-for-2b-because-talking-is-so-2025
