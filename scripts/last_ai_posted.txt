@@ -229,3 +229,6 @@ https://www.cnbc.com/2026/01/29/how-ceos-bringing-ai-agents-to-work-are-preparin
 https://www.cnbc.com/2026/01/29/apple-iphone-soc-memory-tsmc.html
 https://www.marktechpost.com/2026/01/29/ant-group-releases-lingbot-vla-a-vision-language-action-foundation-model-for-real-world-robot-manipulation/
 https://aws.amazon.com/blogs/machine-learning/scaling-content-review-operations-with-multi-agent-workflow/
+https://www.cnbc.com/2026/01/30/cnbc-daily-open-consumers-love-the-iphone-but-investors-are-tepid-on-apple-despite-strong-earnings.html
+https://www.cnbc.com/2026/01/29/whats-next-for-apple-stock-after-big-iphone-sales-everywhere-even-china.html
+https://www.cnbc.com/2026/01/29/musks-20-billion-spending-plan-signals-tesla-of-yesterday-is-gone.html
