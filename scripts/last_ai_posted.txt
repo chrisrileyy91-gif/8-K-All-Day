@@ -241,3 +241,6 @@ https://www.cnbc.com/2026/01/30/cnbc-daily-open-well-soon-find-out-who-the-new-f
 https://www.cnbc.com/2026/01/30/ai-industry-super-pac-raises-campaign-money.html
 https://www.cnbc.com/2026/01/30/microsoft-stock-price-market-ai-cloud-azure-earnings.html
 https://thenextweb.com/news/apple-buys-silent-speech-ai-startup-for-2b-because-talking-is-so-2025
+https://www.cnbc.com/2026/01/30/sandisk-stock-earnings-ai-memory-demand.html
+https://aws.amazon.com/blogs/machine-learning/simplify-modelops-with-amazon-sagemaker-ai-projects-using-amazon-s3-based-templates/
+https://aws.amazon.com/blogs/machine-learning/scale-ai-in-south-africa-using-amazon-bedrock-global-cross-region-inference-with-anthropic-claude-4-5-models/
