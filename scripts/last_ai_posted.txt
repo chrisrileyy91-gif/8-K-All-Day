@@ -247,3 +247,6 @@ https://aws.amazon.com/blogs/machine-learning/scale-ai-in-south-africa-using-ama
 https://aws.amazon.com/blogs/machine-learning/evaluating-generative-ai-models-with-amazon-nova-llm-as-a-judge-on-amazon-sagemaker-ai/
 https://www.cnbc.com/2026/01/30/fireblocks-north-korea-hackers-crypto-job-scam.html
 https://www.cnbc.com/2026/01/30/popularity-of-broadcoms-custom-chips-is-testing-but-not-breaking-nvidias-dominance-.html
+https://www.cnbc.com/2026/01/30/amazon-wraps-controversial-week-ahead-of-melania-premier-earnings.html
+https://www.cnbc.com/2026/01/30/cramers-week-ahead-earnings-eli-lilly-alphabet-amazon-jobs-data.html
+https://www.marktechpost.com/2026/01/30/ai2-releases-sera-soft-verified-coding-agents-built-with-supervised-training-only-for-practical-repository-level-automation-workflows/
