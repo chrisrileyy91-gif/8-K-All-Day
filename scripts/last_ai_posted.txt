@@ -256,3 +256,6 @@ https://www.cnbc.com/2026/01/30/amazon-asks-fcc-to-extend-satellite-limit-as-it-
 https://www.marktechpost.com/2026/01/30/a-coding-implementation-to-training-optimizing-evaluating-and-interpreting-knowledge-graph-embeddings-with-pykeen/
 https://www.marktechpost.com/2026/01/29/a-coding-deep-dive-into-differentiable-computer-vision-with-kornia-using-geometry-optimization-loftr-matching-and-gpu-augmentations/
 https://thenextweb.com/news/g2-bold-move-to-reshape-software-discovery-with-major-acquisition-from-gartner
+https://huggingface.co/blog/nvidia/cosmos-policy-for-robot-control
+https://openai.com/index/inside-our-in-house-data-agent
+https://openai.com/index/taisei
