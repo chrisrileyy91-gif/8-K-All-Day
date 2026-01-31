@@ -262,3 +262,6 @@ https://openai.com/index/taisei
 https://openai.com/index/retiring-gpt-4o-and-older-models
 https://huggingface.co/blog/daggr
 https://thenextweb.com/news/france-turns-digital-sovereignty-into-policy
+https://openai.com/index/emea-youth-and-wellbeing-grant
+https://openai.com/index/the-next-chapter-for-ai-in-the-eu
+https://openai.com/index/ai-agent-link-safety
