@@ -253,3 +253,6 @@ https://www.marktechpost.com/2026/01/30/ai2-releases-sera-soft-verified-coding-a
 https://www.cnbc.com/2026/01/30/epstein-files-show-elon-musk-planned-visit-to-island-host-at-spacex.html
 https://www.marktechpost.com/2026/01/30/robbyant-open-sources-lingbot-world-a-real-time-world-model-for-interactive-simulation-and-embodied-ai/
 https://www.cnbc.com/2026/01/30/amazon-asks-fcc-to-extend-satellite-limit-as-it-buys-more-spacex-rides.html
+https://www.marktechpost.com/2026/01/30/a-coding-implementation-to-training-optimizing-evaluating-and-interpreting-knowledge-graph-embeddings-with-pykeen/
+https://www.marktechpost.com/2026/01/29/a-coding-deep-dive-into-differentiable-computer-vision-with-kornia-using-geometry-optimization-loftr-matching-and-gpu-augmentations/
+https://thenextweb.com/news/g2-bold-move-to-reshape-software-discovery-with-major-acquisition-from-gartner
