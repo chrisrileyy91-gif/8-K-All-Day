@@ -265,3 +265,6 @@ https://thenextweb.com/news/france-turns-digital-sovereignty-into-policy
 https://openai.com/index/emea-youth-and-wellbeing-grant
 https://openai.com/index/the-next-chapter-for-ai-in-the-eu
 https://openai.com/index/ai-agent-link-safety
+https://thenextweb.com/news/the-rise-of-subscription-economy
+https://huggingface.co/blog/upskill
+https://aws.amazon.com/blogs/machine-learning/build-reliable-agentic-ai-solution-with-amazon-bedrock-learn-from-pushpays-journey-on-genai-evaluation/
