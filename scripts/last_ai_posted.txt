@@ -271,3 +271,6 @@ https://aws.amazon.com/blogs/machine-learning/build-reliable-agentic-ai-solution
 https://www.cnbc.com/2026/01/31/here-is-what-caused-the-wild-swings-in-our-34-stock-portfolio-last-week.html
 https://arstechnica.com/google/2026/01/ai-overviews-gets-upgraded-to-gemini-3-with-a-dash-of-ai-mode/
 https://aws.amazon.com/blogs/machine-learning/build-an-intelligent-contract-management-solution-with-amazon-quick-suite-and-bedrock-agentcore/
+https://huggingface.co/blog/huggingface/one-year-since-the-deepseek-moment-blog-2
+https://huggingface.co/blog/tiiuae/emirati-benchmarks
+https://huggingface.co/blog/LinkedIn/gpt-oss-agentic-rl
