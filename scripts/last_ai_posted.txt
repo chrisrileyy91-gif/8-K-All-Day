@@ -277,3 +277,4 @@ https://huggingface.co/blog/LinkedIn/gpt-oss-agentic-rl
 https://arstechnica.com/tech-policy/2026/01/wildly-irresponsible-dots-use-of-ai-to-draft-safety-rules-sparks-concerns/
 https://thenextweb.com/news/is-g2-becoming-too-powerful-for-the-software-market
 https://thenextweb.com/news/tnw-weekly-briefing-3
+https://www.cnbc.com/2026/02/01/spy-sheikh-stake-trump-crypto.html
