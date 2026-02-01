@@ -274,3 +274,4 @@ https://aws.amazon.com/blogs/machine-learning/build-an-intelligent-contract-mana
 https://huggingface.co/blog/huggingface/one-year-since-the-deepseek-moment-blog-2
 https://huggingface.co/blog/tiiuae/emirati-benchmarks
 https://huggingface.co/blog/LinkedIn/gpt-oss-agentic-rl
+https://arstechnica.com/tech-policy/2026/01/wildly-irresponsible-dots-use-of-ai-to-draft-safety-rules-sparks-concerns/
