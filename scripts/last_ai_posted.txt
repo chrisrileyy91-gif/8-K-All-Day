@@ -279,3 +279,4 @@ https://thenextweb.com/news/is-g2-becoming-too-powerful-for-the-software-market
 https://thenextweb.com/news/tnw-weekly-briefing-3
 https://www.cnbc.com/2026/02/01/spy-sheikh-stake-trump-crypto.html
 https://www.marktechpost.com/2026/02/01/a-coding-and-experimental-analysis-of-decentralized-federated-learning-with-gossip-protocols-and-differential-privacy/
+https://www.marktechpost.com/2026/02/01/how-to-build-memory-driven-ai-agents-with-short-term-long-term-and-episodic-memory/
