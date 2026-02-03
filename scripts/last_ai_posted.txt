@@ -1,6 +1,3 @@
-https://www.cnbc.com/2026/01/16/micron-stock-climbs-as-ceo-highlights-ai-demand-for-memory.html
-https://www.cnbc.com/2026/01/16/open-ai-chatgpt-ads-us.html
-https://www.cnbc.com/2026/01/16/musks-xai-faces-tougher-road-expanding-memphis-area-after-epa-update.html
 https://www.marktechpost.com/2026/01/16/black-forest-labs-releases-flux-2-klein-compact-flow-models-for-interactive-visual-intelligence/
 https://thenextweb.com/news/bizzynow-opens-mamacrowd-equity-round
 https://www.cnbc.com/2026/01/16/openai-chip-deal-with-cerebras-adds-to-roster-of-nvidia-amd-broadcom.html
@@ -298,3 +295,6 @@ https://www.marktechpost.com/2026/02/02/how-to-build-multi-layered-llm-safety-fi
 https://www.cnbc.com/2026/02/03/cnbc-daily-open-india-and-us-strike-a-trade-deal-and-markets-shrug-off-precious-metals-rout.html
 https://www.cnbc.com/2026/02/02/oracles-credit-default-swaps-are-plummeting-after-financing-plans.html
 https://www.cnbc.com/2026/02/02/palantir-ceo-ice-government-protests-karp.html
+https://www.cnbc.com/2026/02/03/nintendo-q3-earnings-switch-2-forecast.html
+https://www.cnbc.com/2026/02/03/cnbc-daily-open-asia-markets-and-precious-metals-rebound-amid-trumps-trade-deal-with-india.html
+https://www.marktechpost.com/2026/02/02/google-releases-conductor-a-context-driven-gemini-cli-extension-that-stores-knowledge-as-markdown-and-orchestrates-agentic-workflows/
