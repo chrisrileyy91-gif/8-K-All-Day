@@ -1,6 +1,3 @@
-https://www.cnbc.com/2026/01/16/asml-record-high-ai-boom-tech-stocks.html
-https://aws.amazon.com/blogs/machine-learning/advanced-fine-tuning-techniques-for-multi-agent-orchestration-patterns-from-amazon-at-scale/
-https://aws.amazon.com/blogs/machine-learning/how-palo-alto-networks-enhanced-device-security-infra-log-analysis-with-amazon-bedrock/
 https://aws.amazon.com/blogs/machine-learning/from-beginner-to-champion-a-students-journey-through-the-aws-ai-league-asean-finals/
 https://aws.amazon.com/blogs/machine-learning/deploy-ai-agents-on-amazon-bedrock-agentcore-using-github-actions/
 https://openai.com/index/the-truth-elon-left-out
@@ -298,3 +295,6 @@ https://www.marktechpost.com/2026/02/02/google-releases-conductor-a-context-driv
 https://www.cnbc.com/2026/02/03/disney-stock-price-earnings-ceo-bob-iger.html
 https://www.cnbc.com/2026/02/03/palantir-stock-earnings.html
 https://www.cnbc.com/2026/02/03/in-google-earnings-analysts-want-answers-on-apples-siri-gemini-deal.html
+https://www.cnbc.com/2026/02/03/teradyne-ter-stock-q4-earnings-ai-demand.html
+https://huggingface.co/blog/huggingface/one-year-since-the-deepseek-moment-blog-3
+https://thenextweb.com/news/spacex-and-xai-a-merger-of-ambition-optics-and-unanswered-questions
