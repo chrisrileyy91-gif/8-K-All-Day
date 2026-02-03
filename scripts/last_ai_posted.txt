@@ -293,3 +293,6 @@ https://aws.amazon.com/blogs/machine-learning/how-clarus-care-uses-amazon-bedroc
 https://www.cnbc.com/2026/02/02/waymo-announced-16-billion-fundraising-round.html
 https://www.cnbc.com/2026/02/02/elon-musk-spacex-xai-ipo.html
 https://www.cnbc.com/2026/02/02/palantir-pltr-q4-2025-earnings.html
+https://www.cnbc.com/2026/02/02/musks-xai-needs-spacex-for-money-data-centers-in-space-are-a-dream.html
+https://www.cnbc.com/2026/02/03/softbank-subsidiary-saimemory-intel-ai-memory-z-angle-program.html
+https://www.marktechpost.com/2026/02/02/how-to-build-multi-layered-llm-safety-filters-to-defend-against-adaptive-paraphrased-and-adversarial-prompt-attacks/
