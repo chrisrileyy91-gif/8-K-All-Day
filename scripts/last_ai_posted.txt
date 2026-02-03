@@ -1,6 +1,3 @@
-https://www.marktechpost.com/2026/01/16/black-forest-labs-releases-flux-2-klein-compact-flow-models-for-interactive-visual-intelligence/
-https://thenextweb.com/news/bizzynow-opens-mamacrowd-equity-round
-https://www.cnbc.com/2026/01/16/openai-chip-deal-with-cerebras-adds-to-roster-of-nvidia-amd-broadcom.html
 https://www.cnbc.com/2026/01/16/asml-record-high-ai-boom-tech-stocks.html
 https://aws.amazon.com/blogs/machine-learning/advanced-fine-tuning-techniques-for-multi-agent-orchestration-patterns-from-amazon-at-scale/
 https://aws.amazon.com/blogs/machine-learning/how-palo-alto-networks-enhanced-device-security-infra-log-analysis-with-amazon-bedrock/
@@ -298,3 +295,6 @@ https://www.cnbc.com/2026/02/02/palantir-ceo-ice-government-protests-karp.html
 https://www.cnbc.com/2026/02/03/nintendo-q3-earnings-switch-2-forecast.html
 https://www.cnbc.com/2026/02/03/cnbc-daily-open-asia-markets-and-precious-metals-rebound-amid-trumps-trade-deal-with-india.html
 https://www.marktechpost.com/2026/02/02/google-releases-conductor-a-context-driven-gemini-cli-extension-that-stores-knowledge-as-markdown-and-orchestrates-agentic-workflows/
+https://www.cnbc.com/2026/02/03/disney-stock-price-earnings-ceo-bob-iger.html
+https://www.cnbc.com/2026/02/03/palantir-stock-earnings.html
+https://www.cnbc.com/2026/02/03/in-google-earnings-analysts-want-answers-on-apples-siri-gemini-deal.html
