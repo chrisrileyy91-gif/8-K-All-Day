@@ -1,6 +1,3 @@
-https://thenextweb.com/news/introducing-tnw-council
-https://thenextweb.com/news/jd-sports-brings-ai-shopping
-https://techcrunch.com/2026/01/13/ai-drug-discovery-startup-converge-bio-pulls-in-25m-from-bessemer-and-execs-from-meta-openai-and-wiz/
 https://www.cnbc.com/2026/01/18/uk-australia-style-under-16s-social-media-ban.html
 https://www.marktechpost.com/2026/01/17/nvidia-releases-personaplex-7b-v1-a-real-time-speech-to-speech-model-designed-for-natural-and-full-duplex-conversations/
 https://thenextweb.com/news/tnw-weekly-briefing
@@ -298,3 +295,6 @@ https://www.marktechpost.com/2026/02/03/how-to-build-advanced-quantum-algorithms
 https://www.cnbc.com/2026/02/04/uber-uber-2025-q4-earnings.html
 https://www.cnbc.com/2026/02/04/sandberg-other-meta-vets-invest-in-ai-workplace-communications-startup.html
 https://www.cnbc.com/2026/02/04/amd-stock-earnings-forecast-chips.html
+https://huggingface.co/blog/nvidia/nemotron-colembed-v2
+https://www.cnbc.com/2026/02/04/anthropic-no-ads-claude-chatbot-openai-chatgpt.html
+https://www.cnbc.com/2026/02/04/amazon-alexa-plus-us-releas.html
