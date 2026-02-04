@@ -1,6 +1,3 @@
-https://openai.com/index/introducing-chatgpt-go
-https://openai.com/index/our-approach-to-advertising-and-expanding-access
-https://www.marktechpost.com/2026/01/15/nvidia-ai-open-sourced-kvzap-a-sota-kv-cache-pruning-method-that-delivers-near-lossless-2x-4x-compression/
 https://huggingface.co/blog/microsoft/optimind
 https://aws.amazon.com/blogs/machine-learning/how-the-amazon-amet-payments-team-accelerates-test-case-generation-with-strands-agents/
 https://www.cnbc.com/2026/01/17/texas-us-states-budgets-bitcoin-crypto-strategic-reserve.html
@@ -298,3 +295,6 @@ https://www.cnbc.com/2026/02/03/musk-xai-spacex-biggest-merger-ever.html
 https://www.marktechpost.com/2026/02/03/qwen-team-releases-qwen3-coder-next-an-open-weight-language-model-designed-specifically-for-coding-agents-and-local-development/
 https://aws.amazon.com/blogs/machine-learning/democratizing-business-intelligence-bgls-journey-with-claude-agent-sdk-and-amazon-bedrock-agentcore/
 https://www.cnbc.com/2026/02/03/apple-adds-agentic-coding-from-anthropic-and-openai-to-xcode.html
+https://www.cnbc.com/2026/02/03/microsoft-promotes-sales-leaders-as-company-pursues-ai-growth.html
+https://www.cnbc.com/2026/02/03/amd-earnings-report-q4-2025.html
+https://www.cnbc.com/2026/02/04/singapore-construction-boom-how-the-city-state-is-managing-costs.html
