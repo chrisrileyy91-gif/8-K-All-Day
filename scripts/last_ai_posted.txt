@@ -1,6 +1,3 @@
-https://huggingface.co/blog/microsoft/optimind
-https://aws.amazon.com/blogs/machine-learning/how-the-amazon-amet-payments-team-accelerates-test-case-generation-with-strands-agents/
-https://www.cnbc.com/2026/01/17/texas-us-states-budgets-bitcoin-crypto-strategic-reserve.html
 https://aws.amazon.com/blogs/machine-learning/build-a-generative-ai-powered-business-reporting-solution-with-amazon-bedrock/
 https://thenextweb.com/news/what-ai-is-actually-doing-to-jobs-in-europe
 https://www.marktechpost.com/2026/01/14/deepseek-ai-researchers-introduce-engram-a-conditional-memory-axis-for-sparse-llms/
@@ -298,3 +295,6 @@ https://www.cnbc.com/2026/02/03/apple-adds-agentic-coding-from-anthropic-and-ope
 https://www.cnbc.com/2026/02/03/microsoft-promotes-sales-leaders-as-company-pursues-ai-growth.html
 https://www.cnbc.com/2026/02/03/amd-earnings-report-q4-2025.html
 https://www.cnbc.com/2026/02/04/singapore-construction-boom-how-the-city-state-is-managing-costs.html
+https://www.cnbc.com/2026/02/04/nintendo-shares-sink-10percent-as-gaming-giant-faces-memory-shortage-concerns-.html
+https://www.cnbc.com/2026/02/03/pinterest-ceo-puts-staffers-on-blast-who-created-tool-to-track-layoffs.html
+https://www.cnbc.com/2026/02/04/kkr-and-singtel-stake-in-stt-gdc-for-over-5-billion.html
