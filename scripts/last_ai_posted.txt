@@ -1,6 +1,3 @@
-https://www.marktechpost.com/2026/01/18/vercel-releases-agent-skills-a-package-manager-for-ai-coding-agents-with-10-years-of-react-and-next-js-optimisation-rules/
-https://openai.com/index/a-business-that-scales-with-the-value-of-intelligence
-https://openai.com/index/ai-for-human-agency
 https://www.marktechpost.com/2026/01/18/a-coding-guide-to-understanding-how-retries-trigger-failure-cascades-in-rpc-and-event-driven-architectures/
 https://www.marktechpost.com/2026/01/18/nous-research-releases-nouscoder-14b-a-competitive-olympiad-programming-model-post-trained-on-qwen3-14b-via-reinforcement-learning/
 https://thenextweb.com/news/sequoia-joins-anthropics-25b-funding-round
@@ -298,3 +295,6 @@ https://www.cnbc.com/2026/02/04/amazon-alexa-plus-us-releas.html
 https://www.cnbc.com/2026/02/04/jim-cramer-says-the-software-sell-off-creates-opportunities-in-stocks-outside-of-tech.html
 https://www.cnbc.com/2026/02/04/amd-lisa-su-ai-demand-guidance-earnings.html
 https://www.cnbc.com/2026/02/04/alphabet-googl-q4-2025-earnings.html
+https://www.cnbc.com/2026/02/04/qualcomm-qcom-q1-2026-earnings.html
+https://www.cnbc.com/2026/02/04/amazon-jassy-new-shadow-advisor-dharmesh-mehta.html
+https://www.marktechpost.com/2026/02/04/google-introduces-agentic-vision-in-gemini-3-flash-for-active-image-understanding/
