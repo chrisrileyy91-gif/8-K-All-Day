@@ -1,6 +1,3 @@
-https://huggingface.co/blog/open-responses
-https://thenextweb.com/news/aikido-security-becomes-unicorn
-https://openai.com/index/cerebras-partnership
 https://thenextweb.com/news/introducing-tnw-council
 https://thenextweb.com/news/jd-sports-brings-ai-shopping
 https://techcrunch.com/2026/01/13/ai-drug-discovery-startup-converge-bio-pulls-in-25m-from-bessemer-and-execs-from-meta-openai-and-wiz/
@@ -298,3 +295,6 @@ https://www.cnbc.com/2026/02/04/cnbc-daily-open-nvidia-denies-rift-with-openai-w
 https://www.cnbc.com/2026/02/04/cnbc-daily-open-ubs-posts-strong-earnings-while-novo-nordisks-us-shares-crater-on-slowing-growth.html
 https://openai.com/index/vfl-wolfsburg
 https://www.marktechpost.com/2026/02/03/how-to-build-advanced-quantum-algorithms-using-qrisp-with-grover-search-quantum-phase-estimation-and-qaoa/
+https://www.cnbc.com/2026/02/04/uber-uber-2025-q4-earnings.html
+https://www.cnbc.com/2026/02/04/sandberg-other-meta-vets-invest-in-ai-workplace-communications-startup.html
+https://www.cnbc.com/2026/02/04/amd-stock-earnings-forecast-chips.html
