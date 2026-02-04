@@ -1,6 +1,3 @@
-https://openai.com/index/investing-in-merge-labs
-https://openai.com/index/strengthening-the-us-ai-supply-chain
-https://www.marktechpost.com/2026/01/17/how-to-build-a-self-evaluating-agentic-ai-system-with-llamaindex-and-openai-using-retrieval-tool-use-and-automated-quality-checks/
 https://huggingface.co/blog/open-responses
 https://thenextweb.com/news/aikido-security-becomes-unicorn
 https://openai.com/index/cerebras-partnership
@@ -298,3 +295,6 @@ https://www.cnbc.com/2026/02/04/kkr-and-singtel-stake-in-stt-gdc-for-over-5-bill
 https://www.marktechpost.com/2026/02/03/a-coding-implementation-to-train-safety-critical-reinforcement-learning-agents-offline-using-conservative-q-learning-with-d3rlpy-and-fixed-historical-data/
 https://www.cnbc.com/2026/02/03/muskonomy-shakeup-spacex-valuation-after-xai-merger-nears-tesla.html
 https://www.cnbc.com/2026/02/04/cnbc-daily-open-nvidia-denies-rift-with-openai-while-software-and-asset-management-stocks-plunge.html
+https://www.cnbc.com/2026/02/04/cnbc-daily-open-ubs-posts-strong-earnings-while-novo-nordisks-us-shares-crater-on-slowing-growth.html
+https://openai.com/index/vfl-wolfsburg
+https://www.marktechpost.com/2026/02/03/how-to-build-advanced-quantum-algorithms-using-qrisp-with-grover-search-quantum-phase-estimation-and-qaoa/
