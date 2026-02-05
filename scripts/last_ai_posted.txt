@@ -1,6 +1,3 @@
-https://www.cnbc.com/2026/01/20/5-things-to-know-before-the-stock-market-opens-tuesday.html
-https://thenextweb.com/news/odoo-tops-7-billion-valuation
-https://www.cnbc.com/2026/01/20/anthropic-mariano-florentino-cullar-independent-trust.html
 https://www.cnbc.com/2026/01/20/salesforce-benioff-ai-regulation-suicide-coaches.html
 https://www.cnbc.com/2026/01/20/how-my-coinbase-account-was-almost-stolen.html
 https://www.cnbc.com/2026/01/20/open-ai-age-prediction-chatgpt.html
@@ -298,3 +295,6 @@ https://www.marktechpost.com/2026/02/04/nvidia-ai-release-vibetensor-an-ai-gener
 https://www.cnbc.com/2026/02/05/bitcoin-price-today-70000-in-focus.html
 https://www.cnbc.com/2026/02/05/amazons-push-to-make-ai-cheaper-and-why-it-matters-to-reigniting-the-stock.html
 https://www.cnbc.com/2026/02/05/alphabet-earnings-share-price-google-beat-artifical-intelligence.html
+https://www.cnbc.com/2026/02/05/super-bowl-ai-ad-altman-anthropic-open-ai.html
+https://www.cnbc.com/2026/02/05/open-ai-frontier-enterprise-customers.html
+https://www.cnbc.com/2026/02/05/were-booking-profits-in-an-industrial-focused-stock-benefiting-from-tech-exodus.html
