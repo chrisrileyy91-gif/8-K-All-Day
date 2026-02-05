@@ -1,6 +1,3 @@
-https://www.cnbc.com/2026/01/20/california-billionaire-tax-faces-uphill-battle-new-poll-finds.html
-https://www.marktechpost.com/2026/01/20/zhipu-ai-releases-glm-4-7-flash-a-30b-a3b-moe-model-for-efficient-local-coding-and-agents/
-https://www.cnbc.com/2026/01/20/jim-cramer-warns-about-speculation-in-the-stock-market-urges-action.html
 https://thenextweb.com/news/europe-inc-is-not-law-yet-it-is-a-signal
 https://aws.amazon.com/blogs/machine-learning/introducing-multimodal-retrieval-for-amazon-bedrock-knowledge-bases/
 https://www.marktechpost.com/2026/01/20/what-are-context-graphs/
@@ -298,3 +295,6 @@ https://www.cnbc.com/2026/02/05/were-booking-profits-in-an-industrial-focused-st
 https://www.cnbc.com/2026/02/05/qualcomm-stock-memory-shortage-warning.html
 https://www.cnbc.com/2026/02/05/anthropic-claude-opus-4-6-vibe-working.html
 https://www.marktechpost.com/2026/02/05/how-to-build-production-grade-data-validation-pipelines-using-pandera-typed-schemas-and-composable-dataframe-contracts/
+https://www.cnbc.com/2026/02/05/amazon-amzn-q4-earnings-report-2025.html
+https://www.cnbc.com/2026/02/05/how-exposed-are-software-stocks-to-ai-tools-we-tested-vibe-coding.html
+https://aws.amazon.com/blogs/machine-learning/how-associa-transforms-document-classification-with-the-genai-idp-accelerator-and-amazon-bedrock/
