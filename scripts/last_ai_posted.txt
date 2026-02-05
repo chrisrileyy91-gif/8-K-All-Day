@@ -1,6 +1,3 @@
-https://www.marktechpost.com/2026/01/19/how-to-design-a-fully-streaming-voice-agent-with-end-to-end-latency-budgets-incremental-asr-llm-streaming-and-real-time-tts/
-https://thenextweb.com/news/where-tech-leaders-now-choose-to-meet
-https://www.cnbc.com/2026/01/20/tech-stocks-lead-wall-street-sell-off-as-tensions-over-greenland-escalate.html
 https://www.cnbc.com/2026/01/20/most-of-instagrams-ads-ran-on-reels-in-2025-data-shows.html
 https://www.cnbc.com/2026/01/20/microsoft-nadella-ai-race-energy-tokens.html
 https://www.cnbc.com/2026/01/20/amazon-jassy-trump-tariffs-prices-shoppers.html
@@ -298,3 +295,6 @@ https://www.cnbc.com/2026/02/05/cnbc-daily-open-alphabet-capex-plans-spook-inves
 https://www.cnbc.com/2026/02/05/chinas-ev-slowdown-persists-as-byd-posts-near-two-year-low-in-sales.html
 https://www.cnbc.com/2026/02/05/us-allies-critical-minerals-price-floors-forge-china-rare-earths-ai-chips-pax-silicchina-.html
 https://www.cnbc.com/2026/02/05/china-tech-hsi-enters-bear-market-as-tax-ai-fears-take-hold.html
+https://www.marktechpost.com/2026/02/04/mistral-ai-launches-voxtral-transcribe-2-pairing-batch-diarization-and-open-realtime-asr-for-multilingual-production-workloads-at-scale/
+https://www.cnbc.com/2026/02/05/cnbc-daily-open-alphabet-could-more-than-double-its-capex-in-2026-unsettling-investors.html
+https://www.marktechpost.com/2026/02/04/nvidia-ai-release-vibetensor-an-ai-generated-deep-learning-runtime-built-end-to-end-by-coding-agents-programmatically/
