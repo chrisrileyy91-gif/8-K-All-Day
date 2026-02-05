@@ -1,6 +1,3 @@
-https://openai.com/index/ai-for-self-empowerment
-https://www.marktechpost.com/2026/01/19/microsoft-research-releases-optimind-a-20b-parameter-model-that-turns-natural-language-into-solver-ready-optimization-models/
-https://huggingface.co/blog/microsoft/diff-attn-v2
 https://www.marktechpost.com/2026/01/19/how-to-design-a-fully-streaming-voice-agent-with-end-to-end-latency-budgets-incremental-asr-llm-streaming-and-real-time-tts/
 https://thenextweb.com/news/where-tech-leaders-now-choose-to-meet
 https://www.cnbc.com/2026/01/20/tech-stocks-lead-wall-street-sell-off-as-tensions-over-greenland-escalate.html
@@ -298,3 +295,6 @@ https://www.cnbc.com/2026/02/04/snap-q4-earnings-report-2025.html
 https://www.cnbc.com/2026/02/05/sony-profit-jumps-22percent-in-december-quarter-beating-expectations-and-lifting-full-year-outlook.html
 https://www.cnbc.com/2026/02/05/arm-shares-fall-licensing-revenue-miss-ai-demand.html
 https://www.cnbc.com/2026/02/05/cnbc-daily-open-alphabet-capex-plans-spook-investors-while-amd-has-a-brutal-day-in-markets.html
+https://www.cnbc.com/2026/02/05/chinas-ev-slowdown-persists-as-byd-posts-near-two-year-low-in-sales.html
+https://www.cnbc.com/2026/02/05/us-allies-critical-minerals-price-floors-forge-china-rare-earths-ai-chips-pax-silicchina-.html
+https://www.cnbc.com/2026/02/05/china-tech-hsi-enters-bear-market-as-tax-ai-fears-take-hold.html
