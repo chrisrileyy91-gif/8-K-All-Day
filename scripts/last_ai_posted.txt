@@ -1,6 +1,3 @@
-https://www.cnbc.com/2026/01/21/nvidia-ceo-jensen-huang-says-ai-wont-be-the-job-killer-everyone-fears-heres-why.html
-https://www.cnbc.com/2026/01/21/bezos-blue-origin-satellite-internet-spacex-amazon.html
-https://www.marktechpost.com/2026/01/21/inworld-ai-releases-tts-1-5-for-realtime-production-grade-voice-agents/
 https://www.cnbc.com/2026/01/21/meta-ads-global-threads.html
 https://aws.amazon.com/blogs/machine-learning/how-thomson-reuters-built-an-agentic-platform-engineering-hub-with-amazon-bedrock-agentcore/
 https://www.marktechpost.com/2026/01/21/flashlabs-researchers-release-chroma-1-0-a-4b-real-time-speech-dialogue-model-with-personalized-voice-cloning/
@@ -298,3 +295,6 @@ https://thenextweb.com/news/europes-social-media-age-shift
 https://www.cnbc.com/2026/02/06/automakers-ev-china-ford-gm.html
 https://www.cnbc.com/2026/02/06/voyager-technologies-cooling-space-data-centers.html
 https://www.cnbc.com/2026/02/06/ai-sell-off-stocks-amazon-oracle.html
+https://aws.amazon.com/blogs/machine-learning/evaluate-generative-ai-models-with-an-amazon-nova-rubric-based-llm-judge-on-amazon-sagemaker-ai-part-2/
+https://www.cnbc.com/2026/02/06/uber-liable-pay-8-5-million-driver-rape-suit.html
+https://thenextweb.com/news/uipath-pushes-deeper-into-financial-services-with-workfusion-acquisition
