@@ -1,6 +1,3 @@
-https://www.cnbc.com/2026/01/21/meta-ads-global-threads.html
-https://aws.amazon.com/blogs/machine-learning/how-thomson-reuters-built-an-agentic-platform-engineering-hub-with-amazon-bedrock-agentcore/
-https://www.marktechpost.com/2026/01/21/flashlabs-researchers-release-chroma-1-0-a-4b-real-time-speech-dialogue-model-with-personalized-voice-cloning/
 https://aws.amazon.com/blogs/machine-learning/build-agents-to-learn-from-experiences-using-amazon-bedrock-agentcore-episodic-memory/
 https://openai.com/index/higgsfield
 https://www.cnbc.com/2026/01/21/openai-seek-investments-from-middle-east-for-multibillion-dollar-round.html
@@ -298,3 +295,6 @@ https://www.cnbc.com/2026/02/06/ai-sell-off-stocks-amazon-oracle.html
 https://aws.amazon.com/blogs/machine-learning/evaluate-generative-ai-models-with-an-amazon-nova-rubric-based-llm-judge-on-amazon-sagemaker-ai-part-2/
 https://www.cnbc.com/2026/02/06/uber-liable-pay-8-5-million-driver-rape-suit.html
 https://thenextweb.com/news/uipath-pushes-deeper-into-financial-services-with-workfusion-acquisition
+https://www.cnbc.com/2026/02/06/nvidia-rises-7percent-as-ceo-says-660-billion-capex-buildout-is-sustainable.html
+https://aws.amazon.com/blogs/machine-learning/structured-outputs-on-amazon-bedrock-schema-compliant-ai-responses/
+https://aws.amazon.com/blogs/machine-learning/manage-amazon-sagemaker-hyperpod-clusters-using-the-hyperpod-cli-and-sdk/
