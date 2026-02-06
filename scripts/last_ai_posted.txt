@@ -1,6 +1,3 @@
-https://www.marktechpost.com/2026/01/20/a-coding-guide-to-anemoi-style-semi-centralized-agentic-systems-using-peer-to-peer-critic-loops-in-langgraph/
-https://openai.com/index/stargate-community
-https://www.marktechpost.com/2026/01/20/liquid-ai-releases-lfm2-5-1-2b-thinking-a-1-2b-parameter-reasoning-model-that-fits-under-1-gb-on-device/
 https://openai.com/index/horizon-1000
 https://www.cnbc.com/2026/01/20/binance-us-crypto-exchange-return-ripple-ceo-davos.html
 https://thenextweb.com/news/berlins-cloover-secures-over-1-2-billion-to-build-the-shopify-of-energy
@@ -298,3 +295,6 @@ https://aws.amazon.com/blogs/machine-learning/how-associa-transforms-document-cl
 https://www.cnbc.com/2026/02/05/reddit-rddt-q4-2025.html
 https://www.cnbc.com/2026/02/05/roblox-shares-rocket-20percent-on-earnings-beat-strong-forecast.html
 https://www.cnbc.com/2026/02/05/boozman-crypto-cftc-regulation.html
+https://www.cnbc.com/2026/02/05/why-amazons-ceo-is-confident-with-200-billion-spending-plan.html
+https://www.cnbc.com/2026/02/06/cnbc-daily-open-amazons-projected-capex-dwarfs-that-of-its-peers-which-have-already-spooked-markets.html
+https://www.cnbc.com/2026/02/05/amazon-learns-a-tough-lesson-in-a-market-bailing-on-tech-why-we-must-be-patient.html
