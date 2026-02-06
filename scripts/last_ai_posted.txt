@@ -1,6 +1,3 @@
-https://www.cnbc.com/2026/01/21/china-tech-ai-agentic-commerce-super-apps-alibaba-taobao-qwen-tencent-wechat-doubbao-weixin.html
-https://www.marktechpost.com/2026/01/21/salesforce-ai-introduces-fofpred-a-language-driven-future-optical-flow-prediction-framework-that-enables-improved-robot-control-and-video-generation/
-https://arstechnica.com/features/2026/01/has-gemini-surpassed-chatgpt-we-put-the-ai-models-to-the-test/
 https://www.cnbc.com/2026/01/21/amazon-ai-health-care-one-medical-members.html
 https://www.cnbc.com/2026/01/21/openai-anthropic-enterprise-davos.html
 https://aws.amazon.com/blogs/machine-learning/how-bunq-handles-97-of-support-with-amazon-bedrock/
@@ -298,3 +295,6 @@ https://www.cnbc.com/2026/02/05/amazon-learns-a-tough-lesson-in-a-market-bailing
 https://www.cnbc.com/2026/02/06/tesla-maintains-competitive-showing-in-china-made-ev-sales-despite-industry-headwinds.html
 https://www.cnbc.com/2026/02/06/ai-anthropic-tools-saas-software-stocks-selloff.html
 https://www.marktechpost.com/2026/02/05/anthropic-releases-claude-opus-4-6-with-1m-context-agentic-coding-adaptive-reasoning-controls-and-expanded-safety-tooling-capabilities/
+https://thenextweb.com/news/techex-global-returns-to-london-with-enterprise-technology-and-ai-execution
+https://www.cnbc.com/2026/02/06/cnbc-daily-open-amazon-one-ups-its-rivals-on-capex-spending-but-investors-are-already-worried-over-ai-valuations.html
+https://aws.amazon.com/blogs/machine-learning/a-practical-guide-to-amazon-nova-multimodal-embeddings/
