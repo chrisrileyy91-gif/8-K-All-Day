@@ -1,6 +1,3 @@
-https://aws.amazon.com/blogs/machine-learning/build-agents-to-learn-from-experiences-using-amazon-bedrock-agentcore-episodic-memory/
-https://openai.com/index/higgsfield
-https://www.cnbc.com/2026/01/21/openai-seek-investments-from-middle-east-for-multibillion-dollar-round.html
 https://thenextweb.com/news/when-corporate-knowledge-becomes-invaluable
 https://www.marktechpost.com/2026/01/21/how-autogluon-enables-modern-automl-pipelines-for-production-grade-tabular-models-with-ensembling-and-distillation/
 https://www.cnbc.com/2026/01/22/trump-nvidia-ai-chip-exports-china-congress-bill.html
@@ -298,3 +295,6 @@ https://thenextweb.com/news/uipath-pushes-deeper-into-financial-services-with-wo
 https://www.cnbc.com/2026/02/06/nvidia-rises-7percent-as-ceo-says-660-billion-capex-buildout-is-sustainable.html
 https://aws.amazon.com/blogs/machine-learning/structured-outputs-on-amazon-bedrock-schema-compliant-ai-responses/
 https://aws.amazon.com/blogs/machine-learning/manage-amazon-sagemaker-hyperpod-clusters-using-the-hyperpod-cli-and-sdk/
+https://www.marktechpost.com/2026/02/06/nvidia-ai-releases-c-radiov4-vision-backbone-unifying-siglip2-dinov3-sam3-for-classification-dense-prediction-segmentation-workloads-at-scale/
+https://www.cnbc.com/2026/02/06/google-microsoft-meta-amazon-ai-cash.html
+https://arstechnica.com/tech-policy/2026/02/randomly-quoting-ray-bradbury-did-not-save-lawyer-from-losing-case-over-ai-errors/
