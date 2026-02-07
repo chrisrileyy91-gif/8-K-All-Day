@@ -1,6 +1,3 @@
-https://thenextweb.com/news/when-corporate-knowledge-becomes-invaluable
-https://www.marktechpost.com/2026/01/21/how-autogluon-enables-modern-automl-pipelines-for-production-grade-tabular-models-with-ensembling-and-distillation/
-https://www.cnbc.com/2026/01/22/trump-nvidia-ai-chip-exports-china-congress-bill.html
 https://www.cnbc.com/2026/01/22/ubisoft-shares-plummet-after-assassins-creed-maker-cancels-six-games.html
 https://thenextweb.com/news/can-europes-digital-networks-act-deliver-for-ai-and-startups
 https://huggingface.co/blog/ibm-research/assetopsbench-playground-on-hugging-face
@@ -298,3 +295,6 @@ https://aws.amazon.com/blogs/machine-learning/manage-amazon-sagemaker-hyperpod-c
 https://www.marktechpost.com/2026/02/06/nvidia-ai-releases-c-radiov4-vision-backbone-unifying-siglip2-dinov3-sam3-for-classification-dense-prediction-segmentation-workloads-at-scale/
 https://www.cnbc.com/2026/02/06/google-microsoft-meta-amazon-ai-cash.html
 https://arstechnica.com/tech-policy/2026/02/randomly-quoting-ray-bradbury-did-not-save-lawyer-from-losing-case-over-ai-errors/
+https://www.cnbc.com/2026/02/06/cramer-amazon-spending-looks-painful-but-its-not-a-reason-to-sell.html
+https://www.cnbc.com/2026/02/06/openai-altman-nvidia-musk-anthropic-super-bowl.html
+https://www.marktechpost.com/2026/02/06/a-coding-data-driven-guide-to-measuring-visualizing-and-enforcing-cognitive-complexity-in-python-projects-using-complexipy/
