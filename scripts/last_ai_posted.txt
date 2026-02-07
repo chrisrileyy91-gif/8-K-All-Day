@@ -1,6 +1,3 @@
-https://openai.com/index/how-countries-can-end-the-capability-overhang
-https://openai.com/index/edu-for-countries
-https://www.cnbc.com/2026/01/22/workday-ceo-ai-software-selloff.html
 https://www.cnbc.com/2026/01/22/waymo-launches-robotaxi-service-in-miami-extending-us-lead.html
 https://www.cnbc.com/2026/01/22/openai-chair-bret-taylor-ai-bubble-correction.html
 https://arstechnica.com/google/2026/01/google-begins-offering-free-sat-practice-tests-powered-by-gemini/
@@ -298,3 +295,6 @@ https://www.marktechpost.com/2026/02/06/a-coding-data-driven-guide-to-measuring-
 https://www.marktechpost.com/2026/02/06/how-to-build-a-production-grade-agentic-ai-system-with-hybrid-retrieval-provenance-first-citations-repair-loops-and-episodic-memory/
 https://www.marktechpost.com/2026/02/06/waymo-introduces-the-waymo-world-model-a-new-frontier-simulator-model-for-autonomous-driving-and-built-on-top-of-genie-3/
 https://www.cnbc.com/2026/02/06/were-upgrading-shares-of-a-big-beneficiary-of-ai-spending-going-through-the-roof.html
+https://openai.com/index/our-approach-to-localization
+https://openai.com/policies/kr-privacy-policy
+https://www.marktechpost.com/2026/02/05/openai-just-launched-gpt-5-3-codex-a-faster-agentic-coding-model-unifying-frontier-code-performance-and-professional-reasoning-into-one-system/
