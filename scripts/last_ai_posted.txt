@@ -1,6 +1,3 @@
-https://www.cnbc.com/2026/01/22/ubisoft-shares-plummet-after-assassins-creed-maker-cancels-six-games.html
-https://thenextweb.com/news/can-europes-digital-networks-act-deliver-for-ai-and-startups
-https://huggingface.co/blog/ibm-research/assetopsbench-playground-on-hugging-face
 https://openai.com/index/how-countries-can-end-the-capability-overhang
 https://openai.com/index/edu-for-countries
 https://www.cnbc.com/2026/01/22/workday-ceo-ai-software-selloff.html
@@ -298,3 +295,6 @@ https://arstechnica.com/tech-policy/2026/02/randomly-quoting-ray-bradbury-did-no
 https://www.cnbc.com/2026/02/06/cramer-amazon-spending-looks-painful-but-its-not-a-reason-to-sell.html
 https://www.cnbc.com/2026/02/06/openai-altman-nvidia-musk-anthropic-super-bowl.html
 https://www.marktechpost.com/2026/02/06/a-coding-data-driven-guide-to-measuring-visualizing-and-enforcing-cognitive-complexity-in-python-projects-using-complexipy/
+https://www.marktechpost.com/2026/02/06/how-to-build-a-production-grade-agentic-ai-system-with-hybrid-retrieval-provenance-first-citations-repair-loops-and-episodic-memory/
+https://www.marktechpost.com/2026/02/06/waymo-introduces-the-waymo-world-model-a-new-frontier-simulator-model-for-autonomous-driving-and-built-on-top-of-genie-3/
+https://www.cnbc.com/2026/02/06/were-upgrading-shares-of-a-big-beneficiary-of-ai-spending-going-through-the-roof.html
