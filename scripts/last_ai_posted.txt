@@ -1,4 +1,3 @@
-https://www.marktechpost.com/2026/01/22/qwen-researchers-release-qwen3-tts-an-open-multilingual-tts-suite-with-real-time-latency-and-fine-grained-voice-control/
 https://arstechnica.com/google/2026/01/google-ai-mode-can-now-customize-responses-with-your-email-and-photos/
 https://thenextweb.com/news/can-ai-replace-the-humanity-of-classical-music
 https://openai.com/index/scaling-postgresql
@@ -298,3 +297,4 @@ https://openai.com/index/introducing-openai-frontier
 https://aws.amazon.com/blogs/machine-learning/accelerating-your-marketing-ideation-with-generative-ai-part-2-generate-custom-marketing-images-from-historical-references/
 https://huggingface.co/blog/community-evals
 https://huggingface.co/blog/Photoroom/prx-part2
+https://www.marktechpost.com/2026/02/08/how-to-design-production-grade-mock-data-pipelines-using-polyfactory-with-dataclasses-pydantic-attrs-and-nested-models/
