@@ -1,6 +1,3 @@
-https://arstechnica.com/google/2026/01/google-ai-mode-can-now-customize-responses-with-your-email-and-photos/
-https://thenextweb.com/news/can-ai-replace-the-humanity-of-classical-music
-https://openai.com/index/scaling-postgresql
 https://machinelearningmastery.com/the-2026-time-series-toolkit-5-foundation-models-for-autonomous-forecasting/
 https://www.cnbc.com/2026/01/23/intel-stock-earnings-q4-2025-supply.html
 https://www.cnbc.com/2026/01/23/5-things-to-know-before-the-stock-market-opens.html
@@ -298,3 +295,6 @@ https://aws.amazon.com/blogs/machine-learning/accelerating-your-marketing-ideati
 https://huggingface.co/blog/community-evals
 https://huggingface.co/blog/Photoroom/prx-part2
 https://www.marktechpost.com/2026/02/08/how-to-design-production-grade-mock-data-pipelines-using-polyfactory-with-dataclasses-pydantic-attrs-and-nested-models/
+https://machinelearningmastery.com/export-your-ml-model-in-onnx-format/
+https://machinelearningmastery.com/7-advanced-feature-engineering-tricks-using-llm-embeddings/
+https://machinelearningmastery.com/a-beginners-reading-list-for-large-language-models-for-2026/
