@@ -1,6 +1,3 @@
-https://www.cnbc.com/2026/01/23/databricks-obtains-1point8-billion-in-additional-debt-ahead-of-ipo.html
-https://www.cnbc.com/2026/01/23/pardon-binance-founder-cz-trump.html
-https://www.cnbc.com/2026/01/23/greenland-data-center-trump-greenmet.html
 https://www.cnbc.com/2026/01/23/nvidia-director-persis-drell-resigns-decade-on-board-26-million-stock.html
 https://www.cnbc.com/2026/01/23/cramers-week-ahead-big-tech-earnings-and-the-fed.html
 https://www.cnbc.com/2026/01/23/sen-gillibrand-optimistic-senate-agriculture-will-advance-crypto-bill.html
@@ -298,3 +295,6 @@ https://www.cnbc.com/2026/02/09/cnbc-daily-open-watch-japans-yen-and-government-
 https://www.cnbc.com/2026/02/09/cnbc-daily-open-takaichis-victory-sends-japans-nikkei-225-to-new-highs.html
 https://www.marktechpost.com/2026/02/08/meet-oat-the-new-action-tokenizer-bringing-llm-style-scaling-and-flexible-anytime-inference-to-the-robotics-world/
 https://www.marktechpost.com/2026/02/08/a-coding-implementation-to-establish-rigorous-prompt-versioning-and-regression-testing-workflows-for-large-language-models-using-mlflow/
+https://www.cnbc.com/2026/02/09/big-tech-stocks-post-selloff-week.html
+https://www.cnbc.com/2026/02/09/lyft-teen-accounts-uber-rideshare-waymo.html
+https://www.cnbc.com/2026/02/09/eu-interim-measures-meta-whatsapp-ai-policy-antritrust.html
