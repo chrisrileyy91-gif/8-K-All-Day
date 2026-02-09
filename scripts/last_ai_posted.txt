@@ -1,6 +1,3 @@
-https://www.cnbc.com/2026/01/23/intel-stock-earnings-q4-2025-supply.html
-https://www.cnbc.com/2026/01/23/5-things-to-know-before-the-stock-market-opens.html
-https://thenextweb.com/news/french-fintech-pennylane-raises-e175m
 https://www.cnbc.com/2026/01/23/the-future-of-shopping-has-arrived-and-google-wants-to-run-it.html
 https://aws.amazon.com/blogs/machine-learning/build-ai-agents-with-amazon-bedrock-agentcore-using-aws-cloudformation/
 https://aws.amazon.com/blogs/machine-learning/how-the-amazon-com-catalog-team-built-self-learning-generative-ai-at-scale-with-amazon-bedrock/
@@ -298,3 +295,6 @@ https://machinelearningmastery.com/export-your-ml-model-in-onnx-format/
 https://machinelearningmastery.com/7-advanced-feature-engineering-tricks-using-llm-embeddings/
 https://machinelearningmastery.com/a-beginners-reading-list-for-large-language-models-for-2026/
 https://www.marktechpost.com/2026/02/08/bytedance-releases-protenix-v1-a-new-open-source-model-achieving-af3-level-performance-in-biomolecular-structure-prediction/
+https://www.cnbc.com/2026/02/09/chinese-chipmaker-montage-technology-hong-kong-ipo-debut.html
+https://www.cnbc.com/2026/02/09/tech-leaders-epstein-records-silicon-valley-sergey-brin-thiel-sinofsky-reid-hoffman-musk-gates.html
+https://www.cnbc.com/2026/02/09/cnbc-daily-open-watch-japans-yen-and-government-bond-yields-as-takaichi-storms-to-an-election-victory.html
