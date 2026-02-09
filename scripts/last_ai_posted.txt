@@ -1,6 +1,3 @@
-https://www.cnbc.com/2026/01/23/nvidia-director-persis-drell-resigns-decade-on-board-26-million-stock.html
-https://www.cnbc.com/2026/01/23/cramers-week-ahead-big-tech-earnings-and-the-fed.html
-https://www.cnbc.com/2026/01/23/sen-gillibrand-optimistic-senate-agriculture-will-advance-crypto-bill.html
 https://www.marktechpost.com/2026/01/23/github-releases-copilot-sdk-to-embed-its-agentic-runtime-in-any-app/
 https://www.marktechpost.com/2026/01/23/how-an-ai-agent-chooses-what-to-do-under-tokens-latency-and-tool-call-budget-constraints/
 https://thenextweb.com/news/how-flippa-is-removing-the-language-barrier-from-global-deal-making
@@ -298,3 +295,6 @@ https://www.marktechpost.com/2026/02/08/a-coding-implementation-to-establish-rig
 https://www.cnbc.com/2026/02/09/big-tech-stocks-post-selloff-week.html
 https://www.cnbc.com/2026/02/09/lyft-teen-accounts-uber-rideshare-waymo.html
 https://www.cnbc.com/2026/02/09/eu-interim-measures-meta-whatsapp-ai-policy-antritrust.html
+https://www.cnbc.com/2026/02/09/databricks-completes-5-billion-funding-round-with-2-billion-in-debt.html
+https://www.cnbc.com/2026/02/09/workday-stock-carl-eschenbach-aneel-bhusri.html
+https://www.cnbc.com/2026/02/09/meta-big-week-in-court-opening-arguments-in-new-mexico-la-trials.html
