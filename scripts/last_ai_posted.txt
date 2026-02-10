@@ -1,6 +1,3 @@
-https://www.cnbc.com/2026/01/26/ai-wasnt-the-biggest-engine-of-us-gdp-growth-in-2025.html
-https://www.cnbc.com/2026/01/26/zoom-anthropic-investment.html
-https://www.cnbc.com/2026/01/26/alex-pretti-killing-ice-tech-ceo-response.html
 https://www.cnbc.com/2026/01/26/tiktok-uninstalls-are-up-150percent-following-us-joint-venture.html
 https://www.cnbc.com/2026/01/26/american-ai-coding-agents-are-impressive-but-so-are-chinas.html
 https://www.cnbc.com/2026/01/26/2-takeaways-from-nvidia-ceos-cnbc-interview-and-jim-cramers-advice-on-the-stock.html
@@ -298,3 +295,6 @@ https://thenextweb.com/news/tem-raises-75-m-to-automate-energy-markets-with-ai-f
 https://www.marktechpost.com/2026/02/10/alibaba-open-sources-zvec-an-embedded-vector-database-bringing-sqlite-like-simplicity-and-high-performance-on-device-rag-to-edge-applications/
 https://www.cnbc.com/2026/02/10/spotify-spot-q4-2025-earnings.html
 https://www.cnbc.com/2026/02/10/5-things-to-know-before-the-stock-market-opens.html
+https://www.cnbc.com/2026/02/10/were-taking-solid-profits-in-one-big-tech-stock-and-buying-more-of-another.html
+https://www.cnbc.com/2026/02/10/elon-musk-xai-co-founder-tony-wu.html
+https://thenextweb.com/news/managing-your-brands-narrative-in-the-ai-age
