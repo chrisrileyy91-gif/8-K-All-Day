@@ -1,6 +1,3 @@
-https://openai.com/business/guides-and-resources/chatgpt-usage-and-adoption-patterns-at-work
-https://huggingface.co/blog/waypoint-1
-https://www.cnbc.com/2026/01/24/metas-reality-labs-cuts-sparked-fears-of-a-vr-winter.html
 https://www.cnbc.com/2026/01/24/musks-1-trillion-pay-package-renews-focus-on-rising-ceo-compensation.html
 https://machinelearningmastery.com/everything-you-need-to-know-about-how-python-manages-memory/
 https://machinelearningmastery.com/the-machine-learning-practitioners-guide-to-model-deployment-with-fastapi/
@@ -298,3 +295,6 @@ https://www.cnbc.com/2026/02/09/monday-com-stock-ai-software.html
 https://www.cnbc.com/2026/02/09/morgan-stanley-says-buy-2-beaten-down-software-stocks-we-agree-on-one-of-them.html
 https://www.cnbc.com/2026/02/09/under-the-hood-of-the-ai-economy-with-databricks-ceo-ali-ghodsi.html
 https://arstechnica.com/tech-policy/2026/02/discord-faces-backlash-over-age-checks-after-data-breach-exposed-70000-ids/
+https://www.cnbc.com/2026/02/09/tesla-exec-raj-jegannathan-leaves-automaker-after-13-years.html
+https://www.cnbc.com/2026/02/09/alphabet-highlights-new-ai-related-risks-in-tapping-debt-market.html
+https://www.marktechpost.com/2026/02/09/microsoft-ai-proposes-orbitalbrain-enabling-distributed-machine-learning-in-space-with-inter-satellite-links-and-constellation-aware-resource-optimization-strategies/
