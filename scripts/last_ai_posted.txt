@@ -1,6 +1,3 @@
-https://www.cnbc.com/2026/01/26/tiktok-uninstalls-are-up-150percent-following-us-joint-venture.html
-https://www.cnbc.com/2026/01/26/american-ai-coding-agents-are-impressive-but-so-are-chinas.html
-https://www.cnbc.com/2026/01/26/2-takeaways-from-nvidia-ceos-cnbc-interview-and-jim-cramers-advice-on-the-stock.html
 https://www.marktechpost.com/2026/01/26/how-a-haystack-powered-multi-agent-system-detects-incidents-investigates-metrics-and-logs-and-produces-production-grade-incident-reviews-end-to-end/
 https://www.cnbc.com/2026/01/27/meta-to-test-premium-subscription-plans-for-instagram-facebook-and-whatsapp.html
 https://www.cnbc.com/2026/01/26/microsoft-wins-approval-for-15-data-centers-at-wisconsin-foxconn-site.html
@@ -298,3 +295,6 @@ https://www.cnbc.com/2026/02/10/5-things-to-know-before-the-stock-market-opens.h
 https://www.cnbc.com/2026/02/10/were-taking-solid-profits-in-one-big-tech-stock-and-buying-more-of-another.html
 https://www.cnbc.com/2026/02/10/elon-musk-xai-co-founder-tony-wu.html
 https://thenextweb.com/news/managing-your-brands-narrative-in-the-ai-age
+https://thenextweb.com/news/naboo-raises-70m
+https://thenextweb.com/news/databricks-hits-5-4b-revenue-run-rate
+https://www.cnbc.com/2026/02/10/alphabet-set-to-raise-over-30-billion-in-global-debt-sale-sources.html
