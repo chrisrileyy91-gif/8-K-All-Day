@@ -1,6 +1,3 @@
-https://www.cnbc.com/2026/01/27/amazons-grocery-boss-details-fresh-go-restructuring-read-the-memo.html
-https://www.cnbc.com/2026/01/27/redwire-stock-trump-golden-dome-defense.html
-https://www.cnbc.com/2026/01/27/anthropic-fundraising-microsoft-nvidia.html
 https://www.marktechpost.com/2026/01/27/moonshot-ai-releases-kimi-k2-5-an-open-source-visual-agentic-intelligence-model-with-native-swarm-execution/
 https://huggingface.co/blog/nvidia/nemotron-personas-singapore
 https://www.cnbc.com/2026/01/27/intel-says-it-will-match-governments-trump-accounts-contribution.html
@@ -298,3 +295,6 @@ https://www.cnbc.com/2026/02/11/mistral-ai-infrastructure-sweden.html
 https://www.cnbc.com/2026/02/11/bitcoin-price-today-crypto-volatility.html
 https://www.cnbc.com/2026/02/11/shopify-shop-earnings-q4-2025.html
 https://www.cnbc.com/2026/02/11/apptronik-raises-520-million-at-5-billion-valuation-for-apollo-robot.html
+https://www.cnbc.com/2026/02/11/meta-threads-dear-algo-ai-algorithm-personalization.html
+https://www.marktechpost.com/2026/02/11/how-to-build-an-atomic-agents-rag-pipeline-with-typed-schemas-dynamic-context-injection-and-agent-chaining/
+https://www.cnbc.com/2026/02/11/lyft-ceo-david-risher-earnings-stock.html
