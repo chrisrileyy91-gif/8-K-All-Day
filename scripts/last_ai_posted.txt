@@ -1,6 +1,3 @@
-https://www.cnbc.com/2026/01/27/apple-google-host-dozens-of-ai-nudify-apps-like-grok-report-finds.html
-https://www.cnbc.com/2026/01/27/tiktok-us-joint-venture-censorship-glitches-newsom-epstein-ice-censorship.html
-https://www.cnbc.com/2026/01/27/big-tech-earnings-2026-ai-spend.html
 https://www.cnbc.com/2026/01/27/pinterest-layoffs-stock-ai.html
 https://www.cnbc.com/2026/01/27/new-ai-tool-from-fundrise-brings-high-level-cre-analysis-to-the-public.html
 https://www.cnbc.com/2026/01/27/apple-supplier-corning-wins-6-billion-from-meta-for-ai-optical-fiber.html
@@ -298,3 +295,6 @@ https://www.cnbc.com/2026/02/10/amazon-gets-fcc-approval-to-launch-4500-leo-inte
 https://www.marktechpost.com/2026/02/10/nvidia-researchers-introduce-kvtc-transform-coding-pipeline-to-compress-key-value-caches-by-20x-for-efficient-llm-serving/
 https://www.cnbc.com/2026/02/10/salesforce-employees-call-on-ceo-benioff-to-cancel-ice-opportunities.html
 https://www.cnbc.com/2026/02/10/musks-xai-loses-second-co-founder-in-two-days-as-jimmy-ba-departs.html
+https://www.cnbc.com/2026/02/11/dassault-systmes-share-price-earnings-software-sell-off.html
+https://www.cnbc.com/2026/02/11/hong-kong-stablecoin-licenses-china-crypto-ban-usdt-usdc-cny-cnh-rmb-usd-fiat-currency.html
+https://www.marktechpost.com/2026/02/10/how-to-design-complex-deep-learning-tensor-pipelines-using-einops-with-vision-attention-and-multimodal-examples/
