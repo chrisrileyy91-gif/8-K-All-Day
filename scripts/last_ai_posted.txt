@@ -1,6 +1,3 @@
-https://www.marktechpost.com/2026/01/27/moonshot-ai-releases-kimi-k2-5-an-open-source-visual-agentic-intelligence-model-with-native-swarm-execution/
-https://huggingface.co/blog/nvidia/nemotron-personas-singapore
-https://www.cnbc.com/2026/01/27/intel-says-it-will-match-governments-trump-accounts-contribution.html
 https://www.cnbc.com/2026/01/28/chinese-tech-companies-accelerate-ai-model-rollouts-us-rivals-deepseek-moonshot-kimi.html
 https://www.cnbc.com/2026/01/27/amazon-inadvertently-sends-email-to-employees-confirming-wednesday-layoffs.html
 https://huggingface.co/blog/nvidia/nemotron-personas-brazil
@@ -298,3 +295,6 @@ https://www.cnbc.com/2026/02/11/apptronik-raises-520-million-at-5-billion-valuat
 https://www.cnbc.com/2026/02/11/meta-threads-dear-algo-ai-algorithm-personalization.html
 https://www.marktechpost.com/2026/02/11/how-to-build-an-atomic-agents-rag-pipeline-with-typed-schemas-dynamic-context-injection-and-agent-chaining/
 https://www.cnbc.com/2026/02/11/lyft-ceo-david-risher-earnings-stock.html
+https://www.cnbc.com/2026/02/11/ray-ban-maker-essilorluxottica-triples-sales-of-meta-ai-glasses.html
+https://aws.amazon.com/blogs/machine-learning/nvidia-nemotron-3-nano-30b-is-now-available-in-amazon-sagemaker-jumpstart/
+https://www.cnbc.com/2026/02/11/tech-investor-orlando-bravo-software-ai.html
