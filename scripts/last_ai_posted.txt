@@ -1,6 +1,3 @@
-https://www.marktechpost.com/2026/01/26/how-a-haystack-powered-multi-agent-system-detects-incidents-investigates-metrics-and-logs-and-produces-production-grade-incident-reviews-end-to-end/
-https://www.cnbc.com/2026/01/27/meta-to-test-premium-subscription-plans-for-instagram-facebook-and-whatsapp.html
-https://www.cnbc.com/2026/01/26/microsoft-wins-approval-for-15-data-centers-at-wisconsin-foxconn-site.html
 https://www.cnbc.com/2026/01/27/data-centers-ai-district-heating-aws-amazon-ireland.html
 https://www.cnbc.com/2026/01/27/micron-24-billion-singapore-nand-dram-expansion-ai-memory-shortages.html
 https://www.cnbc.com/2026/01/27/tencent-cloud-expansion-middle-east.html
@@ -298,3 +295,6 @@ https://thenextweb.com/news/managing-your-brands-narrative-in-the-ai-age
 https://thenextweb.com/news/naboo-raises-70m
 https://thenextweb.com/news/databricks-hits-5-4b-revenue-run-rate
 https://www.cnbc.com/2026/02/10/alphabet-set-to-raise-over-30-billion-in-global-debt-sale-sources.html
+https://www.cnbc.com/2026/02/10/astera-labs-alab-earnings-report-q4-2025.html
+https://www.marktechpost.com/2026/02/10/google-ai-introduces-natively-adaptive-interfaces-nai-an-agentic-multimodal-accessibility-framework-built-on-gemini-for-adaptive-ui-design/
+https://www.cnbc.com/2026/02/10/amazon-gets-fcc-approval-to-launch-4500-leo-internet-satellites.html
