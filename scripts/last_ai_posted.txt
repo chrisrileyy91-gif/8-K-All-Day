@@ -1,6 +1,3 @@
-https://www.cnbc.com/2026/01/28/amazon-layoffs-anti-bureaucracy-ai.html
-https://www.cnbc.com/2026/01/28/global-chip-stocks-today-nvidia-china-asml-sk-hynix.html
-https://www.cnbc.com/2026/01/28/autonomous-startup-waabi-raises-750-million-to-expand-into-robotaxis.html
 https://www.cnbc.com/2026/01/28/outtake-cyber-openai-ai-raise.html
 https://www.cnbc.com/2026/01/28/snap-establishes-specs-subsidiary-for-its-ar-glasses.html
 https://www.cnbc.com/2026/01/28/5-things-to-know-before-the-stock-market-opens.html
@@ -298,3 +295,6 @@ https://aws.amazon.com/blogs/machine-learning/swann-provides-generative-ai-to-mi
 https://www.marktechpost.com/2026/02/11/how-to-build-a-matryoshka-optimized-sentence-embedding-model-for-ultra-fast-retrieval-with-64-dimension-truncation/
 https://aws.amazon.com/blogs/machine-learning/how-linqalpha-assesses-investment-theses-using-devils-advocate-on-amazon-bedrock/
 https://thenextweb.com/news/why-creativity-is-the-currency-of-the-ai-age
+https://www.cnbc.com/2026/02/12/softbank-vision-fund-openai.html
+https://www.cnbc.com/2026/02/12/adyen-stock-price-earnings.html
+https://openai.com/index/harness-engineering
