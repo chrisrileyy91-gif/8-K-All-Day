@@ -1,6 +1,3 @@
-https://www.cnbc.com/2026/01/28/microsoft-msft-q2-earnings-report-2026.html
-https://www.cnbc.com/2026/01/28/metas-reality-labs-posts-6point02-billion-loss-in-fourth-quarter.html
-https://www.cnbc.com/2026/01/28/apples-cook-minneapolis-ice-trump.html
 https://www.cnbc.com/2026/01/29/samsung-record-q4-2025-profit-ai-hbm-ai-memory-chip-shortage.html
 https://www.cnbc.com/2026/01/28/tesla-ending-model-s-x-production.html
 https://www.cnbc.com/2026/01/28/ibm-earnings-q4-2025.html
@@ -298,3 +295,6 @@ https://thenextweb.com/news/stop-talking-to-ai-let-them-talk-to-each-other-the-a
 https://www.cnbc.com/2026/02/12/anthropic-gives-20-million-to-group-pushing-for-ai-regulations-.html
 https://www.cnbc.com/2026/02/12/5-things-to-know-before-the-stock-market-opens.html
 https://www.cnbc.com/2026/02/12/tech-ipo-hype-drowned-out-by-prospect-of-1-trillion-in-debt-sales.html
+https://www.cnbc.com/2026/02/12/trucking-and-logistics-stocks-tumble-on-release-of-ai-freight-scaling-tool.html
+https://www.cnbc.com/2026/02/12/ftc-tim-cook-apple-news-censorship.html
+https://www.cnbc.com/2026/02/12/ciscos-memory-price-warning-is-having-ripple-effects-across-the-tech-sector.html
