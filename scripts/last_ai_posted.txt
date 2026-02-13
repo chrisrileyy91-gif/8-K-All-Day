@@ -1,6 +1,3 @@
-https://www.cnbc.com/2026/01/29/sk-hynix-beats-samsung-2025-profit-ai-memory-hbm.html
-https://www.marktechpost.com/2026/01/28/how-to-design-self-reflective-dual-agent-governance-systems-with-constitutional-ai-for-secure-and-compliant-financial-operations/
-https://www.cnbc.com/2026/01/29/cnbc-daily-open-fed-expectedly-keeps-rates-steady-the-intrigue-was-elsewhere.html
 https://www.cnbc.com/2026/01/29/sap-earnings-q4-shares-cloud-contract-value.html
 https://www.cnbc.com/2026/01/29/toyota-hits-record-hybrids-sales-in-2025-as-the-auto-giant-adjusted-to-trumps-tariffs.html
 https://www.marktechpost.com/2026/01/28/google-deepmind-unveils-alphagenome-a-unified-sequence-to-function-model-using-hybrid-transformers-and-u-nets-to-decode-the-human-genome/
@@ -298,3 +295,6 @@ https://www.cnbc.com/2026/02/12/instacart-cart-q4-2025-earnings.html
 https://www.cnbc.com/2026/02/13/us-signs-trade-deal-with-taiwan-lowering-trump-tariffs.html
 https://www.cnbc.com/2026/02/12/waymo-is-paying-doordash-gig-workers-to-close-its-robotaxi-doors.html
 https://www.cnbc.com/2026/02/12/amazons-ring-cancels-flock-partnership-amid-super-bowl-ad-backlash.html
+https://www.marktechpost.com/2026/02/12/how-to-align-large-language-models-with-human-preferences-using-direct-preference-optimization-qlora-and-ultra-feedback/
+https://www.marktechpost.com/2026/02/12/openai-releases-a-research-preview-of-gpt-5-3-codex-spark-a-15x-faster-ai-coding-model-delivering-over-1000-tokens-per-second-on-cerebras-hardware/
+https://www.marktechpost.com/2026/02/12/is-this-agi-googles-gemini-3-deep-think-shatters-humanitys-last-exam-and-hits-84-6-on-arc-agi-2-performance-today/
