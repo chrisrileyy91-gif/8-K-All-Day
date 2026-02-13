@@ -1,6 +1,3 @@
-https://www.cnbc.com/2026/01/28/metas-zuckerberg-gets-green-light-from-wall-street-to-invest-in-ai.html
-https://www.marktechpost.com/2026/01/28/alibaba-introduces-qwen3-max-thinking-a-test-time-scaled-reasoning-model-with-native-tool-use-powering-agentic-workloads/
-https://www.cnbc.com/2026/01/29/advantest-shares-jump-record-quarterly-sales-ai-tester-demand-q3-2025-forecast-q4-chip-testing.html
 https://www.cnbc.com/2026/01/29/sk-hynix-beats-samsung-2025-profit-ai-memory-hbm.html
 https://www.marktechpost.com/2026/01/28/how-to-design-self-reflective-dual-agent-governance-systems-with-constitutional-ai-for-secure-and-compliant-financial-operations/
 https://www.cnbc.com/2026/01/29/cnbc-daily-open-fed-expectedly-keeps-rates-steady-the-intrigue-was-elsewhere.html
@@ -298,3 +295,6 @@ https://www.cnbc.com/2026/02/12/ciscos-memory-price-warning-is-having-ripple-eff
 https://www.cnbc.com/2026/02/12/apple-stock-worst-day-ftc-siri.html
 https://www.cnbc.com/2026/02/12/pinterest-pins-q4-earnings-report-2025.html
 https://www.cnbc.com/2026/02/12/instacart-cart-q4-2025-earnings.html
+https://www.cnbc.com/2026/02/13/us-signs-trade-deal-with-taiwan-lowering-trump-tariffs.html
+https://www.cnbc.com/2026/02/12/waymo-is-paying-doordash-gig-workers-to-close-its-robotaxi-doors.html
+https://www.cnbc.com/2026/02/12/amazons-ring-cancels-flock-partnership-amid-super-bowl-ad-backlash.html
