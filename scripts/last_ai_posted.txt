@@ -1,6 +1,3 @@
-https://www.cnbc.com/2026/01/30/ai-industry-super-pac-raises-campaign-money.html
-https://www.cnbc.com/2026/01/30/microsoft-stock-price-market-ai-cloud-azure-earnings.html
-https://thenextweb.com/news/apple-buys-silent-speech-ai-startup-for-2b-because-talking-is-so-2025
 https://www.cnbc.com/2026/01/30/sandisk-stock-earnings-ai-memory-demand.html
 https://aws.amazon.com/blogs/machine-learning/simplify-modelops-with-amazon-sagemaker-ai-projects-using-amazon-s3-based-templates/
 https://aws.amazon.com/blogs/machine-learning/scale-ai-in-south-africa-using-amazon-bedrock-global-cross-region-inference-with-anthropic-claude-4-5-models/
@@ -298,3 +295,6 @@ https://openai.com/index/introducing-lockdown-mode-and-elevated-risk-labels-in-c
 https://thenextweb.com/news/munich-2026-a-security-conference-where-tech-isnt-an-afterthought
 https://openai.com/index/beyond-rate-limits
 https://openai.com/index/scaling-social-science-research
+https://www.cnbc.com/2026/02/14/big-food-ai-recipes.html
+https://www.marktechpost.com/2026/02/12/google-deepmind-introduces-aletheia-the-ai-agent-moving-from-math-competitions-to-fully-autonomous-professional-research-discoveries/
+https://huggingface.co/blog/custom-cuda-kernels-agent-skills
