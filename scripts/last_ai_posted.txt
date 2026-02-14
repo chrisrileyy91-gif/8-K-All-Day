@@ -1,6 +1,3 @@
-https://aws.amazon.com/blogs/machine-learning/evaluating-generative-ai-models-with-amazon-nova-llm-as-a-judge-on-amazon-sagemaker-ai/
-https://www.cnbc.com/2026/01/30/fireblocks-north-korea-hackers-crypto-job-scam.html
-https://www.cnbc.com/2026/01/30/popularity-of-broadcoms-custom-chips-is-testing-but-not-breaking-nvidias-dominance-.html
 https://www.cnbc.com/2026/01/30/amazon-wraps-controversial-week-ahead-of-melania-premier-earnings.html
 https://www.cnbc.com/2026/01/30/cramers-week-ahead-earnings-eli-lilly-alphabet-amazon-jobs-data.html
 https://www.marktechpost.com/2026/01/30/ai2-releases-sera-soft-verified-coding-agents-built-with-supervised-training-only-for-practical-repository-level-automation-workflows/
@@ -298,3 +295,6 @@ https://huggingface.co/blog/custom-cuda-kernels-agent-skills
 https://www.cnbc.com/2026/02/14/here-are-3-factors-that-drove-the-big-swings-in-the-stock-market-last-week.html
 https://aws.amazon.com/blogs/machine-learning/ai-meets-hr-transforming-talent-acquisition-with-amazon-bedrock/
 https://aws.amazon.com/blogs/machine-learning/build-long-running-mcp-servers-on-amazon-bedrock-agentcore-with-strands-agents-integration/
+https://www.marktechpost.com/2026/02/14/how-to-build-a-self-organizing-agent-memory-system-for-long-term-ai-reasoning/
+https://thenextweb.com/news/swedish-pet-insurtech-lassie-raises-75m-series-c-after-hitting-100m-arr
+https://openai.com/index/introducing-gpt-5-3-codex-spark
