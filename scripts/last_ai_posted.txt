@@ -1,6 +1,3 @@
-https://www.cnbc.com/2026/01/29/apple-iphone-soc-memory-tsmc.html
-https://www.marktechpost.com/2026/01/29/ant-group-releases-lingbot-vla-a-vision-language-action-foundation-model-for-real-world-robot-manipulation/
-https://aws.amazon.com/blogs/machine-learning/scaling-content-review-operations-with-multi-agent-workflow/
 https://www.cnbc.com/2026/01/30/cnbc-daily-open-consumers-love-the-iphone-but-investors-are-tepid-on-apple-despite-strong-earnings.html
 https://www.cnbc.com/2026/01/29/whats-next-for-apple-stock-after-big-iphone-sales-everywhere-even-china.html
 https://www.cnbc.com/2026/01/29/musks-20-billion-spending-plan-signals-tesla-of-yesterday-is-gone.html
@@ -298,3 +295,6 @@ https://www.cnbc.com/2026/02/13/nvidias-stock-is-down-and-amd-is-up-the-culprit-
 https://www.cnbc.com/2026/02/13/musks-xai-faces-threat-of-naacp-lawsuit-over-pollution-in-mississippi.html
 https://aws.amazon.com/blogs/machine-learning/customize-ai-agent-browsing-with-proxies-profiles-and-extensions-in-amazon-bedrock-agentcore-browser/
 https://www.cnbc.com/2026/02/13/anthropic-open-ai-super-bowl-ads.html
+https://www.cnbc.com/2026/02/13/china-ai-lunar-new-year-bytedance-baidu-tencent-alibaba.html
+https://www.cnbc.com/2026/02/13/investor-matt-shumer-says-viral-essay-wasnt-meant-to-scare-people.html
+https://www.marktechpost.com/2026/02/13/exa-ai-introduces-exa-instant-a-sub-200ms-neural-search-engine-designed-to-eliminate-bottlenecks-for-real-time-agentic-workflows/
