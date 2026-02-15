@@ -1,5 +1,3 @@
-https://www.cnbc.com/2026/01/30/epstein-files-show-elon-musk-planned-visit-to-island-host-at-spacex.html
-https://www.marktechpost.com/2026/01/30/robbyant-open-sources-lingbot-world-a-real-time-world-model-for-interactive-simulation-and-embodied-ai/
 https://www.cnbc.com/2026/01/30/amazon-asks-fcc-to-extend-satellite-limit-as-it-buys-more-spacex-rides.html
 https://www.marktechpost.com/2026/01/30/a-coding-implementation-to-training-optimizing-evaluating-and-interpreting-knowledge-graph-embeddings-with-pykeen/
 https://www.marktechpost.com/2026/01/29/a-coding-deep-dive-into-differentiable-computer-vision-with-kornia-using-geometry-optimization-loftr-matching-and-gpu-augmentations/
@@ -298,3 +296,5 @@ https://openai.com/index/introducing-gpt-5-3-codex-spark
 https://huggingface.co/blog/openenv-turing
 https://huggingface.co/blog/transformersjs-v4
 https://www.marktechpost.com/2026/02/14/google-ai-introduces-the-webmcp-to-enable-direct-and-structured-website-interactions-for-new-ai-agents/
+https://www.marktechpost.com/2026/02/15/meet-kani-tts-2-a-400m-param-open-source-text-to-speech-model-that-runs-in-3gb-vram-with-voice-cloning-support/
+https://www.marktechpost.com/2026/02/14/getting-started-with-openclaw-and-connecting-it-with-whatsapp/
