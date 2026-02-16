@@ -1,4 +1,3 @@
-https://thenextweb.com/news/g2-bold-move-to-reshape-software-discovery-with-major-acquisition-from-gartner
 https://huggingface.co/blog/nvidia/cosmos-policy-for-robot-control
 https://openai.com/index/inside-our-in-house-data-agent
 https://openai.com/index/taisei
@@ -298,3 +297,4 @@ https://www.marktechpost.com/2026/02/14/getting-started-with-openclaw-and-connec
 https://www.cnbc.com/2026/02/15/jim-cramer-weighs-in-on-the-anthropic-fueled-software-stock-sell-off-.html
 https://www.marktechpost.com/2026/02/15/moonshot-ai-launches-kimi-claw-native-openclaw-on-kimi-com-with-5000-community-skills-and-40gb-cloud-storage-now/
 https://www.cnbc.com/2026/02/16/india-ai-impact-summit-tech-ceos-new-delhi.html
+https://www.cnbc.com/2026/02/16/tiktok-us-joint-venture-user-data-no-mass-exodus-oracle-mgx-silver-lake-larry-ellison-trump.html
