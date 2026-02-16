@@ -1,4 +1,3 @@
-https://huggingface.co/blog/daggr
 https://thenextweb.com/news/france-turns-digital-sovereignty-into-policy
 https://openai.com/index/emea-youth-and-wellbeing-grant
 https://openai.com/index/the-next-chapter-for-ai-in-the-eu
@@ -298,3 +297,4 @@ https://www.marktechpost.com/2026/02/15/a-coding-implementation-to-design-a-stat
 https://www.cnbc.com/2026/02/16/crypto-payments-stablecoin-growing-role-human-trafficking-csam-networks-chainalysis.html
 https://www.cnbc.com/2026/02/16/bytedance-safegaurds-seedance-ai-copyright-disney-mpa-netflix-paramount-sony-universal.html
 https://www.marktechpost.com/2026/02/15/google-deepmind-proposes-new-framework-for-intelligent-ai-delegation-to-secure-the-emerging-agentic-web-for-future-economies/
+https://thenextweb.com/news/peter-steinberger-joins-openai
