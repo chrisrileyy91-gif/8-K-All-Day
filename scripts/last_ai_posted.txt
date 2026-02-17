@@ -1,5 +1,3 @@
-https://huggingface.co/blog/huggingface/one-year-since-the-deepseek-moment-blog-2
-https://huggingface.co/blog/tiiuae/emirati-benchmarks
 https://huggingface.co/blog/LinkedIn/gpt-oss-agentic-rl
 https://arstechnica.com/tech-policy/2026/01/wildly-irresponsible-dots-use-of-ai-to-draft-safety-rules-sparks-concerns/
 https://thenextweb.com/news/is-g2-becoming-too-powerful-for-the-software-market
@@ -298,3 +296,5 @@ https://www.cnbc.com/2026/02/16/apple-takes-on-youtube-and-spotify-with-new-vide
 https://thenextweb.com/news/x-goes-quiet-again
 https://www.marktechpost.com/2026/02/16/how-to-build-human-in-the-loop-plan-and-execute-ai-agents-with-explicit-user-approval-using-langgraph-and-streamlit/
 https://www.cnbc.com/2026/02/17/china-alibaba-qwen-ai-agent-latest-model.html
+https://www.cnbc.com/2026/02/17/india-adani-ai-data-centers-investment.html
+https://www.marktechpost.com/2026/02/16/agoda-open-sources-apiagent-to-convert-any-rest-pr-graphql-api-into-an-mcp-server-with-zero-code/
