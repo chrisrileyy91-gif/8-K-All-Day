@@ -1,5 +1,3 @@
-https://huggingface.co/blog/LinkedIn/gpt-oss-agentic-rl
-https://arstechnica.com/tech-policy/2026/01/wildly-irresponsible-dots-use-of-ai-to-draft-safety-rules-sparks-concerns/
 https://thenextweb.com/news/is-g2-becoming-too-powerful-for-the-software-market
 https://thenextweb.com/news/tnw-weekly-briefing-3
 https://www.cnbc.com/2026/02/01/spy-sheikh-stake-trump-crypto.html
@@ -298,3 +296,5 @@ https://www.marktechpost.com/2026/02/16/how-to-build-human-in-the-loop-plan-and-
 https://www.cnbc.com/2026/02/17/china-alibaba-qwen-ai-agent-latest-model.html
 https://www.cnbc.com/2026/02/17/india-adani-ai-data-centers-investment.html
 https://www.marktechpost.com/2026/02/16/agoda-open-sources-apiagent-to-convert-any-rest-pr-graphql-api-into-an-mcp-server-with-zero-code/
+https://www.cnbc.com/2026/02/17/snap-to-launch-creator-subscriptions-in-push-to-diversify-revenue-.html
+https://www.cnbc.com/2026/02/17/india-age-based-social-media-curbs.html
