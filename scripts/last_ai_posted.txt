@@ -1,6 +1,3 @@
-https://www.cnbc.com/2026/02/03/nintendo-q3-earnings-switch-2-forecast.html
-https://www.cnbc.com/2026/02/03/cnbc-daily-open-asia-markets-and-precious-metals-rebound-amid-trumps-trade-deal-with-india.html
-https://www.marktechpost.com/2026/02/02/google-releases-conductor-a-context-driven-gemini-cli-extension-that-stores-knowledge-as-markdown-and-orchestrates-agentic-workflows/
 https://www.cnbc.com/2026/02/03/disney-stock-price-earnings-ceo-bob-iger.html
 https://www.cnbc.com/2026/02/03/palantir-stock-earnings.html
 https://www.cnbc.com/2026/02/03/in-google-earnings-analysts-want-answers-on-apples-siri-gemini-deal.html
@@ -298,3 +295,6 @@ https://www.marktechpost.com/2026/02/17/cloudflare-releases-agents-sdk-v0-5-0-wi
 https://www.cnbc.com/2026/02/18/arm-nvidia-nokia-ai-stake-shares.html
 https://thenextweb.com/news/vc-quantonation-closes-e220m-fund-to-back-next-gen-physics-tech
 https://thenextweb.com/news/how-the-uninvestable-is-becoming-investable
+https://www.cnbc.com/2026/02/18/palo-alto-stock-cybersecurity-ai-earnings.html
+https://www.cnbc.com/2026/02/18/meta-mark-zuckerberg-social-media-safety-trial.html
+https://www.cnbc.com/2026/02/18/wendy-tan-white-building-the-android-of-robotics-at-intrinsic.html
