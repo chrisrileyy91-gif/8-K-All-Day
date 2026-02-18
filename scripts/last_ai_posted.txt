@@ -1,6 +1,3 @@
-https://www.cnbc.com/2026/02/02/musks-xai-needs-spacex-for-money-data-centers-in-space-are-a-dream.html
-https://www.cnbc.com/2026/02/03/softbank-subsidiary-saimemory-intel-ai-memory-z-angle-program.html
-https://www.marktechpost.com/2026/02/02/how-to-build-multi-layered-llm-safety-filters-to-defend-against-adaptive-paraphrased-and-adversarial-prompt-attacks/
 https://www.cnbc.com/2026/02/03/cnbc-daily-open-india-and-us-strike-a-trade-deal-and-markets-shrug-off-precious-metals-rout.html
 https://www.cnbc.com/2026/02/02/oracles-credit-default-swaps-are-plummeting-after-financing-plans.html
 https://www.cnbc.com/2026/02/02/palantir-ceo-ice-government-protests-karp.html
@@ -298,3 +295,6 @@ https://www.cnbc.com/2026/02/17/meta-nvidia-deal-ai-data-center-chips.html
 https://www.cnbc.com/2026/02/18/ai-mistral-software-switch-ceo-india-ai-impact-summit.html
 https://www.cnbc.com/2026/02/18/europe-digital-sovereignty-geopolitical-tensions.html
 https://www.cnbc.com/2026/02/18/nvidia-india-ai-vc-data-center-partners.html
+https://www.marktechpost.com/2026/02/18/google-introduces-jetpack-compose-glimmer-a-new-spatial-ui-framework-designed-specifically-for-the-next-generation-of-ai-glasses/
+https://www.marktechpost.com/2026/02/17/cohere-releases-tiny-aya-a-3b-parameter-small-language-model-that-supports-70-languages-and-runs-locally-even-on-a-phone/
+https://www.marktechpost.com/2026/02/17/cloudflare-releases-agents-sdk-v0-5-0-with-rewritten-cloudflare-ai-chat-and-new-rust-powered-infire-engine-for-optimized-edge-inference-performance/
