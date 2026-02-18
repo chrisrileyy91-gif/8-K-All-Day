@@ -1,6 +1,3 @@
-https://www.cnbc.com/2026/02/02/openai-codex-app-apple-computers.html
-https://www.cnbc.com/2026/02/02/china-gloom-are-you-dead-crying-horse.html
-https://aws.amazon.com/blogs/machine-learning/how-clarus-care-uses-amazon-bedrock-to-deliver-conversational-contact-center-interactions/
 https://www.cnbc.com/2026/02/02/waymo-announced-16-billion-fundraising-round.html
 https://www.cnbc.com/2026/02/02/elon-musk-spacex-xai-ipo.html
 https://www.cnbc.com/2026/02/02/palantir-pltr-q4-2025-earnings.html
@@ -298,3 +295,6 @@ https://www.cnbc.com/2026/02/17/anthropic-ai-claude-sonnet-4-6-default-free-pro.
 https://www.cnbc.com/2026/02/17/tesla-adding-grok-ai-uk-europe.html
 https://huggingface.co/blog/nvidia/nemotron-nano-9b-v2-japanese-ja
 https://www.cnbc.com/2026/02/17/palo-alto-networks-panw-q2-2026-earnings.html
+https://www.cnbc.com/2026/02/17/we-cut-our-palo-alto-price-target-but-view-the-post-earnings-drop-as-an-opportunity.html
+https://www.cnbc.com/2026/02/17/google-io-developer-conference-ai-glasses.html
+https://www.cnbc.com/2026/02/17/meta-nvidia-deal-ai-data-center-chips.html
