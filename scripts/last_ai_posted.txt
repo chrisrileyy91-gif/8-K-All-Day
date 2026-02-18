@@ -1,6 +1,3 @@
-https://www.cnbc.com/2026/02/03/teradyne-ter-stock-q4-earnings-ai-demand.html
-https://huggingface.co/blog/huggingface/one-year-since-the-deepseek-moment-blog-3
-https://thenextweb.com/news/spacex-and-xai-a-merger-of-ambition-optics-and-unanswered-questions
 https://huggingface.co/blog/Hcompany/introducing-holo2-235b-a22b
 https://aws.amazon.com/blogs/machine-learning/agentic-ai-for-healthcare-data-analysis-with-amazon-sagemaker-data-agent/
 https://www.cnbc.com/2026/02/03/musk-xai-spacex-biggest-merger-ever.html
@@ -298,3 +295,6 @@ https://www.cnbc.com/2026/02/18/wendy-tan-white-building-the-android-of-robotics
 https://www.cnbc.com/2026/02/18/anthropic-pentagon-ai-defense-war-surveillance.html
 https://www.cnbc.com/2026/02/18/cramer-looks-to-nibble-on-a-software-stock-bail-on-a-health-care-name-.html
 https://www.cnbc.com/2026/02/18/microsoft-president-brad-smith-chinese-ai-subsidies.html
+https://www.cnbc.com/2026/02/18/figma-fig-q4-earnings-report-2025.html
+https://www.cnbc.com/2026/02/18/cadence-design-systems-stock-earnings-ai-chip.html
+https://www.marktechpost.com/2026/02/18/google-deepmind-releases-lyria-3-an-advanced-music-generation-ai-model-that-turns-photos-and-text-into-custom-tracks-with-included-lyrics-and-vocals/
