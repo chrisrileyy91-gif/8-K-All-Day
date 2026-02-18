@@ -1,6 +1,3 @@
-https://www.cnbc.com/2026/02/03/disney-stock-price-earnings-ceo-bob-iger.html
-https://www.cnbc.com/2026/02/03/palantir-stock-earnings.html
-https://www.cnbc.com/2026/02/03/in-google-earnings-analysts-want-answers-on-apples-siri-gemini-deal.html
 https://www.cnbc.com/2026/02/03/teradyne-ter-stock-q4-earnings-ai-demand.html
 https://huggingface.co/blog/huggingface/one-year-since-the-deepseek-moment-blog-3
 https://thenextweb.com/news/spacex-and-xai-a-merger-of-ambition-optics-and-unanswered-questions
@@ -298,3 +295,6 @@ https://thenextweb.com/news/how-the-uninvestable-is-becoming-investable
 https://www.cnbc.com/2026/02/18/palo-alto-stock-cybersecurity-ai-earnings.html
 https://www.cnbc.com/2026/02/18/meta-mark-zuckerberg-social-media-safety-trial.html
 https://www.cnbc.com/2026/02/18/wendy-tan-white-building-the-android-of-robotics-at-intrinsic.html
+https://www.cnbc.com/2026/02/18/anthropic-pentagon-ai-defense-war-surveillance.html
+https://www.cnbc.com/2026/02/18/cramer-looks-to-nibble-on-a-software-stock-bail-on-a-health-care-name-.html
+https://www.cnbc.com/2026/02/18/microsoft-president-brad-smith-chinese-ai-subsidies.html
