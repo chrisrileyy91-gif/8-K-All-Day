@@ -1,6 +1,3 @@
-https://www.marktechpost.com/2026/02/03/a-coding-implementation-to-train-safety-critical-reinforcement-learning-agents-offline-using-conservative-q-learning-with-d3rlpy-and-fixed-historical-data/
-https://www.cnbc.com/2026/02/03/muskonomy-shakeup-spacex-valuation-after-xai-merger-nears-tesla.html
-https://www.cnbc.com/2026/02/04/cnbc-daily-open-nvidia-denies-rift-with-openai-while-software-and-asset-management-stocks-plunge.html
 https://www.cnbc.com/2026/02/04/cnbc-daily-open-ubs-posts-strong-earnings-while-novo-nordisks-us-shares-crater-on-slowing-growth.html
 https://openai.com/index/vfl-wolfsburg
 https://www.marktechpost.com/2026/02/03/how-to-build-advanced-quantum-algorithms-using-qrisp-with-grover-search-quantum-phase-estimation-and-qaoa/
@@ -298,3 +295,6 @@ https://aws.amazon.com/blogs/machine-learning/evaluating-ai-agents-real-world-le
 https://www.cnbc.com/2026/02/19/openai-sam-altman-india-ai-summit.html
 https://www.marktechpost.com/2026/02/18/zyphra-releases-zuna-a-380m-parameter-bci-foundation-model-for-eeg-data-advancing-noninvasive-thought-to-text-development/
 https://huggingface.co/blog/ibm-research/itbenchandmast
+https://www.cnbc.com/2026/02/19/openai-sam-altman-anthropic-dario-amodei-india-ai-summit.html
+https://www.cnbc.com/2026/02/19/dueling-pacs-take-center-stage-in-midterm-elections-over-ai-regulation.html
+https://thenextweb.com/news/plato-closes-14-5m-to-bring-ai-automation-to-wholesale-trade
