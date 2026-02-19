@@ -1,6 +1,3 @@
-https://www.cnbc.com/2026/02/03/microsoft-promotes-sales-leaders-as-company-pursues-ai-growth.html
-https://www.cnbc.com/2026/02/03/amd-earnings-report-q4-2025.html
-https://www.cnbc.com/2026/02/04/singapore-construction-boom-how-the-city-state-is-managing-costs.html
 https://www.cnbc.com/2026/02/04/nintendo-shares-sink-10percent-as-gaming-giant-faces-memory-shortage-concerns-.html
 https://www.cnbc.com/2026/02/03/pinterest-ceo-puts-staffers-on-blast-who-created-tool-to-track-layoffs.html
 https://www.cnbc.com/2026/02/04/kkr-and-singtel-stake-in-stt-gdc-for-over-5-billion.html
@@ -298,3 +295,6 @@ https://www.cnbc.com/2026/02/18/ebay-buying-depop-etsy.html
 https://www.cnbc.com/2026/02/18/doordash-dash-q4-2025-earnings.html
 https://www.cnbc.com/2026/02/18/india-us-led-tech-alliance-supply-chains.html
 https://www.marktechpost.com/2026/02/18/tavus-launches-phoenix-4-a-gaussian-diffusion-model-bringing-real-time-emotional-intelligence-and-sub-600ms-latency-to-generative-video-ai/
+https://www.cnbc.com/2026/02/19/quantum-computing-data-centers-ai-tech-microsoft.html
+https://openai.com/index/openai-for-india
+https://aws.amazon.com/blogs/machine-learning/evaluating-ai-agents-real-world-lessons-from-building-agentic-systems-at-amazon/
