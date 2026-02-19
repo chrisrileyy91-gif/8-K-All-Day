@@ -1,6 +1,3 @@
-https://www.cnbc.com/2026/02/04/uber-uber-2025-q4-earnings.html
-https://www.cnbc.com/2026/02/04/sandberg-other-meta-vets-invest-in-ai-workplace-communications-startup.html
-https://www.cnbc.com/2026/02/04/amd-stock-earnings-forecast-chips.html
 https://huggingface.co/blog/nvidia/nemotron-colembed-v2
 https://www.cnbc.com/2026/02/04/anthropic-no-ads-claude-chatbot-openai-chatgpt.html
 https://www.cnbc.com/2026/02/04/amazon-alexa-plus-us-releas.html
@@ -298,3 +295,6 @@ https://thenextweb.com/news/plato-closes-14-5m-to-bring-ai-automation-to-wholesa
 https://www.cnbc.com/2026/02/19/apple-sued-csam-icloud-ios.html
 https://www.cnbc.com/2026/02/19/accenture-ai-orders-senior-staff-lose-out-promotions.html
 https://huggingface.co/blog/nvidia/nemotron-personas-japan-nttdata
+https://huggingface.co/blog/unsloth-jobs
+https://arstechnica.com/google/2026/02/google-announces-gemini-3-1-pro-says-its-better-at-complex-problem-solving/
+https://www.cnbc.com/2026/02/19/etsy-etsy-q4-earnings-report-2025.html
