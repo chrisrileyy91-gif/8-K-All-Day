@@ -1,6 +1,3 @@
-https://www.marktechpost.com/2026/02/04/mistral-ai-launches-voxtral-transcribe-2-pairing-batch-diarization-and-open-realtime-asr-for-multilingual-production-workloads-at-scale/
-https://www.cnbc.com/2026/02/05/cnbc-daily-open-alphabet-could-more-than-double-its-capex-in-2026-unsettling-investors.html
-https://www.marktechpost.com/2026/02/04/nvidia-ai-release-vibetensor-an-ai-generated-deep-learning-runtime-built-end-to-end-by-coding-agents-programmatically/
 https://www.cnbc.com/2026/02/05/bitcoin-price-today-70000-in-focus.html
 https://www.cnbc.com/2026/02/05/amazons-push-to-make-ai-cheaper-and-why-it-matters-to-reigniting-the-stock.html
 https://www.cnbc.com/2026/02/05/alphabet-earnings-share-price-google-beat-artifical-intelligence.html
@@ -298,3 +295,6 @@ https://www.marktechpost.com/2026/02/19/how-to-build-transparent-ai-agents-trace
 https://www.cnbc.com/2026/02/20/tech-download-newsletter-china-ai-race.html
 https://thenextweb.com/news/david-silver-is-chasing-superhuman-intelligence-with-a-1bn-seed
 https://arstechnica.com/google/2026/02/gemini-can-now-generate-ai-music-for-you-no-lyrics-required/
+https://www.cnbc.com/2026/02/20/how-rvs-became-silicon-valleys-housing-safety-net.html
+https://www.cnbc.com/2026/02/20/5-things-to-know-before-the-stock-market-opens.html
+https://www.cnbc.com/2026/02/20/meta-apple-child-safety-zuckerberg-cook.html
