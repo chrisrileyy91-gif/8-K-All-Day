@@ -1,6 +1,3 @@
-https://www.cnbc.com/2026/02/04/qualcomm-qcom-q1-2026-earnings.html
-https://www.cnbc.com/2026/02/04/amazon-jassy-new-shadow-advisor-dharmesh-mehta.html
-https://www.marktechpost.com/2026/02/04/google-introduces-agentic-vision-in-gemini-3-flash-for-active-image-understanding/
 https://www.cnbc.com/2026/02/04/ciena-returns-to-sp-500-after-getting-booted-17-years-ago.html
 https://openai.com/index/navigating-health-questions
 https://www.cnbc.com/2026/02/04/snap-q4-earnings-report-2025.html
@@ -298,3 +295,6 @@ https://www.cnbc.com/2026/02/19/figma-stock-earnings-ai-risk.html
 https://www.marktechpost.com/2026/02/19/a-coding-implementation-to-build-bulletproof-agentic-workflows-with-pydanticai-using-strict-schemas-tool-injection-and-model-agnostic-execution/
 https://www.cnbc.com/2026/02/19/new-york-driverless-rideshare-nyc-waymo.html
 https://aws.amazon.com/blogs/machine-learning/build-ai-workflows-on-amazon-eks-with-union-ai-and-flyte/
+https://www.cnbc.com/2026/02/19/nvidia-is-in-talks-to-invest-up-to-30-billion-in-openai-source-says.html
+https://aws.amazon.com/blogs/machine-learning/amazon-quick-suite-now-supports-key-pair-authentication-to-snowflake-data-source/
+https://huggingface.co/blog/nvidia/nemotron-personas-japan-nttdata-ja
