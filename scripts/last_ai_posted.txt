@@ -1,6 +1,3 @@
-https://aws.amazon.com/blogs/machine-learning/a-practical-guide-to-amazon-nova-multimodal-embeddings/
-https://www.cnbc.com/2026/02/06/google-microsoft-pay-creators-500000-and-more-to-promote-ai.html
-https://www.cnbc.com/2026/02/06/bitcoin-price-today-60000-in-focus.html
 https://thenextweb.com/news/europes-social-media-age-shift
 https://www.cnbc.com/2026/02/06/automakers-ev-china-ford-gm.html
 https://www.cnbc.com/2026/02/06/voyager-technologies-cooling-space-data-centers.html
@@ -298,3 +295,6 @@ https://thenextweb.com/news/gartner-110m-sale-of-digital-markets-division-in-lat
 https://huggingface.co/blog/ggml-joins-hf
 https://huggingface.co/blog/gradio-html-one-shot-apps
 https://machinelearningmastery.com/top-7-small-language-models-you-can-run-on-a-laptop/
+https://www.cnbc.com/2026/02/21/3-forces-that-drove-the-stock-market-during-wall-streets-comeback-week.html
+https://machinelearningmastery.com/agentify-your-app-with-github-copilots-agentic-coding-sdk/
+https://machinelearningmastery.com/llm-embeddings-vs-tf-idf-vs-bag-of-words-which-works-better-in-scikit-learn/
