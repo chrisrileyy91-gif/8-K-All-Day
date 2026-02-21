@@ -1,6 +1,3 @@
-https://www.cnbc.com/2026/02/06/tesla-maintains-competitive-showing-in-china-made-ev-sales-despite-industry-headwinds.html
-https://www.cnbc.com/2026/02/06/ai-anthropic-tools-saas-software-stocks-selloff.html
-https://www.marktechpost.com/2026/02/05/anthropic-releases-claude-opus-4-6-with-1m-context-agentic-coding-adaptive-reasoning-controls-and-expanded-safety-tooling-capabilities/
 https://thenextweb.com/news/techex-global-returns-to-london-with-enterprise-technology-and-ai-execution
 https://www.cnbc.com/2026/02/06/cnbc-daily-open-amazon-one-ups-its-rivals-on-capex-spending-but-investors-are-already-worried-over-ai-valuations.html
 https://aws.amazon.com/blogs/machine-learning/a-practical-guide-to-amazon-nova-multimodal-embeddings/
@@ -298,3 +295,6 @@ https://aws.amazon.com/blogs/machine-learning/integrate-external-tools-with-amaz
 https://www.cnbc.com/2026/02/21/ai-summit-india-tech.html
 https://www.cnbc.com/2026/02/21/india-ai-summit-tech-giants-billion-dollar-investments.html
 https://thenextweb.com/news/zurichs-rapidata-raises-e7-2m-to-build-a-real-time-human-feedback-network-for-ai
+https://openai.com/index/first-proof-submissions
+https://thenextweb.com/news/gartner-110m-sale-of-digital-markets-division-in-latest-sec-filing
+https://huggingface.co/blog/ggml-joins-hf
