@@ -1,4 +1,3 @@
-https://www.cnbc.com/2026/02/06/ai-sell-off-stocks-amazon-oracle.html
 https://aws.amazon.com/blogs/machine-learning/evaluate-generative-ai-models-with-an-amazon-nova-rubric-based-llm-judge-on-amazon-sagemaker-ai-part-2/
 https://www.cnbc.com/2026/02/06/uber-liable-pay-8-5-million-driver-rape-suit.html
 https://thenextweb.com/news/uipath-pushes-deeper-into-financial-services-with-workfusion-acquisition
@@ -298,3 +297,4 @@ https://machinelearningmastery.com/llm-embeddings-vs-tf-idf-vs-bag-of-words-whic
 https://machinelearningmastery.com/building-a-simple-mcp-server-in-python/
 https://www.marktechpost.com/2026/02/21/how-to-design-an-agentic-workflow-for-tool-driven-route-optimization-with-deterministic-computation-and-structured-outputs/
 https://www.marktechpost.com/2026/02/21/is-there-a-community-edition-of-palantir-meet-openplanter-an-open-source-recursive-ai-agent-for-your-micro-surveillance-use-cases/
+https://www.marktechpost.com/2026/02/21/a-new-google-ai-research-proposes-deep-thinking-ratio-to-improve-llm-accuracy-while-cutting-total-inference-costs-by-half/
