@@ -1,6 +1,3 @@
-https://www.marktechpost.com/2026/02/05/openai-just-launched-gpt-5-3-codex-a-faster-agentic-coding-model-unifying-frontier-code-performance-and-professional-reasoning-into-one-system/
-https://huggingface.co/blog/ServiceNow-AI/sygra-studio
-https://openai.com/index/gpt-5-lowers-protein-synthesis-cost
 https://thenextweb.com/news/qt-sense-raises-e4m-to-advance-a-quantum-sensing-platform
 https://www.cnbc.com/2026/02/07/elon-musk-wants-to-be-a-trillionaire-how-spacex-xai-tesla-can-get-him-there.html
 https://machinelearningmastery.com/agent-evaluation-how-to-test-and-measure-agentic-ai-performance/
@@ -298,3 +295,6 @@ https://www.cnbc.com/2026/02/23/5-things-to-know-before-the-stock-market-opens.h
 https://www.cnbc.com/2026/02/23/cybersecurity-stocks-anthropic-ai-crowdstrike.html
 https://aws.amazon.com/blogs/machine-learning/how-sonrai-uses-amazon-sagemaker-ai-to-accelerate-precision-medicine-trials/
 https://aws.amazon.com/blogs/machine-learning/accelerating-ai-model-production-at-hexagon-with-amazon-sagemaker-hyperpod/
+https://www.cnbc.com/2026/02/23/ibm-is-the-latest-ai-casualty-shares-are-tanking-on-anthropic-cobol-threat.html
+https://www.cnbc.com/2026/02/23/tesla-sues-california-dmv-to-reverse-false-advertising-ruling-on-fsd.html
+https://www.cnbc.com/2026/02/23/cybersecurity-stock-selling-deepens-on-ai-threat-concerns-why-were-not-bailing.html
