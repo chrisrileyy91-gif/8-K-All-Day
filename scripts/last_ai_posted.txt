@@ -1,6 +1,3 @@
-https://openai.com/index/introducing-openai-frontier
-https://aws.amazon.com/blogs/machine-learning/accelerating-your-marketing-ideation-with-generative-ai-part-2-generate-custom-marketing-images-from-historical-references/
-https://huggingface.co/blog/community-evals
 https://huggingface.co/blog/Photoroom/prx-part2
 https://www.marktechpost.com/2026/02/08/how-to-design-production-grade-mock-data-pipelines-using-polyfactory-with-dataclasses-pydantic-attrs-and-nested-models/
 https://machinelearningmastery.com/export-your-ml-model-in-onnx-format/
@@ -298,3 +295,6 @@ https://www.marktechpost.com/2026/02/23/how-to-build-a-production-grade-customer
 https://www.marktechpost.com/2026/02/23/composio-open-sources-agent-orchestrator-to-help-ai-developers-build-scalable-multi-agent-workflows-beyond-the-traditional-react-loops/
 https://www.cnbc.com/2026/02/23/uber-acquiring-spothero.html
 https://arstechnica.com/tech-policy/2026/02/im-not-for-sale-farmers-refuse-to-take-millions-in-data-center-deals/
+https://www.marktechpost.com/2026/02/24/rag-vs-context-stuffing-why-selective-retrieval-is-more-efficient-and-reliable-than-dumping-all-data-into-the-prompt/
+https://www.cnbc.com/2026/02/23/amazon-louisiana-ai-data-centers.html
+https://aws.amazon.com/blogs/machine-learning/agentic-ai-with-multi-model-framework-using-hugging-face-smolagents-on-aws/
