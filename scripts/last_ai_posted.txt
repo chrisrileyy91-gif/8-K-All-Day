@@ -1,6 +1,3 @@
-https://thenextweb.com/news/qt-sense-raises-e4m-to-advance-a-quantum-sensing-platform
-https://www.cnbc.com/2026/02/07/elon-musk-wants-to-be-a-trillionaire-how-spacex-xai-tesla-can-get-him-there.html
-https://machinelearningmastery.com/agent-evaluation-how-to-test-and-measure-agentic-ai-performance/
 https://openai.com/index/trusted-access-for-cyber
 https://www.cnbc.com/2026/02/07/here-are-3-major-moments-that-drove-the-stock-market-last-week.html
 https://www.cnbc.com/2026/02/07/nearly-a-thousand-google-workers-sign-letter-urging-company-to-divest-from-ice-cbp.html
@@ -298,3 +295,6 @@ https://aws.amazon.com/blogs/machine-learning/accelerating-ai-model-production-a
 https://www.cnbc.com/2026/02/23/ibm-is-the-latest-ai-casualty-shares-are-tanking-on-anthropic-cobol-threat.html
 https://www.cnbc.com/2026/02/23/tesla-sues-california-dmv-to-reverse-false-advertising-ruling-on-fsd.html
 https://www.cnbc.com/2026/02/23/cybersecurity-stock-selling-deepens-on-ai-threat-concerns-why-were-not-bailing.html
+https://huggingface.co/blog/nvidia/cosmos-on-jetson
+https://www.cnbc.com/2026/02/23/jim-cramer-says-ai-fears-have-made-the-stock-market-fragile.html
+https://www.marktechpost.com/2026/02/23/beyond-simple-api-requests-how-openais-websocket-mode-changes-the-game-for-low-latency-voice-powered-ai-experiences/
