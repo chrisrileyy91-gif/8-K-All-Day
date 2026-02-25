@@ -1,6 +1,3 @@
-https://www.cnbc.com/2026/02/09/tesla-exec-raj-jegannathan-leaves-automaker-after-13-years.html
-https://www.cnbc.com/2026/02/09/alphabet-highlights-new-ai-related-risks-in-tapping-debt-market.html
-https://www.marktechpost.com/2026/02/09/microsoft-ai-proposes-orbitalbrain-enabling-distributed-machine-learning-in-space-with-inter-satellite-links-and-constellation-aware-resource-optimization-strategies/
 https://www.cnbc.com/2026/02/10/youtube-mrbeast-youth-financial-services-app-step-beast-industries-acquires-fintech-app.html
 https://www.cnbc.com/2026/02/10/cnbc-daily-open-takaichi-and-the-ai-trade-in-focus-this-week.html
 https://aws.amazon.com/blogs/machine-learning/automated-reasoning-checks-rewriting-chatbot-reference-implementation/
@@ -298,3 +295,6 @@ https://aws.amazon.com/blogs/machine-learning/introducing-amazon-bedrock-global-
 https://thenextweb.com/news/shebuilds-on-lovables-2026-call-to-create
 https://openai.com/index/arvind-kc-chief-people-officer
 https://thenextweb.com/news/nvidias-q4-results-could-make-or-break-confidence-in-the-ai-hardware-market
+https://www.cnbc.com/2026/02/25/axon-enterprise-axon-q4-2025-earnings.html
+https://www.cnbc.com/2026/02/25/5-things-to-know-before-the-market-opens.html
+https://www.cnbc.com/2026/02/25/first-look-at-nvidias-ai-system-vera-rubin-and-how-it-beats-blackwell.html
