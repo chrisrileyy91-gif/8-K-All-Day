@@ -1,6 +1,3 @@
-https://www.cnbc.com/2026/02/10/youtube-mrbeast-youth-financial-services-app-step-beast-industries-acquires-fintech-app.html
-https://www.cnbc.com/2026/02/10/cnbc-daily-open-takaichi-and-the-ai-trade-in-focus-this-week.html
-https://aws.amazon.com/blogs/machine-learning/automated-reasoning-checks-rewriting-chatbot-reference-implementation/
 https://www.cnbc.com/2026/02/10/taiwan-chips-us-supply-chain-lutnick-trade-deal.html
 https://www.marktechpost.com/2026/02/09/how-to-build-a-privacy-preserving-federated-pipeline-to-fine-tune-large-language-models-with-lora-using-flower-and-peft/
 https://aws.amazon.com/blogs/machine-learning/scale-llm-fine-tuning-with-hugging-face-and-amazon-sagemaker-ai/
@@ -298,3 +295,6 @@ https://thenextweb.com/news/nvidias-q4-results-could-make-or-break-confidence-in
 https://www.cnbc.com/2026/02/25/axon-enterprise-axon-q4-2025-earnings.html
 https://www.cnbc.com/2026/02/25/5-things-to-know-before-the-market-opens.html
 https://www.cnbc.com/2026/02/25/first-look-at-nvidias-ai-system-vera-rubin-and-how-it-beats-blackwell.html
+https://www.cnbc.com/2026/02/25/samsung-s26-launch-gemini-ai-apple-siri.html
+https://www.cnbc.com/2026/02/25/samsung-launches-s26-smartphone-memory-chip-crunch.html
+https://www.cnbc.com/2026/02/25/bill-gates-epstein-files-affair.html
