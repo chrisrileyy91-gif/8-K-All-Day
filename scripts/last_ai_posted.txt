@@ -1,6 +1,3 @@
-https://www.cnbc.com/2026/02/10/were-taking-solid-profits-in-one-big-tech-stock-and-buying-more-of-another.html
-https://www.cnbc.com/2026/02/10/elon-musk-xai-co-founder-tony-wu.html
-https://thenextweb.com/news/managing-your-brands-narrative-in-the-ai-age
 https://thenextweb.com/news/naboo-raises-70m
 https://thenextweb.com/news/databricks-hits-5-4b-revenue-run-rate
 https://www.cnbc.com/2026/02/10/alphabet-set-to-raise-over-30-billion-in-global-debt-sale-sources.html
@@ -298,3 +295,6 @@ https://www.cnbc.com/2026/02/25/nvidia-forecast-points-to-accelerating-growth-ve
 https://www.marktechpost.com/2026/02/25/tailscale-and-lm-studio-introduce-lm-link-to-provide-encrypted-point-to-point-access-to-your-private-gpu-hardware-assets/
 https://www.cnbc.com/2026/02/25/nvidia-keeps-the-ai-party-alive-with-a-booming-quarter-and-even-better-outlook.html
 https://www.cnbc.com/2026/02/25/ai-disruption-didnt-show-up-in-salesforce-results-but-the-fears-are-hard-to-shake.html
+https://www.cnbc.com/2026/02/26/nvidia-china-chip-sales-export-controls-ai-competition.html
+https://www.marktechpost.com/2026/02/26/nous-research-releases-hermes-agent-to-fix-ai-forgetfulness-with-multi-level-memory-and-dedicated-remote-terminal-access-support/
+https://arstechnica.com/tech-policy/2026/02/judge-xai-cant-claim-openai-stole-trade-secrets-just-by-hiring-ex-staffers/
