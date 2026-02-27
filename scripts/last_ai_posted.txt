@@ -1,6 +1,3 @@
-https://www.cnbc.com/2026/02/11/meta-threads-dear-algo-ai-algorithm-personalization.html
-https://www.marktechpost.com/2026/02/11/how-to-build-an-atomic-agents-rag-pipeline-with-typed-schemas-dynamic-context-injection-and-agent-chaining/
-https://www.cnbc.com/2026/02/11/lyft-ceo-david-risher-earnings-stock.html
 https://www.cnbc.com/2026/02/11/ray-ban-maker-essilorluxottica-triples-sales-of-meta-ai-glasses.html
 https://aws.amazon.com/blogs/machine-learning/nvidia-nemotron-3-nano-30b-is-now-available-in-amazon-sagemaker-jumpstart/
 https://www.cnbc.com/2026/02/11/tech-investor-orlando-bravo-software-ai.html
@@ -298,3 +295,6 @@ https://www.cnbc.com/2026/02/26/anthropic-pentagon-ai-amodei.html
 https://arstechnica.com/ai/2026/02/google-releases-nano-banana-2-ai-image-generator-promises-pro-results-with-flash-speed/
 https://www.cnbc.com/2026/02/26/c3-ai-stock-layoffs-loss.html
 https://openai.com/index/pacific-northwest-national-laboratory
+https://www.marktechpost.com/2026/02/26/perplexity-just-released-pplx-embed-new-sota-qwen3-bidirectional-embedding-models-for-web-scale-retrieval-tasks/
+https://openai.com/index/figma-partnership
+https://aws.amazon.com/blogs/machine-learning/building-intelligent-event-agents-using-amazon-bedrock-agentcore-and-amazon-bedrock-knowledge-bases/
