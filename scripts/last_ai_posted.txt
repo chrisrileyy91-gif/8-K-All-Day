@@ -1,6 +1,3 @@
-https://www.cnbc.com/2026/02/12/softbank-vision-fund-openai.html
-https://www.cnbc.com/2026/02/12/adyen-stock-price-earnings.html
-https://openai.com/index/harness-engineering
 https://www.cnbc.com/2026/02/12/singapore-2026-budget-ai-measures-ai-support-workers-companies.html
 https://arstechnica.com/google/2026/02/tested-how-chromes-auto-browse-agent-handles-common-web-tasks/
 https://thenextweb.com/news/stop-talking-to-ai-let-them-talk-to-each-other-the-a2a-protocol
@@ -298,3 +295,6 @@ https://www.cnbc.com/2026/02/27/5-things-to-know-before-the-market-opens.html
 https://www.marktechpost.com/2026/02/27/how-to-build-interactive-geospatial-dashboards-using-folium-with-heatmaps-choropleths-time-animation-marker-clustering-and-advanced-interactive-plugins/
 https://www.cnbc.com/2026/02/27/jack-dorsey-made-the-loudest-case-yet-ai-is-already-replacing-jobs.html
 https://www.cnbc.com/2026/02/27/amazon-open-ai-cloud-jassy-altman.html
+https://www.marktechpost.com/2026/02/27/a-coding-implementation-to-build-a-hierarchical-planner-ai-agent-using-open-source-llms-with-tool-execution-and-structured-multi-agent-reasoning/
+https://www.cnbc.com/2026/02/27/nvidia-wraps-tough-week-as-investors-focus-on-competition-over-growth.html
+https://www.cnbc.com/2026/02/27/coreweave-ceo-intrator-stock-ai-spending.html
