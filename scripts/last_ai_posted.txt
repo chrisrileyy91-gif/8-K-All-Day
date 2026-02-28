@@ -1,6 +1,3 @@
-https://www.cnbc.com/2026/02/12/singapore-2026-budget-ai-measures-ai-support-workers-companies.html
-https://arstechnica.com/google/2026/02/tested-how-chromes-auto-browse-agent-handles-common-web-tasks/
-https://thenextweb.com/news/stop-talking-to-ai-let-them-talk-to-each-other-the-a2a-protocol
 https://www.cnbc.com/2026/02/12/anthropic-gives-20-million-to-group-pushing-for-ai-regulations-.html
 https://www.cnbc.com/2026/02/12/5-things-to-know-before-the-stock-market-opens.html
 https://www.cnbc.com/2026/02/12/tech-ipo-hype-drowned-out-by-prospect-of-1-trillion-in-debt-sales.html
@@ -298,3 +295,6 @@ https://www.cnbc.com/2026/02/27/amazon-open-ai-cloud-jassy-altman.html
 https://www.marktechpost.com/2026/02/27/a-coding-implementation-to-build-a-hierarchical-planner-ai-agent-using-open-source-llms-with-tool-execution-and-structured-multi-agent-reasoning/
 https://www.cnbc.com/2026/02/27/nvidia-wraps-tough-week-as-investors-focus-on-competition-over-growth.html
 https://www.cnbc.com/2026/02/27/coreweave-ceo-intrator-stock-ai-spending.html
+https://www.cnbc.com/2026/02/27/openai-sam-altman-de-escalate-tensions-pentagon-anthropic.html
+https://www.cnbc.com/2026/02/27/jim-cramers-update-on-our-ai-stocks-and-the-rest-of-the-portfolio.html
+https://www.marktechpost.com/2026/02/27/sakana-ai-introduces-doc-to-lora-and-text-to-lora-hypernetworks-that-instantly-internalize-long-contexts-and-adapt-llms-via-zero-shot-natural-language/
