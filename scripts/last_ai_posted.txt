@@ -1,6 +1,3 @@
-https://www.cnbc.com/2026/02/12/trucking-and-logistics-stocks-tumble-on-release-of-ai-freight-scaling-tool.html
-https://www.cnbc.com/2026/02/12/ftc-tim-cook-apple-news-censorship.html
-https://www.cnbc.com/2026/02/12/ciscos-memory-price-warning-is-having-ripple-effects-across-the-tech-sector.html
 https://www.cnbc.com/2026/02/12/apple-stock-worst-day-ftc-siri.html
 https://www.cnbc.com/2026/02/12/pinterest-pins-q4-earnings-report-2025.html
 https://www.cnbc.com/2026/02/12/instacart-cart-q4-2025-earnings.html
@@ -298,3 +295,6 @@ https://www.marktechpost.com/2026/02/27/sakana-ai-introduces-doc-to-lora-and-tex
 https://www.cnbc.com/2026/02/27/openai-strikes-deal-with-pentagon-hours-after-rival-anthropic-was-blacklisted-by-trump.html
 https://www.marktechpost.com/2026/02/27/google-deepmind-introduces-unified-latents-ul-a-machine-learning-framework-that-jointly-regularizes-latents-using-a-diffusion-prior-and-decoder/
 https://openai.com/index/continuing-microsoft-partnership
+https://openai.com/index/introducing-the-stateful-runtime-environment-for-agents-in-amazon-bedrock
+https://openai.com/index/scaling-ai-for-everyone
+https://openai.com/index/amazon-partnership
