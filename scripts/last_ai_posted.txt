@@ -1,5 +1,3 @@
-https://www.cnbc.com/2026/02/12/apple-stock-worst-day-ftc-siri.html
-https://www.cnbc.com/2026/02/12/pinterest-pins-q4-earnings-report-2025.html
 https://www.cnbc.com/2026/02/12/instacart-cart-q4-2025-earnings.html
 https://www.cnbc.com/2026/02/13/us-signs-trade-deal-with-taiwan-lowering-trump-tariffs.html
 https://www.cnbc.com/2026/02/12/waymo-is-paying-doordash-gig-workers-to-close-its-robotaxi-doors.html
@@ -298,3 +296,5 @@ https://openai.com/index/continuing-microsoft-partnership
 https://openai.com/index/introducing-the-stateful-runtime-environment-for-agents-in-amazon-bedrock
 https://openai.com/index/scaling-ai-for-everyone
 https://openai.com/index/amazon-partnership
+https://openai.com/index/update-on-mental-health-related-work
+https://thenextweb.com/news/openai-forms-frontier-alliances-with-top-consultancies-to-push-enterprise-ai-into-production
