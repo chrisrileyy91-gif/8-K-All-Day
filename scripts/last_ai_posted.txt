@@ -1,4 +1,3 @@
-https://www.cnbc.com/2026/02/13/trucking-real-estate-stocks-latest-victims-of-ai-fears.html
 https://www.cnbc.com/2026/02/13/ai-startup-cohere-revenue-ipo.html
 https://www.cnbc.com/2026/02/13/ai-credit-markets.html
 https://www.cnbc.com/2026/02/13/instacart-cart-stock-ceo-grocery.html
@@ -298,3 +297,4 @@ https://www.marktechpost.com/2026/03/01/a-complete-end-to-end-coding-guide-to-ml
 https://www.cnbc.com/2026/03/01/honor-robot-phone-magic-v6-foldable-launch-mwc.html
 https://www.cnbc.com/2026/03/01/ai-artificial-intelligence-economy-business-risks.html
 https://www.marktechpost.com/2026/03/01/how-to-design-a-production-grade-multi-agent-communication-system-using-langgraph-structured-message-bus-acp-logging-and-persistent-shared-state-architecture/
+https://www.marktechpost.com/2026/03/01/google-ai-introduces-static-a-sparse-matrix-framework-delivering-948x-faster-constrained-decoding-for-llm-based-generative-retrieval/
