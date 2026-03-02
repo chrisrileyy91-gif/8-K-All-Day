@@ -199,3 +199,4 @@ https://arxiv.org/abs/2602.23544
 https://arxiv.org/abs/2602.23650
 https://arxiv.org/abs/2602.23664
 https://www.nature.com/articles/s44335-026-00056-6
+https://www.theverge.com/tech/887635/nvidia-ai-photonics-lumentum-coherent
