@@ -1,5 +1,3 @@
-https://www.cnbc.com/2026/02/13/ai-credit-markets.html
-https://www.cnbc.com/2026/02/13/instacart-cart-stock-ceo-grocery.html
 https://www.marktechpost.com/2026/02/13/kyutai-releases-hibiki-zero-a3b-parameter-simultaneous-speech-to-speech-translation-model-using-grpo-reinforcement-learning-without-any-word-level-aligned-data/
 https://www.cnbc.com/2026/02/13/roku-stock-earnings-premium-subscriptions.html
 https://www.marktechpost.com/2026/02/13/in-depth-guide-the-complete-ctgan-sdv-pipeline-for-high-fidelity-synthetic-data/
@@ -298,3 +296,5 @@ https://www.cnbc.com/2026/03/01/ai-artificial-intelligence-economy-business-risk
 https://www.marktechpost.com/2026/03/01/how-to-design-a-production-grade-multi-agent-communication-system-using-langgraph-structured-message-bus-acp-logging-and-persistent-shared-state-architecture/
 https://www.marktechpost.com/2026/03/01/google-ai-introduces-static-a-sparse-matrix-framework-delivering-948x-faster-constrained-decoding-for-llm-based-generative-retrieval/
 https://www.marktechpost.com/2026/03/01/how-to-build-an-explainable-ai-analysis-pipeline-using-shap-iq-to-understand-feature-importance-interaction-effects-and-model-decision-breakdown/
+https://www.cnbc.com/2026/03/02/irans-internet-down-amid-reports-of-us-israel-cyberattacks.html
+https://www.marktechpost.com/2026/03/01/fireredteam-releases-firered-ocr-2b-utilizing-grpo-to-solve-structural-hallucinations-in-tables-and-latex-for-software-developers/
