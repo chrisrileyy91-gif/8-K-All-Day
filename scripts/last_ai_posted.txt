@@ -1,6 +1,3 @@
-https://www.cnbc.com/2026/02/13/anthropic-open-ai-super-bowl-ads.html
-https://www.cnbc.com/2026/02/13/china-ai-lunar-new-year-bytedance-baidu-tencent-alibaba.html
-https://www.cnbc.com/2026/02/13/investor-matt-shumer-says-viral-essay-wasnt-meant-to-scare-people.html
 https://www.marktechpost.com/2026/02/13/exa-ai-introduces-exa-instant-a-sub-200ms-neural-search-engine-designed-to-eliminate-bottlenecks-for-real-time-agentic-workflows/
 https://thenextweb.com/news/stanhope-ai-raises-8m-to-build-adaptive-ai-for-robotics-and-defence
 https://thenextweb.com/news/anthropics-30b-raise-is-about-more-than-money
@@ -298,3 +295,6 @@ https://www.cnbc.com/2026/03/02/5-things-to-know-before-the-bell.html
 https://aws.amazon.com/blogs/machine-learning/building-specialized-ai-without-sacrificing-intelligence-nova-forge-data-mixing-in-action/
 https://www.marktechpost.com/2026/03/02/meet-nullclaw-the-678-kb-zig-ai-agent-framework-running-on-1-mb-ram-and-booting-in-two-milliseconds/
 https://aws.amazon.com/blogs/machine-learning/build-a-serverless-conversational-ai-agent-using-claude-with-langgraph-and-managed-mlflow-on-amazon-sagemaker-ai/
+https://aws.amazon.com/blogs/machine-learning/build-safe-generative-ai-applications-like-a-pro-best-practices-with-amazon-bedrock-guardrails/
+https://www.cnbc.com/2026/03/02/apple-iphone-17e-ipad-air-m4-chip.html
+https://www.cnbc.com/2026/03/02/anthropic-claude-ai-outage-apple-pentagon.html
