@@ -1,6 +1,3 @@
-https://huggingface.co/blog/custom-cuda-kernels-agent-skills
-https://www.cnbc.com/2026/02/14/here-are-3-factors-that-drove-the-big-swings-in-the-stock-market-last-week.html
-https://aws.amazon.com/blogs/machine-learning/ai-meets-hr-transforming-talent-acquisition-with-amazon-bedrock/
 https://aws.amazon.com/blogs/machine-learning/build-long-running-mcp-servers-on-amazon-bedrock-agentcore-with-strands-agents-integration/
 https://www.marktechpost.com/2026/02/14/how-to-build-a-self-organizing-agent-memory-system-for-long-term-ai-reasoning/
 https://thenextweb.com/news/swedish-pet-insurtech-lassie-raises-75m-series-c-after-hitting-100m-arr
@@ -298,3 +295,6 @@ https://www.cnbc.com/2026/03/03/5-things-to-know-before-the-market-opens.html
 https://www.cnbc.com/2026/03/03/apple-macbook-prices-m5-ai.html
 https://www.cnbc.com/2026/03/03/weve-been-active-with-trades-during-the-iran-war-fallout-jim-cramer-explains-our-approach.html
 https://www.cnbc.com/2026/03/03/iran-war-uae-drone-strikes-aws-data-centers.html
+https://www.marktechpost.com/2026/03/03/google-drops-gemini-3-1-flash-lite-a-cost-efficient-powerhouse-with-adjustable-thinking-levels-designed-for-high-scale-production-ai/
+https://huggingface.co/blog/Photoroom/prx-part3
+https://aws.amazon.com/blogs/machine-learning/building-a-scalable-virtual-try-on-solution-using-amazon-nova-on-aws-part-1/
