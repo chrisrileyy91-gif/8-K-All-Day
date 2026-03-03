@@ -1,5 +1,3 @@
-https://thenextweb.com/news/the-people-we-left-behind-tech-layoffs-ai-hype-and-a-misplaced-future
-https://www.cnbc.com/2026/02/14/new-china-ai-models-alibaba-bytedance-seedance-kuaishou-kling.html
 https://openai.com/index/new-result-theoretical-physics
 https://openai.com/index/introducing-lockdown-mode-and-elevated-risk-labels-in-chatgpt
 https://thenextweb.com/news/munich-2026-a-security-conference-where-tech-isnt-an-afterthought
@@ -298,3 +296,5 @@ https://www.cnbc.com/2026/03/02/anthropic-claude-ai-outage-apple-pentagon.html
 https://www.marktechpost.com/2026/03/02/a-coding-guide-to-build-a-scalable-end-to-end-analytics-and-machine-learning-pipeline-on-millions-of-rows-using-vaex/
 https://www.cnbc.com/2026/03/03/openai-sam-altman-pentagon-deal-amended-surveillance-limits.html
 https://www.marktechpost.com/2026/03/02/alibaba-just-released-qwen-3-5-small-models-a-family-of-0-8b-to-9b-parameters-built-for-on-device-applications/
+https://www.cnbc.com/2026/03/03/qualcomm-ceo-robotics-chips.html
+https://www.cnbc.com/2026/03/02/amazon-says-drone-strikes-damaged-3-facilities-in-uae-and-bahrain.html
