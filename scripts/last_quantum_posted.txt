@@ -203,3 +203,6 @@ https://www.theverge.com/tech/887635/nvidia-ai-photonics-lumentum-coherent
 https://arxiv.org/abs/2603.00228
 https://arxiv.org/abs/2603.00233
 https://arxiv.org/abs/2603.00235
+https://arxiv.org/abs/2603.00236
+https://arxiv.org/abs/2603.00256
+https://arxiv.org/abs/2603.00260
