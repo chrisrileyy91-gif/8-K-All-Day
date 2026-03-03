@@ -1,4 +1,3 @@
-https://openai.com/index/new-result-theoretical-physics
 https://openai.com/index/introducing-lockdown-mode-and-elevated-risk-labels-in-chatgpt
 https://thenextweb.com/news/munich-2026-a-security-conference-where-tech-isnt-an-afterthought
 https://openai.com/index/beyond-rate-limits
@@ -298,3 +297,4 @@ https://www.cnbc.com/2026/03/03/openai-sam-altman-pentagon-deal-amended-surveill
 https://www.marktechpost.com/2026/03/02/alibaba-just-released-qwen-3-5-small-models-a-family-of-0-8b-to-9b-parameters-built-for-on-device-applications/
 https://www.cnbc.com/2026/03/03/qualcomm-ceo-robotics-chips.html
 https://www.cnbc.com/2026/03/02/amazon-says-drone-strikes-damaged-3-facilities-in-uae-and-bahrain.html
+https://www.marktechpost.com/2026/03/03/alibaba-releases-opensandbox-to-provide-software-developers-with-a-unified-secure-and-scalable-api-for-autonomous-ai-agent-execution/
