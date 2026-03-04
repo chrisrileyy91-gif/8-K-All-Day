@@ -1,6 +1,3 @@
-https://openai.com/index/introducing-gpt-5-3-codex-spark
-https://huggingface.co/blog/openenv-turing
-https://huggingface.co/blog/transformersjs-v4
 https://www.marktechpost.com/2026/02/14/google-ai-introduces-the-webmcp-to-enable-direct-and-structured-website-interactions-for-new-ai-agents/
 https://www.marktechpost.com/2026/02/15/meet-kani-tts-2-a-400m-param-open-source-text-to-speech-model-that-runs-in-3gb-vram-with-voice-cloning-support/
 https://www.marktechpost.com/2026/02/14/getting-started-with-openclaw-and-connecting-it-with-whatsapp/
@@ -298,3 +295,6 @@ https://aws.amazon.com/blogs/machine-learning/building-a-scalable-virtual-try-on
 https://www.cnbc.com/2026/03/03/sam-altman-tells-openai-staff-operational-decisions-up-to-government.html
 https://www.cnbc.com/2026/03/03/nvidia-amazon-offices-google-dubai-iran-war.html
 https://www.marktechpost.com/2026/03/03/meet-symtorch-a-pytorch-library-that-translates-deep-learning-models-into-human-readable-equations/
+https://www.cnbc.com/2026/03/03/iran-cisa-cybersecurity-war-threat.html
+https://www.marktechpost.com/2026/03/03/how-to-build-a-stable-and-efficient-qlora-fine-tuning-pipeline-using-unsloth-for-large-language-models/
+https://aws.amazon.com/blogs/machine-learning/how-lendi-revamped-the-refinance-journey-for-its-customers-using-agentic-ai-in-12-weeks-using-amazon-bedrock/
