@@ -1,6 +1,3 @@
-https://www.marktechpost.com/2026/02/17/anthropic-releases-claude-4-6-sonnet-with-1-million-token-context-to-solve-complex-coding-and-search-for-developers/
-https://thenextweb.com/news/mistral-ai-buys-cloud-startup-koyeb
-https://www.cnbc.com/2026/02/17/anthropic-ai-claude-sonnet-4-6-default-free-pro.html
 https://www.cnbc.com/2026/02/17/tesla-adding-grok-ai-uk-europe.html
 https://huggingface.co/blog/nvidia/nemotron-nano-9b-v2-japanese-ja
 https://www.cnbc.com/2026/02/17/palo-alto-networks-panw-q2-2026-earnings.html
@@ -298,3 +295,6 @@ https://www.cnbc.com/2026/03/05/drawdown-byd-chinese-ev-sales-mixed-results-holi
 https://www.cnbc.com/2026/03/05/robot-investing-risk-jobs-manufacturing-economy.html
 https://huggingface.co/blog/nxp/bringing-robotics-ai-to-embedded-platforms
 https://www.cnbc.com/2026/03/05/5-things-to-know-before-the-market-opens.html
+https://www.cnbc.com/2026/03/05/anthropic-pentagon-ai-claude-iran.html
+https://www.cnbc.com/2026/03/05/broadcom-ceos-copper-commitment-tanks-corning-shares-but-sellers-are-mistaken.html
+https://www.cnbc.com/2026/03/05/mortgages-in-47-seconds-betters-new-chatgpt-app-targets-lenders-rocket-and-uwm.html
