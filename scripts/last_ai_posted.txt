@@ -1,6 +1,3 @@
-https://www.cnbc.com/2026/02/17/tesla-adding-grok-ai-uk-europe.html
-https://huggingface.co/blog/nvidia/nemotron-nano-9b-v2-japanese-ja
-https://www.cnbc.com/2026/02/17/palo-alto-networks-panw-q2-2026-earnings.html
 https://www.cnbc.com/2026/02/17/we-cut-our-palo-alto-price-target-but-view-the-post-earnings-drop-as-an-opportunity.html
 https://www.cnbc.com/2026/02/17/google-io-developer-conference-ai-glasses.html
 https://www.cnbc.com/2026/02/17/meta-nvidia-deal-ai-data-center-chips.html
@@ -298,3 +295,6 @@ https://www.cnbc.com/2026/03/05/5-things-to-know-before-the-market-opens.html
 https://www.cnbc.com/2026/03/05/anthropic-pentagon-ai-claude-iran.html
 https://www.cnbc.com/2026/03/05/broadcom-ceos-copper-commitment-tanks-corning-shares-but-sellers-are-mistaken.html
 https://www.cnbc.com/2026/03/05/mortgages-in-47-seconds-betters-new-chatgpt-app-targets-lenders-rocket-and-uwm.html
+https://www.cnbc.com/2026/03/05/broadcom-stock-rally-ai-chip-growth.html
+https://www.cnbc.com/2026/03/05/open-ai-altman-anthropic-pentagon-war.html
+https://www.marktechpost.com/2026/03/05/openai-releases-symphony-an-open-source-agentic-framework-for-orchestrating-autonomous-ai-agents-through-structured-scalable-implementation-runs/
