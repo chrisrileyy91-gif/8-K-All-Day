@@ -1,6 +1,3 @@
-https://www.cnbc.com/2026/02/17/render-raises-100-million-at-1point5-billion-valuation.html
-https://www.cnbc.com/2026/02/17/figma-anthropic-ai-code-designs.html
-https://thenextweb.com/news/the-european-parliament-pulls-back-ai-from-its-own-devices
 https://www.marktechpost.com/2026/02/17/how-to-build-an-advanced-interactive-exploratory-data-analysis-workflow-using-pygwalker-and-feature-engineered-data/
 https://www.cnbc.com/2026/02/17/amazon-stock-losing-streak.html
 https://www.cnbc.com/2026/02/17/palantir-headquarters-miami-denver.html
@@ -298,3 +295,6 @@ https://aws.amazon.com/blogs/machine-learning/how-ricoh-built-a-scalable-intelli
 https://www.marktechpost.com/2026/03/04/langwatch-open-sources-the-missing-evaluation-layer-for-ai-agents-to-enable-end-to-end-tracing-simulation-and-systematic-testing/
 https://openai.com/index/extending-single-minus-amplitudes-to-gravitons
 https://openai.com/index/understanding-ai-and-learning-outcomes
+https://www.cnbc.com/2026/03/05/iran-shahed-136-drone-cost-air-defense-gulf-war-us-israel-gulf-scorpion-strike-centcom.html
+https://www.cnbc.com/2026/03/05/defense-experts-defend-anthropic-to-congress-slams-pentagons-move.html
+https://www.cnbc.com/2026/03/05/drawdown-byd-chinese-ev-sales-mixed-results-holiday-lull.html
