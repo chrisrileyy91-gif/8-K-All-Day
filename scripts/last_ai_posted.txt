@@ -1,6 +1,3 @@
-https://www.cnbc.com/2026/02/18/anthropic-pentagon-ai-defense-war-surveillance.html
-https://www.cnbc.com/2026/02/18/cramer-looks-to-nibble-on-a-software-stock-bail-on-a-health-care-name-.html
-https://www.cnbc.com/2026/02/18/microsoft-president-brad-smith-chinese-ai-subsidies.html
 https://www.cnbc.com/2026/02/18/figma-fig-q4-earnings-report-2025.html
 https://www.cnbc.com/2026/02/18/cadence-design-systems-stock-earnings-ai-chip.html
 https://www.marktechpost.com/2026/02/18/google-deepmind-releases-lyria-3-an-advanced-music-generation-ai-model-that-turns-photos-and-text-into-custom-tracks-with-included-lyrics-and-vocals/
@@ -298,3 +295,6 @@ https://openai.com/index/introducing-gpt-5-4
 https://www.cnbc.com/2026/03/06/iran-war-data-centers.html
 https://openai.com/index/reasoning-models-chain-of-thought-controllability
 https://openai.com/index/ai-education-opportunity
+https://www.cnbc.com/2026/03/06/samsung-ai-smart-glasses-first-details-specs-release-date.html
+https://www.cnbc.com/2026/03/06/5-things-to-know-before-the-market-opens.html
+https://openai.com/index/balyasny-asset-management
