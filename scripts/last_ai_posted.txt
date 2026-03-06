@@ -1,6 +1,3 @@
-https://www.cnbc.com/2026/02/18/arm-nvidia-nokia-ai-stake-shares.html
-https://thenextweb.com/news/vc-quantonation-closes-e220m-fund-to-back-next-gen-physics-tech
-https://thenextweb.com/news/how-the-uninvestable-is-becoming-investable
 https://www.cnbc.com/2026/02/18/palo-alto-stock-cybersecurity-ai-earnings.html
 https://www.cnbc.com/2026/02/18/meta-mark-zuckerberg-social-media-safety-trial.html
 https://www.cnbc.com/2026/02/18/wendy-tan-white-building-the-android-of-robotics-at-intrinsic.html
@@ -298,3 +295,6 @@ https://www.marktechpost.com/2026/03/05/google-ai-releases-a-cli-tool-gws-for-wo
 https://www.marktechpost.com/2026/03/05/liquid-ai-releases-localcowork-powered-by-lfm2-24b-a2b-to-execute-privacy-first-agent-workflows-locally-via-model-context-protocol-mcp/
 https://www.marktechpost.com/2026/03/05/how-to-design-an-advanced-tree-of-thoughts-multi-branch-reasoning-agent-with-beam-search-heuristic-scoring-and-depth-limited-pruning/
 https://aws.amazon.com/blogs/machine-learning/drive-organizational-growth-with-amazon-lex-multi-developer-ci-cd-pipeline/
+https://aws.amazon.com/blogs/machine-learning/building-custom-model-provider-for-strands-agents-with-llms-hosted-on-sagemaker-ai-endpoints/
+https://openai.com/index/gpt-5-4-thinking-system-card
+https://openai.com/index/introducing-gpt-5-4
