@@ -1,6 +1,3 @@
-https://www.marktechpost.com/2026/02/18/google-introduces-jetpack-compose-glimmer-a-new-spatial-ui-framework-designed-specifically-for-the-next-generation-of-ai-glasses/
-https://www.marktechpost.com/2026/02/17/cohere-releases-tiny-aya-a-3b-parameter-small-language-model-that-supports-70-languages-and-runs-locally-even-on-a-phone/
-https://www.marktechpost.com/2026/02/17/cloudflare-releases-agents-sdk-v0-5-0-with-rewritten-cloudflare-ai-chat-and-new-rust-powered-infire-engine-for-optimized-edge-inference-performance/
 https://www.cnbc.com/2026/02/18/arm-nvidia-nokia-ai-stake-shares.html
 https://thenextweb.com/news/vc-quantonation-closes-e220m-fund-to-back-next-gen-physics-tech
 https://thenextweb.com/news/how-the-uninvestable-is-becoming-investable
@@ -298,3 +295,6 @@ https://www.cnbc.com/2026/03/05/amazon-online-store-suffers-outage-for-some-user
 https://www.cnbc.com/2026/03/05/microsoft-says-anthropics-products-can-remain-available-to-customers-after-security-risk-designation.html
 https://www.cnbc.com/2026/03/05/anthropic-ceo-says-no-choice-but-to-challenge-trump-admins-supply-chain-risk-designation-in-court.html
 https://www.marktechpost.com/2026/03/05/google-ai-releases-a-cli-tool-gws-for-workspace-apis-providing-a-unified-interface-for-humans-and-ai-agents/
+https://www.marktechpost.com/2026/03/05/liquid-ai-releases-localcowork-powered-by-lfm2-24b-a2b-to-execute-privacy-first-agent-workflows-locally-via-model-context-protocol-mcp/
+https://www.marktechpost.com/2026/03/05/how-to-design-an-advanced-tree-of-thoughts-multi-branch-reasoning-agent-with-beam-search-heuristic-scoring-and-depth-limited-pruning/
+https://aws.amazon.com/blogs/machine-learning/drive-organizational-growth-with-amazon-lex-multi-developer-ci-cd-pipeline/
