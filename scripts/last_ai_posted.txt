@@ -1,6 +1,3 @@
-https://www.marktechpost.com/2026/02/18/tutorial-building-a-visual-document-retrieval-pipeline-with-colpali-and-late-interaction-scoring/
-https://aws.amazon.com/blogs/machine-learning/build-unified-intelligence-with-amazon-bedrock-agentcore/
-https://www.cnbc.com/2026/02/18/ebay-buying-depop-etsy.html
 https://www.cnbc.com/2026/02/18/doordash-dash-q4-2025-earnings.html
 https://www.cnbc.com/2026/02/18/india-us-led-tech-alliance-supply-chains.html
 https://www.marktechpost.com/2026/02/18/tavus-launches-phoenix-4-a-gaussian-diffusion-model-bringing-real-time-emotional-intelligence-and-sub-600ms-latency-to-generative-video-ai/
@@ -298,3 +295,6 @@ https://openai.com/index/balyasny-asset-management
 https://www.cnbc.com/2026/03/06/marvell-shares-surge-18percent-as-ceo-points-to-continuing-ai-demand.html
 https://www.cnbc.com/2026/03/06/jim-cramer-sees-opportunities-in-fridays-ugly-market-heres-where-he-is-looking.html
 https://openai.com/index/codex-security-now-in-research-preview
+https://www.marktechpost.com/2026/03/06/openai-introduces-codex-security-in-research-preview-for-context-aware-vulnerability-detection-validation-and-patch-generation-across-codebases/
+https://www.cnbc.com/2026/03/06/amazon-aws-anthropic-claude-pentagon-blacklist.html
+https://www.cnbc.com/2026/03/06/vast-funding-round-nasa-iss-space-station.html
