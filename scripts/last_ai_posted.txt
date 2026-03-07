@@ -1,5 +1,3 @@
-https://www.cnbc.com/2026/02/19/apple-sued-csam-icloud-ios.html
-https://www.cnbc.com/2026/02/19/accenture-ai-orders-senior-staff-lose-out-promotions.html
 https://huggingface.co/blog/nvidia/nemotron-personas-japan-nttdata
 https://huggingface.co/blog/unsloth-jobs
 https://arstechnica.com/google/2026/02/google-announces-gemini-3-1-pro-says-its-better-at-complex-problem-solving/
@@ -298,3 +296,5 @@ https://openai.com/index/descript
 https://machinelearningmastery.com/vector-databases-vs-graph-rag-for-agent-memory-when-to-use-which/
 https://huggingface.co/blog/modular-diffusers
 https://machinelearningmastery.com/5-essential-security-patterns-for-robust-agentic-ai/
+https://machinelearningmastery.com/deploying-ai-agents-to-production-architecture-infrastructure-and-implementation-roadmap/
+https://machinelearningmastery.com/build-semantic-search-with-llm-embeddings/
