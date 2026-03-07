@@ -1,6 +1,3 @@
-https://www.cnbc.com/2026/02/18/doordash-dash-q4-2025-earnings.html
-https://www.cnbc.com/2026/02/18/india-us-led-tech-alliance-supply-chains.html
-https://www.marktechpost.com/2026/02/18/tavus-launches-phoenix-4-a-gaussian-diffusion-model-bringing-real-time-emotional-intelligence-and-sub-600ms-latency-to-generative-video-ai/
 https://www.cnbc.com/2026/02/19/quantum-computing-data-centers-ai-tech-microsoft.html
 https://openai.com/index/openai-for-india
 https://aws.amazon.com/blogs/machine-learning/evaluating-ai-agents-real-world-lessons-from-building-agentic-systems-at-amazon/
@@ -298,3 +295,6 @@ https://openai.com/index/codex-security-now-in-research-preview
 https://www.marktechpost.com/2026/03/06/openai-introduces-codex-security-in-research-preview-for-context-aware-vulnerability-detection-validation-and-patch-generation-across-codebases/
 https://www.cnbc.com/2026/03/06/amazon-aws-anthropic-claude-pentagon-blacklist.html
 https://www.cnbc.com/2026/03/06/vast-funding-round-nasa-iss-space-station.html
+https://www.cnbc.com/2026/03/06/palantir-stock-jumps-15percent-in-week-on-iran-war-boosts-anthropic-muted.html
+https://www.marktechpost.com/2026/03/06/microsoft-releases-phi-4-reasoning-vision-15b-a-compact-multimodal-model-for-math-science-and-gui-understanding/
+https://www.marktechpost.com/2026/03/06/a-production-style-networkit-11-2-1-coding-tutorial-for-large-scale-graph-analytics-communities-cores-and-sparsification/
