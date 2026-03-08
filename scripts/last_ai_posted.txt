@@ -1,4 +1,3 @@
-https://www.cnbc.com/2026/02/19/doordash-stock-investment-ai-tech-earnings.html
 https://www.cnbc.com/2026/02/19/figma-stock-earnings-ai-risk.html
 https://www.marktechpost.com/2026/02/19/a-coding-implementation-to-build-bulletproof-agentic-workflows-with-pydanticai-using-strict-schemas-tool-injection-and-model-agnostic-execution/
 https://www.cnbc.com/2026/02/19/new-york-driverless-rideshare-nyc-waymo.html
@@ -298,3 +297,4 @@ https://www.cnbc.com/2026/03/07/china-us-space-race-rockets.html
 https://www.marktechpost.com/2026/03/07/how-to-build-progress-monitoring-using-advanced-tqdm-for-async-parallel-pandas-logging-and-high-performance-workflows/
 https://www.marktechpost.com/2026/03/07/yann-lecuns-new-ai-paper-argues-agi-is-misdefined-and-introduces-superhuman-adaptable-intelligence-sai-instead/
 https://www.marktechpost.com/2026/03/07/building-next-gen-agentic-ai-a-complete-framework-for-cognitive-blueprint-driven-runtime-agents-with-memory-tools-and-validation/
+https://www.cnbc.com/2026/03/08/social-media-child-safety-internet-ai-surveillance.html
