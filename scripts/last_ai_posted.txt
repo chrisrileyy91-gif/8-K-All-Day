@@ -1,6 +1,3 @@
-https://aws.amazon.com/blogs/machine-learning/build-ai-workflows-on-amazon-eks-with-union-ai-and-flyte/
-https://www.cnbc.com/2026/02/19/nvidia-is-in-talks-to-invest-up-to-30-billion-in-openai-source-says.html
-https://aws.amazon.com/blogs/machine-learning/amazon-quick-suite-now-supports-key-pair-authentication-to-snowflake-data-source/
 https://huggingface.co/blog/nvidia/nemotron-personas-japan-nttdata-ja
 https://www.cnbc.com/2026/02/20/three-engineers-charged-stealing-google-trade-secrets-data-iran-soc-snapdragon.html
 https://thenextweb.com/news/googles-new-music-tool-lyria-3-is-here
@@ -298,3 +295,6 @@ https://www.cnbc.com/2026/03/08/social-media-child-safety-internet-ai-surveillan
 https://thenextweb.com/news/honors-robot-phone-is-real-and-coming-later-this-year
 https://thenextweb.com/news/openais-robotics-chief-quits-over-the-pentagon-deal
 https://thenextweb.com/news/how-an-ai-system-beat-experienced-doctors-at-diagnosing-rare-diseases
+https://www.marktechpost.com/2026/03/08/beyond-accuracy-quantifying-the-production-fragility-caused-by-excessive-redundant-and-low-signal-features-in-regression/
+https://thenextweb.com/news/google-made-gmail-and-drive-easier-for-ai-agents-to-use
+https://thenextweb.com/news/dominate-ai-search-in-2026
