@@ -1,6 +1,3 @@
-https://www.cnbc.com/2026/02/19/figma-stock-earnings-ai-risk.html
-https://www.marktechpost.com/2026/02/19/a-coding-implementation-to-build-bulletproof-agentic-workflows-with-pydanticai-using-strict-schemas-tool-injection-and-model-agnostic-execution/
-https://www.cnbc.com/2026/02/19/new-york-driverless-rideshare-nyc-waymo.html
 https://aws.amazon.com/blogs/machine-learning/build-ai-workflows-on-amazon-eks-with-union-ai-and-flyte/
 https://www.cnbc.com/2026/02/19/nvidia-is-in-talks-to-invest-up-to-30-billion-in-openai-source-says.html
 https://aws.amazon.com/blogs/machine-learning/amazon-quick-suite-now-supports-key-pair-authentication-to-snowflake-data-source/
@@ -298,3 +295,6 @@ https://www.marktechpost.com/2026/03/07/how-to-build-progress-monitoring-using-a
 https://www.marktechpost.com/2026/03/07/yann-lecuns-new-ai-paper-argues-agi-is-misdefined-and-introduces-superhuman-adaptable-intelligence-sai-instead/
 https://www.marktechpost.com/2026/03/07/building-next-gen-agentic-ai-a-complete-framework-for-cognitive-blueprint-driven-runtime-agents-with-memory-tools-and-validation/
 https://www.cnbc.com/2026/03/08/social-media-child-safety-internet-ai-surveillance.html
+https://thenextweb.com/news/honors-robot-phone-is-real-and-coming-later-this-year
+https://thenextweb.com/news/openais-robotics-chief-quits-over-the-pentagon-deal
+https://thenextweb.com/news/how-an-ai-system-beat-experienced-doctors-at-diagnosing-rare-diseases
