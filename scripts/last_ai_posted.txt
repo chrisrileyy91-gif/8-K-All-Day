@@ -1,6 +1,3 @@
-https://arstechnica.com/google/2026/02/gemini-can-now-generate-ai-music-for-you-no-lyrics-required/
-https://www.cnbc.com/2026/02/20/how-rvs-became-silicon-valleys-housing-safety-net.html
-https://www.cnbc.com/2026/02/20/5-things-to-know-before-the-stock-market-opens.html
 https://www.cnbc.com/2026/02/20/meta-apple-child-safety-zuckerberg-cook.html
 https://www.cnbc.com/2026/02/20/supreme-court-decision-amazon-etsy-stocks-tariffs-trump.html
 https://www.cnbc.com/2026/02/20/tesla-loses-bid-toss-243-million-verdict-fatal-autopilot-crash-suit.html
@@ -298,3 +295,6 @@ https://thenextweb.com/news/telura-exits-stealth-with-e4m
 https://www.cnbc.com/2026/03/09/anthropic-trump-claude-ai-supply-chain-risk.html
 https://www.cnbc.com/2026/03/09/prediction-markets-wagers-bets-iran-war-kalshi-polymarket.html
 https://www.cnbc.com/2026/03/09/amazon-zoox-robotaxi-testing-phoenix-dallas.html
+https://thenextweb.com/news/openai-acquires-promptfoo-ai-security-frontier
+https://thenextweb.com/news/mirai-robotics-42m-pre-seed-autonomous-vessels
+https://www.cnbc.com/2026/03/09/microsoft-office-365-e7-copilot-ai.html
