@@ -1,4 +1,3 @@
-https://thenextweb.com/news/googles-new-music-tool-lyria-3-is-here
 https://openai.com/index/advancing-independent-research-ai-alignment
 https://www.cnbc.com/2026/02/20/china-humanoid-robots-spring-festival-gala-unitree-tesla-ai-race.html
 https://www.marktechpost.com/2026/02/19/nvidia-releases-dynamo-v0-9-0-a-massive-infrastructure-overhaul-featuring-flashindexer-multi-modal-support-and-removed-nats-and-etcd/
@@ -298,3 +297,4 @@ https://thenextweb.com/news/google-made-gmail-and-drive-easier-for-ai-agents-to-
 https://thenextweb.com/news/dominate-ai-search-in-2026
 https://thenextweb.com/news/anthropic-marketplace-claude-enterprise-software
 https://www.marktechpost.com/2026/03/08/andrej-karpathy-open-sources-autoresearch-a-630-line-python-tool-letting-ai-agents-run-autonomous-ml-experiments-on-single-gpus/
+https://www.marktechpost.com/2026/03/08/a-coding-guide-to-build-a-complete-single-cell-rna-sequencing-analysis-pipeline-using-scanpy-for-clustering-visualization-and-cell-type-annotation/
