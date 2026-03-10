@@ -1,6 +1,3 @@
-https://www.cnbc.com/2026/02/20/national-pta-meta-child-safety-trials-zuckerberg.html
-https://www.marktechpost.com/2026/02/20/a-coding-guide-to-high-quality-image-generation-control-and-editing-using-huggingface-diffusers/
-https://aws.amazon.com/blogs/machine-learning/amazon-sagemaker-ai-in-2025-a-year-in-review-part-1-flexible-training-plans-and-improvements-to-price-performance-for-inference-workloads/
 https://aws.amazon.com/blogs/machine-learning/amazon-sagemaker-ai-in-2025-a-year-in-review-part-2-improved-observability-and-enhanced-features-for-sagemaker-ai-model-customization-and-hosting/
 https://www.cnbc.com/2026/02/20/supreme-court-tariff-decision-apple-trump-cook-iphone.html
 https://thenextweb.com/news/berlin-hosts-private-premiere-of-holiguards-saga
@@ -298,3 +295,6 @@ https://www.cnbc.com/2026/03/09/open-ai-cybersecurity-promptfoo-ai-agents.html
 https://aws.amazon.com/blogs/machine-learning/run-nvidia-nemotron-3-nano-as-a-fully-managed-serverless-model-on-amazon-bedrock/
 https://www.marktechpost.com/2026/03/09/andrew-ngs-team-releases-context-hub-an-open-source-tool-that-gives-your-coding-agent-the-up-to-date-api-documentation-it-needs/
 https://aws.amazon.com/blogs/machine-learning/access-anthropic-claude-models-in-india-on-amazon-bedrock-with-global-cross-region-inference/
+https://www.marktechpost.com/2026/03/09/bytedance-releases-deerflow-2-0-an-open-source-superagent-harness-that-orchestrates-sub-agents-memory-and-sandboxes-to-do-complex-tasks/
+https://www.cnbc.com/2026/03/10/nvidia-open-source-ai-agent-platform-nemoclaw-wired-agentic-tools-openclaw-clawdbot-moltbot.html
+https://www.marktechpost.com/2026/03/09/anthropic-introduces-code-review-via-claude-code-to-automate-complex-security-research-using-advanced-agentic-multi-step-reasoning-loops/
