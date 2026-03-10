@@ -1,6 +1,3 @@
-https://www.cnbc.com/2026/02/20/jim-cramer-says-this-hot-tech-stock-can-help-solve-americas-energy-problems.html
-https://www.cnbc.com/2026/02/20/ringcentral-ring-five9-fivn-rally-ai-sell-off.html
-https://www.cnbc.com/2026/02/20/microsoft-gaming-chief-phil-spencer-retires-asha-sharma-replacing.html
 https://www.marktechpost.com/2026/02/20/nvidia-releases-dreamdojo-an-open-source-robot-world-model-trained-on-44711-hours-of-real-world-human-video-data/
 https://www.cnbc.com/2026/02/20/openai-resets-spend-expectations-targets-around-600-billion-by-2030.html
 https://www.marktechpost.com/2026/02/20/how-to-design-a-swiss-army-knife-research-agent-with-tool-using-ai-web-search-pdf-analysis-vision-and-automated-reporting/
@@ -298,3 +295,6 @@ https://www.cnbc.com/2026/03/09/microsoft-office-365-e7-copilot-ai.html
 https://www.cnbc.com/2026/03/09/anthropic-was-the-pentagons-choice-for-ai-now-its-banned-and-experts-are-worried.html
 https://www.cnbc.com/2026/03/09/bluesky-ceo-jay-graber-toni-schneider.html
 https://www.cnbc.com/2026/03/09/oracle-is-building-yesterdays-data-centers-with-tomorrows-debt.html
+https://www.cnbc.com/2026/03/09/mississippi-regulators-to-hold-xai-permit-meeting-on-election-day.html
+https://www.cnbc.com/2026/03/09/top-permitting-reform-senators-meeting-as-talks-thaw-api-chief.html
+https://www.cnbc.com/2026/03/09/open-ai-cybersecurity-promptfoo-ai-agents.html
