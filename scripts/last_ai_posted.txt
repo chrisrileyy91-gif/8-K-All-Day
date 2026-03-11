@@ -1,6 +1,3 @@
-https://www.cnbc.com/2026/02/23/cybersecurity-stocks-anthropic-ai-crowdstrike.html
-https://aws.amazon.com/blogs/machine-learning/how-sonrai-uses-amazon-sagemaker-ai-to-accelerate-precision-medicine-trials/
-https://aws.amazon.com/blogs/machine-learning/accelerating-ai-model-production-at-hexagon-with-amazon-sagemaker-hyperpod/
 https://www.cnbc.com/2026/02/23/ibm-is-the-latest-ai-casualty-shares-are-tanking-on-anthropic-cobol-threat.html
 https://www.cnbc.com/2026/02/23/tesla-sues-california-dmv-to-reverse-false-advertising-ruling-on-fsd.html
 https://www.cnbc.com/2026/02/23/cybersecurity-stock-selling-deepens-on-ai-threat-concerns-why-were-not-bailing.html
@@ -298,3 +295,6 @@ https://thenextweb.com/news/thinking-machines-lab-secures-nvidia-investment
 https://www.cnbc.com/2026/03/11/oracle-orcl-stock-q3-earnings-ai-data-center.html
 https://www.cnbc.com/2026/03/11/nebius-nvidia-ai-cloud.html
 https://www.cnbc.com/2026/03/11/revolut-acquires-full-uk-banking-license.html
+https://www.marktechpost.com/2026/03/11/nvidia-releases-nemotron-3-super-a-120b-parameter-open-source-hybrid-mamba-attention-moe-model-delivering-5x-higher-throughput-for-agentic-ai/
+https://huggingface.co/blog/nvidia/synthetic-code-concepts
+https://thenextweb.com/news/meta-rolls-out-new-scam-detection
