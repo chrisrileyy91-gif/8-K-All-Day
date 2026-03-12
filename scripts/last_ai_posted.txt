@@ -1,6 +1,3 @@
-https://www.marktechpost.com/2026/02/24/rag-vs-context-stuffing-why-selective-retrieval-is-more-efficient-and-reliable-than-dumping-all-data-into-the-prompt/
-https://www.cnbc.com/2026/02/23/amazon-louisiana-ai-data-centers.html
-https://aws.amazon.com/blogs/machine-learning/agentic-ai-with-multi-model-framework-using-hugging-face-smolagents-on-aws/
 https://www.cnbc.com/2026/02/24/anthropic-openai-china-firms-distillation-deepseek.html
 https://www.cnbc.com/2026/02/24/meta-to-use-6gw-of-amd-gpus-days-after-expanded-nvidia-ai-chip-deal.html
 https://www.cnbc.com/2026/02/24/intel-partners-with-sambanova-after-buyout-talks-reportedly-failed.html
@@ -298,3 +295,6 @@ https://www.cnbc.com/2026/03/11/microsoft-plans-to-ship-prototype-of-next-xbox-t
 https://www.cnbc.com/2026/03/12/pokemon-pokopia-nintendo-share-price-rise-switch-2.html
 https://thenextweb.com/news/endform-seed-funding
 https://thenextweb.com/news/gestala-bci-ultrasound-funding-china
+https://www.cnbc.com/2026/03/12/social-media-uk-children-protection.html
+https://www.cnbc.com/2026/03/12/karp-palantir-anthropic-claude-pentagon-blacklist.html
+https://www.cnbc.com/2026/03/12/anthropic-claude-emil-michael-defense.html
