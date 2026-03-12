@@ -1,6 +1,3 @@
-https://aws.amazon.com/blogs/machine-learning/build-an-intelligent-photo-search-using-amazon-rekognition-amazon-neptune-and-amazon-bedrock/
-https://www.cnbc.com/2026/02/24/software-stocks-anthropic-ai.html
-https://aws.amazon.com/blogs/machine-learning/train-codefu-7b-with-verl-and-ray-on-amazon-sagemaker-training-jobs/
 https://www.cnbc.com/2026/02/24/anthropic-ai-hegseth-spying-defense.html
 https://www.cnbc.com/2026/02/24/why-amds-megadeal-with-meta-shows-nvidia-is-still-the-best-game-in-town.html
 https://www.cnbc.com/2026/02/24/cursor-announces-major-update-as-ai-coding-agent-battle-heats-up.html
@@ -298,3 +295,6 @@ https://www.cnbc.com/2026/03/12/anthropic-claude-emil-michael-defense.html
 https://www.cnbc.com/2026/03/12/5-things-to-know-before-the-market-opens.html
 https://www.cnbc.com/2026/03/12/microsofts-top-office-executive-rajesh-jha-retiring-after-35-years.html
 https://aws.amazon.com/blogs/machine-learning/multimodal-embeddings-at-scale-ai-data-lake-for-media-and-entertainment-workloads/
+https://www.cnbc.com/2026/03/12/adobe-ceo-shantanu-narayen-step-down.html
+https://www.cnbc.com/2026/03/12/private-equity-ai-software-saas.html
+https://www.cnbc.com/2026/03/12/sam-altman-faced-serious-questions-in-dc-meeting-openai-defense-work.html
