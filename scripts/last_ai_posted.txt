@@ -1,6 +1,3 @@
-https://www.cnbc.com/2026/02/24/anthropic-openai-china-firms-distillation-deepseek.html
-https://www.cnbc.com/2026/02/24/meta-to-use-6gw-of-amd-gpus-days-after-expanded-nvidia-ai-chip-deal.html
-https://www.cnbc.com/2026/02/24/intel-partners-with-sambanova-after-buyout-talks-reportedly-failed.html
 https://aws.amazon.com/blogs/machine-learning/build-an-intelligent-photo-search-using-amazon-rekognition-amazon-neptune-and-amazon-bedrock/
 https://www.cnbc.com/2026/02/24/software-stocks-anthropic-ai.html
 https://aws.amazon.com/blogs/machine-learning/train-codefu-7b-with-verl-and-ray-on-amazon-sagemaker-training-jobs/
@@ -298,3 +295,6 @@ https://thenextweb.com/news/gestala-bci-ultrasound-funding-china
 https://www.cnbc.com/2026/03/12/social-media-uk-children-protection.html
 https://www.cnbc.com/2026/03/12/karp-palantir-anthropic-claude-pentagon-blacklist.html
 https://www.cnbc.com/2026/03/12/anthropic-claude-emil-michael-defense.html
+https://www.cnbc.com/2026/03/12/5-things-to-know-before-the-market-opens.html
+https://www.cnbc.com/2026/03/12/microsofts-top-office-executive-rajesh-jha-retiring-after-35-years.html
+https://aws.amazon.com/blogs/machine-learning/multimodal-embeddings-at-scale-ai-data-lake-for-media-and-entertainment-workloads/
