@@ -1,6 +1,3 @@
-https://www.cnbc.com/2026/02/24/anthropic-ai-hegseth-spying-defense.html
-https://www.cnbc.com/2026/02/24/why-amds-megadeal-with-meta-shows-nvidia-is-still-the-best-game-in-town.html
-https://www.cnbc.com/2026/02/24/cursor-announces-major-update-as-ai-coding-agent-battle-heats-up.html
 https://www.marktechpost.com/2026/02/24/meta-ai-open-sources-gcm-for-better-gpu-cluster-monitoring-to-ensure-high-performance-ai-training-and-hardware-reliability/
 https://www.cnbc.com/2026/02/24/workday-wday-q4-earnings-report-2026.html
 https://www.marktechpost.com/2026/02/24/a-coding-implementation-to-simulate-practical-byzantine-fault-tolerance-with-asyncio-malicious-nodes-and-latency-analysis/
@@ -298,3 +295,6 @@ https://aws.amazon.com/blogs/machine-learning/multimodal-embeddings-at-scale-ai-
 https://www.cnbc.com/2026/03/12/adobe-ceo-shantanu-narayen-step-down.html
 https://www.cnbc.com/2026/03/12/private-equity-ai-software-saas.html
 https://www.cnbc.com/2026/03/12/sam-altman-faced-serious-questions-in-dc-meeting-openai-defense-work.html
+https://www.marktechpost.com/2026/03/12/how-to-build-an-autonomous-machine-learning-research-loop-in-google-colab-using-andrej-karpathys-autoresearch-framework-for-hyperparameter-discovery-and-experiment-tracking/
+https://www.cnbc.com/2026/03/12/palantir-tech-gives-west-critical-edge-in-middle-east-ceo-alex-karp.html
+https://www.marktechpost.com/2026/03/12/stanford-researchers-release-openjarvis-a-local-first-framework-for-building-on-device-personal-ai-agents-with-tools-memory-and-learning/
