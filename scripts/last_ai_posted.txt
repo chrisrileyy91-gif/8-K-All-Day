@@ -1,6 +1,3 @@
-https://www.marktechpost.com/2026/02/24/meta-ai-open-sources-gcm-for-better-gpu-cluster-monitoring-to-ensure-high-performance-ai-training-and-hardware-reliability/
-https://www.cnbc.com/2026/02/24/workday-wday-q4-earnings-report-2026.html
-https://www.marktechpost.com/2026/02/24/a-coding-implementation-to-simulate-practical-byzantine-fault-tolerance-with-asyncio-malicious-nodes-and-latency-analysis/
 https://www.cnbc.com/2026/02/25/cnbc-worlds-top-fintech-companies-2026-apply-now.html
 https://www.cnbc.com/2026/02/24/head-of-amazons-agi-lab-is-leaving-the-company.html
 https://www.cnbc.com/2026/02/24/paypal-stock-stripe-acquisition-report.html
@@ -298,3 +295,6 @@ https://www.cnbc.com/2026/03/12/sam-altman-faced-serious-questions-in-dc-meeting
 https://www.marktechpost.com/2026/03/12/how-to-build-an-autonomous-machine-learning-research-loop-in-google-colab-using-andrej-karpathys-autoresearch-framework-for-hyperparameter-discovery-and-experiment-tracking/
 https://www.cnbc.com/2026/03/12/palantir-tech-gives-west-critical-edge-in-middle-east-ceo-alex-karp.html
 https://www.marktechpost.com/2026/03/12/stanford-researchers-release-openjarvis-a-local-first-framework-for-building-on-device-personal-ai-agents-with-tools-memory-and-learning/
+https://huggingface.co/blog/nvidia/nemo-agent-toolkit-data-explorer-dabstep-1st-place
+https://aws.amazon.com/blogs/machine-learning/improve-operational-visibility-for-inference-workloads-on-amazon-bedrock-with-new-cloudwatch-metrics-for-ttft-and-estimated-quota-consumption/
+https://aws.amazon.com/blogs/machine-learning/secure-ai-agents-with-policy-in-amazon-bedrock-agentcore/
