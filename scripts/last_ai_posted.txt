@@ -1,6 +1,3 @@
-https://www.cnbc.com/2026/02/26/nvidia-china-chip-sales-export-controls-ai-competition.html
-https://www.marktechpost.com/2026/02/26/nous-research-releases-hermes-agent-to-fix-ai-forgetfulness-with-multi-level-memory-and-dedicated-remote-terminal-access-support/
-https://arstechnica.com/tech-policy/2026/02/judge-xai-cant-claim-openai-stole-trade-secrets-just-by-hiring-ex-staffers/
 https://www.cnbc.com/2026/02/26/instagram-parent-alerts-teen-suicide-meta-trial.html
 https://www.cnbc.com/2026/02/26/nvidia-nvda-stock-price-q4-earnings.html
 https://huggingface.co/blog/moe-transformers
@@ -298,3 +295,6 @@ https://www.marktechpost.com/2026/03/13/google-ai-introduces-groundsource-a-new-
 https://thenextweb.com/news/spotify-launches-taste-profile-editor
 https://thenextweb.com/news/rise-of-model-context-protocol-in-the-agentic-era
 https://thenextweb.com/news/elon-musk-is-tearing-xai-down-to-build-it-back-up
+https://thenextweb.com/news/google-maps-launches-ask-maps
+https://thenextweb.com/news/uber-founder-travis-kalanick-launches-robotics-company-atoms
+https://openai.com/index/rakuten
