@@ -1,6 +1,3 @@
-https://www.cnbc.com/2026/02/26/instagram-parent-alerts-teen-suicide-meta-trial.html
-https://www.cnbc.com/2026/02/26/nvidia-nvda-stock-price-q4-earnings.html
-https://huggingface.co/blog/moe-transformers
 https://www.cnbc.com/2026/02/26/ebay-layoffs-800-workforce.html
 https://www.cnbc.com/2026/02/26/norway-sovereign-wealth-fund-nbim-investment-ai-esg-claude.html
 https://www.cnbc.com/2026/02/26/5-things-to-know-before-the-market-opens.html
@@ -298,3 +295,6 @@ https://thenextweb.com/news/elon-musk-is-tearing-xai-down-to-build-it-back-up
 https://thenextweb.com/news/google-maps-launches-ask-maps
 https://thenextweb.com/news/uber-founder-travis-kalanick-launches-robotics-company-atoms
 https://openai.com/index/rakuten
+https://openai.com/index/designing-agents-to-resist-prompt-injection
+https://openai.com/index/wayfair
+https://openai.com/index/equip-responses-api-computer-environment
