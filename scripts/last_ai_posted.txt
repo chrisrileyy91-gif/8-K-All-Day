@@ -1,6 +1,3 @@
-https://www.cnbc.com/2026/02/26/ebay-layoffs-800-workforce.html
-https://www.cnbc.com/2026/02/26/norway-sovereign-wealth-fund-nbim-investment-ai-esg-claude.html
-https://www.cnbc.com/2026/02/26/5-things-to-know-before-the-market-opens.html
 https://aws.amazon.com/blogs/machine-learning/learnings-from-cobol-modernization-in-the-real-world/
 https://www.marktechpost.com/2026/02/26/google-ai-just-released-nano-banana-2-the-new-ai-model-featuring-advanced-subject-consistency-and-sub-second-4k-image-synthesis-performance/
 https://aws.amazon.com/blogs/machine-learning/reinforcement-fine-tuning-for-amazon-nova-teaching-ai-through-feedback/
@@ -298,3 +295,6 @@ https://openai.com/index/rakuten
 https://openai.com/index/designing-agents-to-resist-prompt-injection
 https://openai.com/index/wayfair
 https://openai.com/index/equip-responses-api-computer-environment
+https://arstechnica.com/ai/2026/03/gemini-burrows-deeper-into-google-workspace-with-revamped-document-creation-and-editing/
+https://openai.com/index/instruction-hierarchy-challenge
+https://openai.com/index/new-ways-to-learn-math-and-science-in-chatgpt
