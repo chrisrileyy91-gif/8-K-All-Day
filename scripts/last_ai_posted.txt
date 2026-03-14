@@ -1,6 +1,3 @@
-https://www.cnbc.com/2026/02/26/nvidia-jensen-huang-gpu-ai-threat-software-companies-saas-earnings-chips.html
-https://www.marktechpost.com/2026/02/25/new-eth-zurich-study-proves-your-ai-coding-agents-are-failing-because-your-agents-md-files-are-too-detailed/
-https://www.cnbc.com/2026/02/25/cramer-software-companies-wont-go-extinct-but-premiums-will-shrink.html
 https://www.marktechpost.com/2026/02/25/how-to-build-an-elastic-vector-database-with-consistent-hashing-sharding-and-live-ring-visualization-for-rag-systems/
 https://www.cnbc.com/2026/02/26/huang-nvidia-anthropic-pentagon-hegseth-ai.html
 https://www.cnbc.com/2026/02/25/nvidia-forecast-points-to-accelerating-growth-vera-rubin-hits-market.html
@@ -298,3 +295,6 @@ https://aws.amazon.com/blogs/machine-learning/p-eagle-faster-llm-inference-with-
 https://www.cnbc.com/2026/03/13/nvidia-gtc-ai-jensen-huang-cpu-gpu.html
 https://thenextweb.com/news/microsoft-launches-copilot-health
 https://thenextweb.com/news/ramp-buys-stockholm-fintech-billhop
+https://thenextweb.com/news/dublin-fintech-teybridge-capital-pledges-600-million-for-uk-smes
+https://thenextweb.com/news/anthropic-commits-100m-to-claude-partner-network
+https://thenextweb.com/news/atlassian-is-cutting-1600-jobs-and-replacing-its-cto
