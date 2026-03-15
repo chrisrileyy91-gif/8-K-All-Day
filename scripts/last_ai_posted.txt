@@ -1,5 +1,3 @@
-https://www.cnbc.com/2026/02/26/block-laying-off-about-4000-employees-nearly-half-of-its-workforce.html
-https://aws.amazon.com/blogs/machine-learning/large-model-inference-container-latest-capabilities-and-performance-enhancements/
 https://www.cnbc.com/2026/02/26/google-launches-nano-banana-2-updating-its-viral-ai-image-generator.html
 https://www.cnbc.com/2026/02/26/coreweave-crwv-q4-earnings-report-2025.html
 https://www.marktechpost.com/2026/02/26/microsoft-research-introduces-corpgen-to-manage-multi-horizon-tasks-for-autonomous-ai-agents-using-hierarchical-planning-and-memory/
@@ -298,3 +296,5 @@ https://openai.com/index/new-ways-to-learn-math-and-science-in-chatgpt
 https://huggingface.co/blog/storage-buckets
 https://huggingface.co/blog/async-rl-training-landscape
 https://huggingface.co/blog/ulysses-sp
+https://www.marktechpost.com/2026/03/14/how-to-build-type-safe-schema-constrained-and-function-driven-llm-pipelines-using-outlines-and-pydantic/
+https://huggingface.co/blog/lerobot-release-v050
